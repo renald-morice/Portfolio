@@ -22,7 +22,6 @@
 .bottom_arrow{
     text-align: center;
     margin-top: 30px;
-    display: hidden;
 }
 
 
@@ -52,6 +51,7 @@ header{
   min-height: 100vh;
   /*background-color: #1C1C1C;*/
   padding: 50px;
+  color: #FEFEFE;
 }
 
 #profil_picture{
@@ -62,20 +62,40 @@ header{
   border-radius: 50%;
   width: auto;
   max-width: 200px;
-  margin-bottom: 30px;
 }
 
-#name{
-  font-size: 4em;
-  color: #FEFEFE;
-  border-bottom: 2px solid #FEFEFE;
-  border-top: 2px solid #FEFEFE;
+
+/*Build message*/
+#build_msg{
+  animation: blinker 3s linear infinite;
+  min-height: 50px;
+  
+  opacity: 1;
+  font-size: 0.5em;
   text-align: center;
 }
 
+@keyframes blinker {  
+  50% { opacity: 0; }
+  20% { opacity: 1; }
+}
+
+#build_msg img{
+  width: 25px;
+}
+
+
+#name{
+  font-size: 4em;
+  border-bottom: 2px solid #FEFEFE;
+  border-top: 2px solid #FEFEFE;
+  text-align: center;
+  margin-top: 25px;
+}
+
+
 #intro_desc{
   margin-top: 20px;
-  color: #FEFEFE;
   font-size: 1.3em;
   min-height: 100px;
 }
@@ -88,8 +108,8 @@ header{
 #cv a{
   transition: background-color 0.5s ease;
   transition: color 0.5s ease;
-    
-    display: inline-block;
+  
+  display: inline-block;
 
   color: #E4F1FE;
   text-decoration: none;
@@ -110,6 +130,10 @@ header{
 /* CONTENT AREA */
 /*--------------*/
 section{
+    text-align: center;
+    min-height: 100vh;
+    padding-top: 50px;
+    font-size: 4em;
 }
 
 /*--------*/
@@ -118,8 +142,10 @@ section{
 
 footer{
   background-color : #0B0C11;
-  color : #64FCF3;
+  color : #FEFEFE;
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /*--------*/

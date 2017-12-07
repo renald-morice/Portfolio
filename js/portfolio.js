@@ -6,27 +6,29 @@ $( document ).ready(function() {
     /*------------------------*/
     $('.bottom_arrow').hide();
     
-    
-    setTimeout( function() {
+    function bottomArrowAnimation(){
         
-        setInterval( function() {
-            $('.bottom_arrow').removeClass("animated fadeIn fadeout");
-            setTimeout(function() {
-                $('.bottom_arrow').addClass("animated slideInDown");
-                $('.bottom_arrow').show();
-            }, 50);
-            setTimeout(function() {
-                $('.bottom_arrow').removeClass("animated slideInDown");
-            }, 1000);
-            setTimeout(function() {
-                $('.bottom_arrow').addClass("animated fadeOut");
-            }, 1050);
-            setTimeout(function() {
-                $('.bottom_arrow').hide();
-            }, 2000);
-        }, 3000);
-           
-    }, 90000);
+        $('.bottom_arrow').removeClass("animated fadeIn fadeout");
+        setTimeout(function() {
+            $('.bottom_arrow').addClass("animated slideInDown");
+            $('.bottom_arrow').show();
+        }, 50);
+        setTimeout(function() {
+            $('.bottom_arrow').removeClass("animated slideInDown");
+        }, 1000);
+        setTimeout(function() {
+            $('.bottom_arrow').addClass("animated fadeOut");
+        }, 1050);
+        setTimeout(function() {
+            $('.bottom_arrow').hide();
+        }, 2000);
+    }
+    
+    //Starting with 1 sec of delay
+    setTimeout(function() {
+        bottomArrowAnimation();
+        setInterval( bottomArrowAnimation, 3000);
+    }, 1000);
     /*------------------------*/
     
     
@@ -37,11 +39,11 @@ $( document ).ready(function() {
             "[ <span class=\"blue_text_color\">Rénald Morice</span> ] Bien le bonjour visiteur !",
             "[ <span class=\"orange_text_color\">Visiteur</span> ] Ah Rénald ! Salut à toi !" ,
             "[ <span class=\"blue_text_color\">Rénald Morice</span> ] J'imagine que si tu es présent ici c'est que t'aimerais en savoir plus sur moi ?",
-            "[ <span class=\"orange_text_color\">Visiteur</span> ] Oui avec plaisir ! Qui est-tu en quelques lignes ?" ,
+            "[ <span class=\"orange_text_color\">Visiteur</span> ] Oui avec plaisir ! Qui es-tu en quelques lignes ?" ,
             "[ <span class=\"blue_text_color\">Rénald Morice</span> ] Je suis un étudiant de 22 ans en double diplomation entre un établissement français et québecois.",
             "[ <span class=\"orange_text_color\">Visiteur</span> ] Comment ça ? Tu poursuis deux formations ?!" ,
             "[ <span class=\"blue_text_color\">Rénald Morice</span> ] En effet, je suis étudiant à l'ISEN Brest (France) qui est une école d'ingénieurs spécialisée dans le numérique et l'électronique.",
-            "[ <span class=\"blue_text_color\">Rénald Morice</span> ] L'ISEN Brest est partenaire avec l'UQAC (Université du Québec à Chicoutimi) et propose à ses étudiants de partir à Chicoutimi pour réaliser un double diplôme à l'internationnal.",
+            "[ <span class=\"blue_text_color\">Rénald Morice</span> ] L'ISEN Brest est partenaire avec l'UQAC (Université du Québec à Chicoutimi) et propose à ses étudiants de partir à Chicoutimi pour réaliser un double diplôme à l'international.",
             "[ <span class=\"blue_text_color\">Rénald Morice</span> ] Pour ma dernière année d'études, j'ai donc décidé de participer à cette aventure !",
             "[ <span class=\"orange_text_color\">Visiteur</span> ] Un petit nouveau français au Québec *rigole* ! Et tu comptes faire quoi maintenant ?" ,
             "[ <span class=\"blue_text_color\">Rénald Morice</span> ] Je recherche un <b>un stage de fin d'études</b> au Québec dans le domaine vaste de l'informatique.",
