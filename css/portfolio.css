@@ -1,11 +1,6 @@
 /*-------*/
 /* FONTS */
 /*-------*/
-/*@font-face {
-    font-family: "FONT";
-    src: url('../fonts/');
-}*/
-
 
 /*-------*/
 /* CLASS */
@@ -69,10 +64,6 @@ header{
   /*background-color: #1C1C1C;*/
   padding: 50px;
   color: #FEFEFE;
-    
-    display: flex;
-  justify-content: center;
-  align-items: center; 
 }
 
 #profil_picture{
