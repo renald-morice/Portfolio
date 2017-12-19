@@ -71,7 +71,7 @@ $( document ).ready(function() {
     /*-----------------*/
     setInterval( function(){
         
-        if($("#section1").offset().top <= $(window).height() * 0.75 ){
+        if($(document).scrollTop() >= $(window).height() * 0.75 ){
             $('#to_the_top').removeClass("fadeOut");
             $('#to_the_top').addClass("fadeIn");
             $('#to_the_top').show();
