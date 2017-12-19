@@ -1,0 +1,19 @@
+//------------------------
+// Push content at center
+//------------------------
+@mixin margin-center() {
+    margin: {
+        left: auto;
+        right: auto;
+    }
+}
+
+
+//------------------------------------------------
+// Add padding to have specific format (like 16/9)
+//------------------------------------------------
+@mixin padding-ratio($x,$y) {
+    
+    $padding: unquote( ( $y / $x ) * 100 + '%' );
+    padding-top: $padding;
+}

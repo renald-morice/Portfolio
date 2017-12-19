@@ -1,6 +1,4 @@
 Sites utiles :
 
-flaticon
-
-site background colro gradient css :
-https://uigradients.com/#TaranTado
+ - flaticon
+ - https://webgradients.com/

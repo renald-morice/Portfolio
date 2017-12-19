@@ -4,7 +4,7 @@ $( document ).ready(function() {
     /* function scroll to id HTML Object */
     /*-----------------------------------*/
     function scrollTo(id) {
-        var speed = 750; //Animation duration in ms
+        var speed = 1000; //Animation duration in ms
         $('html, body').animate( { scrollTop: $(id).offset().top }, speed );
         return false;
     }
@@ -30,16 +30,12 @@ $( document ).ready(function() {
         }, 1000);
     }
     
-    //Starting with 1 sec of delay
-    setTimeout(function() {
-        $(".bottom_arrow").show();
-        bottomArrowAnimation();
-        setInterval( bottomArrowAnimation, 2000);
-    }, 1000);
-    
-    /*----------------------*/
-    /* Intro typed scripted */
-    /*----------------------*/
+    bottomArrowAnimation();
+    setInterval( bottomArrowAnimation, 2000);
+
+    /*--------------------*/
+    /* Intro typed script */
+    /*--------------------*/
     var typed = new Typed('#typed_intro_desc', {
         strings: [
             "[ <span class=\"blue_text_color\">Rénald Morice</span> ] *Pssst*",
