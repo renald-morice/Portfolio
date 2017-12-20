@@ -42,7 +42,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
 
 h1, h2 {
-  font-size: 4rem; }
+  font-size: 4rem;
+  /*@include phone {
+      font-size: $font-size-Big *4 ;
+  }
+  @include tablet {
+      font-size: $font-size-Big *2 ;
+  }*/ }
 
 h3 {
   font-size: 2rem; }
@@ -51,7 +57,7 @@ header {
   background-image: url("../images/backgrounds/parc2.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-size: cover;
   min-height: 100vh;
   padding: 50px;

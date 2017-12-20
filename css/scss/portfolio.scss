@@ -118,6 +118,13 @@ h1, h2, h3, h4, h5, h6{
 
 h1, h2{
     font-size: $font-size-Big;
+    
+    /*@include phone {
+        font-size: $font-size-Big *4 ;
+    }
+    @include tablet {
+        font-size: $font-size-Big *2 ;
+    }*/
 }
 
 h3{
@@ -134,7 +141,7 @@ header{
     background-image: url("../images/backgrounds/parc2.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-size: cover;
     min-height: 100vh;
     padding: 50px;
