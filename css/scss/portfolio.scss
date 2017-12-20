@@ -177,12 +177,13 @@ header{
     
     #build_msg{
         
+        margin-top: $margin-Basic;
+        
         animation: blink 3s linear infinite;
         opacity: 1;
         
         @include customFontSize($font-size-Normal*1.2, $min-font-size-Normal*1.2);
         text-align: center;
-        margin-bottom: $margin-Basic/2;
     }
     
     #intro_desc{
