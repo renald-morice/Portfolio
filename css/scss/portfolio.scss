@@ -11,7 +11,6 @@
 // Imports
 //------------
 
-@import "responsive_mq";
 @import "mixins";
 
 //------------
@@ -28,6 +27,10 @@ $font-size-Normal    : 2vh;
 $font-size-Medium    : $font-size-Normal * 1.5;
 $font-size-Big       : $font-size-Normal * 3;
 
+$min-font-size-Normal : 15px;
+$min-font-size-Medium : $min-font-size-Normal * 1.5;
+$min-font-size-Big    : $min-font-size-Normal * 3;
+
 //Colors
 $color-Black           : #14100E;
 $color-BlueGray        : #2c3e50;
@@ -41,11 +44,11 @@ $color-Orange      : #F28F21;
 $color-DarkPink    : #ED6362;
 
 //Transparent colors
-$transparentColor-Black : rgba(20, 16, 14, 0.65);
+$transparentColor-White : rgba(255, 255, 255, 0.9);
 
 //Marging & padding
-$margin-Basic : 3vh;
-$padding-Basic : 3vh;
+$margin-Basic : 2rem;
+$padding-Basic : 2rem;
 
 //------------
 // Class
@@ -57,11 +60,6 @@ $padding-Basic : 3vh;
 
 .orange_text_color{
     color: $color-Orange;
-}
-
-.bottom_arrow{
-    text-align: center;
-    margin-top : $margin-Basic*2;
 }
 
 //------------
@@ -92,7 +90,7 @@ html{
         margin : 0;
         padding: 0;
         
-        font-size: $font-size-Normal;
+        @include customFontSize($font-size-Normal, $min-font-size-Normal);
     }
 }
 
@@ -102,15 +100,17 @@ html{
     position: fixed;
     right: 2rem;
     bottom: 2rem;
-    padding: 1rem;
+    padding: 8px;
     background-color : $color-BlueGray;
     color : $color-SmoothWhite;
-    border-radius: 5px;
+    border-radius: 10px;
     opacity: 0.5;
     
     svg {
         width: 5vh;
         height: 5vh;
+        max-width: 90px;
+        max-height: 90px;
     }
 
 }
@@ -126,11 +126,13 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1, h2{
-    font-size: $font-size-Big;
+    
+    @include customFontSize($font-size-Big, $min-font-size-Big);
 }
 
 h3{
-    font-size: $font-size-Medium;
+    
+    @include customFontSize($font-size-Medium, $min-font-size-Medium);
 }
 
 
@@ -150,29 +152,21 @@ header{
     color: $color-SmoothWhite;
     
     
-    #build_msg{
-        
-        animation: blink 3s linear infinite;
-        opacity: 1;
-        font-size: $font-size-Normal*1.2;
-        text-align: center;
-    }
-    
     #profil_picture{
         
         text-align: center;
-        margin-top: $margin-Basic;
         
         img{
             border-radius: 50%;
             max-height: 20vh;
+            min-height: 120px;
             width: auto;
             height: auto;
         }
     }
     
     #name{
-        margin-top: $margin-Basic/2;
+        margin-top: $margin-Basic*1.5;
         max-height: 20vh;
         
         color : $color-WhiteLittleGray;
@@ -181,18 +175,51 @@ header{
         text-align: center;
     }
     
-    #intro_desc{
-        margin-top: $margin-Basic * 1.5;
-        height: 30vh;
+    #build_msg{
         
-        background: $transparentColor-Black;
+        animation: blink 3s linear infinite;
+        opacity: 1;
+        
+        @include customFontSize($font-size-Normal*1.2, $min-font-size-Normal*1.2);
+        text-align: center;
+        margin-bottom: $margin-Basic/2;
+    }
+    
+    #intro_desc{
+        margin-top: $margin-Basic;
+        height: 30vh;
+        min-height: 150px;
+        
+        background: $transparentColor-White;
         border-radius: 5px;
-        padding: $margin-Basic/2 $margin-Basic $margin-Basic/2 $margin-Basic;
+        padding: $margin-Basic/4 $margin-Basic/2 $margin-Basic/4 $margin-Basic/2;
+        
+        #read_chat{
+            height: 80%;
+
+        }
+        
+        #write_chat{
+            height: 20%;
+            
+            #input_chat{
+                
+            }
+            
+            #send_chat{
+                
+                img{
+                    width: 20px;
+                }
+            }
+
+        }
+        
     }
     
     #cv{
         text-align: center;
-        margin-top: $margin-Basic*2;
+        margin-top: $margin-Basic * 2;
         
         a{
             transition: background-color 0.5s ease;
@@ -211,6 +238,15 @@ header{
                 color: $color-Black;
                 background-color: $color-Orange;
             }
+        }
+    }
+    
+    #go_down_arrow{
+        text-align: center;
+        margin-top : $margin-Basic;
+        
+        div{
+            display: inline-block;
         }
     }
     

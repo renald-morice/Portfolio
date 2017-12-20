@@ -21,12 +21,12 @@ $( document ).ready(function() {
     
     function bottomArrowAnimation(){
         
-        $('.bottom_arrow').removeClass("slideOutUp");
-        $('.bottom_arrow').addClass("slideInDown");
+        $('#go_down_arrow div').removeClass("slideOutUp");
+        $('#go_down_arrow div').addClass("slideInDown");
         
         setTimeout(function() {
-            $('.bottom_arrow').removeClass("slideInDown");
-            $('.bottom_arrow').addClass("slideOutUp");
+            $('#go_down_arrow div').removeClass("slideInDown");
+            $('#go_down_arrow div').addClass("slideOutUp");
         }, 1000);
     }
     
@@ -36,7 +36,7 @@ $( document ).ready(function() {
     /*--------------------*/
     /* Intro typed script */
     /*--------------------*/
-    var typed = new Typed('#typed_intro_desc', {
+    /*var typed = new Typed('#typed_intro_desc', {
         strings: [
             "[ <span class=\"blue_text_color\">Rénald Morice</span> ] *Pssst*",
             "[ <span class=\"orange_text_color\">Visiteur</span> ] Qui est-ce ?!" ,
@@ -64,7 +64,7 @@ $( document ).ready(function() {
         backDelay: 2500,
         // loop
         loop: false
-    });
+    });*/
     
     /*-----------------*/
     /* ToTheTop button */

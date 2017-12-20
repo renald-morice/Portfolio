@@ -1,19 +1,14 @@
-//------------------------
-// Push content at center
-//------------------------
-@mixin margin-center() {
-    margin: {
-        left: auto;
-        right: auto;
-    }
-}
-
+@import "responsive_mq";
 
 //------------------------------------------------
-// Add padding to have specific format (like 16/9)
+// Manage font-size property (responsive purpose)
 //------------------------------------------------
-@mixin padding-ratio($x,$y) {
+@mixin customFontSize($font-size, $min-font-size) {
     
-    $padding: unquote( ( $y / $x ) * 100 + '%' );
-    padding-top: $padding;
+    font-size: $font-size;
+    
+    @include minHeightDevice {
+        font-size: $min-font-size;
+    }
+    
 }

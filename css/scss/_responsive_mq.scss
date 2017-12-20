@@ -41,3 +41,12 @@ $largeDesktop-width: 1200px;
     @content;
   }
 }
+
+//-----------------------
+// Media : minHeightDevice
+//-----------------------
+@mixin minHeightDevice {
+  @media (max-height: 650px) {
+    @content;
+  }
+}
