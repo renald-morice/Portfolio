@@ -24,9 +24,9 @@ $Quicksand-Light  : 300;
 $Quicksand-Normal : 400;
 
 //font-size
-$font-size-Normal    : 1rem;
-$font-size-Medium    : $font-size-Normal * 2;
-$font-size-Big       : $font-size-Normal * 4;
+$font-size-Normal    : 2vh;
+$font-size-Medium    : $font-size-Normal * 1.5;
+$font-size-Big       : $font-size-Normal * 3;
 
 //Colors
 $color-Black           : #14100E;
@@ -37,15 +37,15 @@ $color-WhiteLittleGray : #FBFBFB;
 $color-WhiteLittleBlue : #E4F1FE;
 
 $color-BrightBlue  : #22A7F0;
-$color-Orange      : #F89406;
+$color-Orange      : #F28F21;
 $color-DarkPink    : #ED6362;
 
 //Transparent colors
 $transparentColor-Black : rgba(20, 16, 14, 0.65);
 
 //Marging & padding
-$margingTop-Basic : 25px;
-
+$margin-Basic : 3vh;
+$padding-Basic : 3vh;
 
 //------------
 // Class
@@ -61,7 +61,7 @@ $margingTop-Basic : 25px;
 
 .bottom_arrow{
     text-align: center;
-    margin-top: 50px;
+    margin-top : $margin-Basic*2;
 }
 
 //------------
@@ -91,6 +91,8 @@ html{
 
         margin : 0;
         padding: 0;
+        
+        font-size: $font-size-Normal;
     }
 }
 
@@ -98,13 +100,18 @@ html{
     
     display: none;
     position: fixed;
-    right: 50px;
-    bottom: 50px;
-    padding: 10px;
+    right: 2rem;
+    bottom: 2rem;
+    padding: 1rem;
     background-color : $color-BlueGray;
     color : $color-SmoothWhite;
     border-radius: 5px;
     opacity: 0.5;
+    
+    svg {
+        width: 5vh;
+        height: 5vh;
+    }
 
 }
 
@@ -120,13 +127,6 @@ h1, h2, h3, h4, h5, h6{
 
 h1, h2{
     font-size: $font-size-Big;
-    
-    /*@include phone {
-        font-size: $font-size-Big *4 ;
-    }
-    @include tablet {
-        font-size: $font-size-Big *2 ;
-    }*/
 }
 
 h3{
@@ -146,53 +146,53 @@ header{
     background-attachment: scroll;
     background-size: cover;
     min-height: 100vh;
-    padding: 50px;
+    padding: $padding-Basic;
     color: $color-SmoothWhite;
     
-    
-    #profil_picture{
-        
-        text-align: center;
-        
-        img{
-            border-radius: 50%;
-            width: auto;
-            max-width: 200px;
-        }
-    }
-    
-    #name{
-        border-bottom: 2px solid $color-SmoothWhite;
-        border-top: 2px solid $color-SmoothWhite;
-        text-align: center;
-        margin-top: 25px;
-    }
     
     #build_msg{
         
         animation: blink 3s linear infinite;
         opacity: 1;
-        font-size: $font-size-Medium;
+        font-size: $font-size-Normal*1.2;
         text-align: center;
-        margin-bottom: 20px;
+    }
+    
+    #profil_picture{
+        
+        text-align: center;
+        margin-top: $margin-Basic;
         
         img{
-            width: 20px;
+            border-radius: 50%;
+            max-height: 20vh;
+            width: auto;
+            height: auto;
         }
     }
     
-    #intro_desc{
+    #name{
+        margin-top: $margin-Basic/2;
+        max-height: 20vh;
         
-        margin-top: 20px;
-        min-height: 100px;
+        color : $color-WhiteLittleGray;
+        border-bottom: 2px solid $color-WhiteLittleGray;
+        border-top: 2px solid $color-WhiteLittleGray;
+        text-align: center;
+    }
+    
+    #intro_desc{
+        margin-top: $margin-Basic * 1.5;
+        height: 30vh;
+        
         background: $transparentColor-Black;
         border-radius: 5px;
-        padding: 10px 20px 10px 20px;
+        padding: $margin-Basic/2 $margin-Basic $margin-Basic/2 $margin-Basic;
     }
     
     #cv{
         text-align: center;
-        margin-top: 50px;
+        margin-top: $margin-Basic*2;
         
         a{
             transition: background-color 0.5s ease;
@@ -204,12 +204,12 @@ header{
             text-decoration: none;
 
             background-color: $color-Black;
-            padding: 20px;
+            padding: $padding-Basic;
             border-radius: 4px;
             
             &:hover{
-                color: $color-White;
-                background-color: $color-DarkPink;
+                color: $color-Black;
+                background-color: $color-Orange;
             }
         }
     }
@@ -223,7 +223,7 @@ section{
     
     text-align: center;
     min-height: 100vh;
-    padding-top: 50px;
+    padding: $padding-Basic;
     color: $color-WhiteLittleGray; 
     
     &:nth-child(even){
@@ -243,5 +243,5 @@ footer{
   background-color : $color-Black;
   color : $color-SmoothWhite;
   text-align: center;
-  padding: 25px;
+  padding: $padding-Basic;
 }
