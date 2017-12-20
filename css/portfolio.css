@@ -78,7 +78,6 @@ header {
       height: auto; }
   header #name {
     margin-top: 3rem;
-    max-height: 20vh;
     color: #FBFBFB;
     border-bottom: 2px solid #FBFBFB;
     border-top: 2px solid #FBFBFB;
