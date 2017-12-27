@@ -3,7 +3,7 @@
 /*--------------------------------*/
 @import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700);
 .blue_text_color {
-  color: #22A7F0; }
+  color: #0084FF; }
 
 .orange_text_color {
   color: #F28F21; }
@@ -95,18 +95,64 @@ header {
     margin-top: 2rem;
     height: 30vh;
     min-height: 150px;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 5px;
-    padding: 0.5rem 1rem 0.5rem 1rem; }
+    background-color: #FEFEFE;
+    border-radius: 3px;
+    padding: 1rem 2rem 1rem 2rem;
+    color: #2c3e50; }
     header #intro_desc #read_chat {
-      height: 80%; }
+      height: 80%;
+      overflow-x: hidden;
+      overflow-y: auto;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      margin-bottom: 0.5rem; }
+      header #intro_desc #read_chat div.row {
+        margin-bottom: 1rem;
+        display: none; }
+        header #intro_desc #read_chat div.row .picture_chat {
+          text-align: center; }
+          header #intro_desc #read_chat div.row .picture_chat img {
+            border-radius: 50%;
+            height: 3rem;
+            max-height: 50px;
+            width: auto; }
+        header #intro_desc #read_chat div.row .msg_chat {
+          padding: 0.6666666667rem;
+          border-radius: 5px; }
+        header #intro_desc #read_chat div.row.me .msg_chat {
+          background-color: #F1F0F0;
+          color: #14100E; }
+        header #intro_desc #read_chat div.row.visitor .msg_chat {
+          background-color: #0084FF;
+          color: #FEFEFE; }
     header #intro_desc #write_chat {
       height: 20%; }
-      header #intro_desc #write_chat #send_chat img {
-        width: 20px; }
+      header #intro_desc #write_chat #input_chat {
+        border-bottom: 1px solid #14100E; }
+        header #intro_desc #write_chat #input_chat input {
+          padding: 3px;
+          width: 80%;
+          border: none;
+          background-color: transparent; }
+          header #intro_desc #write_chat #input_chat input:focus {
+            outline-width: 0; }
+        header #intro_desc #write_chat #input_chat img {
+          width: 1.5rem;
+          float: right; }
+      header #intro_desc #write_chat #send_chat {
+        text-align: center; }
+        header #intro_desc #write_chat #send_chat button {
+          background-color: #14100E;
+          border: none;
+          color: #FFFFFF;
+          padding: 0.5rem 1rem 0.5rem 1rem;
+          cursor: pointer; }
+          header #intro_desc #write_chat #send_chat button:hover, header #intro_desc #write_chat #send_chat button:active {
+            outline-width: 0;
+            background-color: #F28F21; }
   header #cv {
     text-align: center;
-    margin-top: 4rem; }
+    margin-top: 2rem; }
     header #cv a {
       transition: background-color 0.5s ease;
       transition: color 0.5s ease;
@@ -116,7 +162,7 @@ header {
       background-color: #14100E;
       padding: 2rem;
       border-radius: 4px; }
-      header #cv a:hover {
+      header #cv a:hover, header #cv a:active {
         color: #14100E;
         background-color: #F28F21; }
   header #go_down_arrow {

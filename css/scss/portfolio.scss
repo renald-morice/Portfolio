@@ -34,12 +34,13 @@ $min-font-size-Big    : $min-font-size-Normal * 3;
 //Colors
 $color-Black           : #14100E;
 $color-BlueGray        : #2c3e50;
+$color-Gray            : #F1F0F0;
 $color-White           : #FFFFFF;
 $color-SmoothWhite     : #FEFEFE;
 $color-WhiteLittleGray : #FBFBFB;
 $color-WhiteLittleBlue : #E4F1FE;
 
-$color-BrightBlue  : #22A7F0;
+$color-BrightBlue  : #0084FF;
 $color-Orange      : #F28F21;
 $color-DarkPink    : #ED6362;
 
@@ -190,12 +191,58 @@ header{
         height: 30vh;
         min-height: 150px;
         
-        background: $transparentColor-White;
-        border-radius: 5px;
-        padding: $margin-Basic/4 $margin-Basic/2 $margin-Basic/4 $margin-Basic/2;
+        background-color: $color-SmoothWhite;
+        border-radius: 3px;
+        padding: $margin-Basic/2 $margin-Basic $margin-Basic/2 $margin-Basic;
+        
+        color : $color-BlueGray;
         
         #read_chat{
             height: 80%;
+            overflow-x: hidden;
+            overflow-y: auto;
+            padding-top: $margin-Basic/2;
+            padding-bottom: $margin-Basic/2;
+            margin-bottom: $margin-Basic/4;
+            
+            & div.row {
+                
+                margin-bottom: $margin-Basic/2;
+                display: none;
+                
+                .picture_chat{
+                    
+                    text-align: center;
+                    
+                    img{
+                        
+                        border-radius: 50%;
+                        height: 3rem;
+                        max-height: 50px;
+                        width: auto;
+                    }
+                    
+                }
+                
+                
+                .msg_chat{
+                    
+                    padding: $padding-Basic/3;
+                    border-radius: 5px;
+                }
+                
+                &.me .msg_chat{
+                    background-color: $color-Gray;
+                    color: $color-Black;
+                }
+                
+                &.visitor .msg_chat{
+                    background-color: $color-BrightBlue;
+                    color: $color-SmoothWhite;
+                }
+                
+                
+            }
 
         }
         
@@ -204,12 +251,42 @@ header{
             
             #input_chat{
                 
+                border-bottom: 1px solid $color-Black;
+               
+                input{
+                    padding: 3px;
+                    width: 80%;
+                    border: none;
+                    background-color: transparent;
+                    
+                    &:focus {
+                        outline-width: 0;
+                    }
+                }
+                
+                img{
+                    width: 1.5rem;
+                    float: right;
+                }
+                
             }
             
             #send_chat{
                 
-                img{
-                    width: 20px;
+                text-align: center;
+                
+                button{
+                    background-color: $color-Black;
+                    border: none;
+                    color: $color-White;
+                    padding: $padding-Basic/4 $padding-Basic/2 $padding-Basic/4 $padding-Basic/2;
+                    cursor: pointer;
+                    
+                    &:hover, &:active {
+                        outline-width: 0;
+                        background-color: $color-Orange;
+                    }
+                    
                 }
             }
 
@@ -219,7 +296,7 @@ header{
     
     #cv{
         text-align: center;
-        margin-top: $margin-Basic * 2;
+        margin-top: $margin-Basic;
         
         a{
             transition: background-color 0.5s ease;
@@ -234,7 +311,7 @@ header{
             padding: $padding-Basic;
             border-radius: 4px;
             
-            &:hover{
+            &:hover, &:active{
                 color: $color-Black;
                 background-color: $color-Orange;
             }

@@ -33,9 +33,38 @@ $( document ).ready(function() {
     bottomArrowAnimation();
     setInterval( bottomArrowAnimation, 2000);
 
-    /*--------------------*/
-    /* Intro typed script */
-    /*--------------------*/
+    /*-------------------------------*/
+    /* Intro "Messenger like" script */
+    /*-------------------------------*/
+    
+    function intro_script_display(msg_nb){
+        
+        var animation = "";
+        var element = $("#intro_desc #read_chat div.row:nth-child("+ msg_nb +")");
+        
+        if(element.hasClass("visitor")) animation = "slideInRight";
+        else if(element.hasClass("me")) animation = "slideInLeft";
+        
+        element.show().addClass(animation);
+        
+        scrollHeight = $("#intro_desc #read_chat")[0].scrollHeight;
+        scrollTop = $("#intro_desc #read_chat")[0].scrollTop;
+        
+        if( scrollHeight - scrollTop <= 400 ){
+            $("#intro_desc #read_chat").scrollTop(scrollHeight);
+        }
+
+        return msg_nb+1;
+    }
+    
+    var msg_cnt = 1;
+    
+    setInterval(function() {
+            
+            msg_cnt = intro_script_display(msg_cnt);
+    }, 1000);
+    
+    
     /*var typed = new Typed('#typed_intro_desc', {
         strings: [
             "[ <span class=\"blue_text_color\">Rénald Morice</span> ] *Pssst*",
