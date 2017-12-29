@@ -159,7 +159,7 @@ header{
         
         img{
             border-radius: 50%;
-            max-height: 20vh;
+            max-height: 15vh;
             min-height: 120px;
             width: auto;
             height: auto;
@@ -167,7 +167,7 @@ header{
     }
     
     #name{
-        margin-top: $margin-Basic*1.5;
+        margin-top: $margin-Basic/2;
         
         color : $color-WhiteLittleGray;
         border-bottom: 2px solid $color-WhiteLittleGray;
@@ -177,7 +177,7 @@ header{
     
     #build_msg{
         
-        margin-top: $margin-Basic;
+        margin-top: $margin-Basic *3/4;
         
         animation: blink 3s linear infinite;
         opacity: 1;
@@ -187,8 +187,8 @@ header{
     }
     
     #intro_desc{
-        margin-top: $margin-Basic;
-        height: 30vh;
+        margin-top: $margin-Basic *3/4;
+        height: 40vh;
         min-height: 150px;
         
         background-color: $color-SmoothWhite;
@@ -247,21 +247,21 @@ header{
         }
         
         #write_chat{
-            height: 20%;
+            min-height: 20%;
             
             #input_chat{
                 
                 border-bottom: 1px solid $color-Black;
                
-                input{
+                div#fakeInput{
+                    
+
+                    display: inline-block;
                     padding: 3px;
                     width: 80%;
                     border: none;
                     background-color: transparent;
                     
-                    &:focus {
-                        outline-width: 0;
-                    }
                 }
                 
                 img{
@@ -308,7 +308,7 @@ header{
             text-decoration: none;
 
             background-color: $color-Black;
-            padding: $padding-Basic;
+            padding: $padding-Basic/2 $padding-Basic;
             border-radius: 4px;
             
             &:hover, &:active{

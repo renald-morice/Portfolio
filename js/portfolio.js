@@ -37,63 +37,74 @@ $( document ).ready(function() {
     /* Intro "Messenger like" script */
     /*-------------------------------*/
     
-    function intro_script_display(msg_nb){
+    function intro_script_next_msg(msg_nb){
         
         var animation = "";
         var element = $("#intro_desc #read_chat div.row:nth-child("+ msg_nb +")");
+        var waitingTime = element.attr("data-waitingTime");
         
-        if(element.hasClass("visitor")) animation = "slideInRight";
-        else if(element.hasClass("me")) animation = "slideInLeft";
+        if(element.hasClass("visitor")){
+            
+            var typed = new Typed('#input_chat #fakeInput #fakeInputSpan', {
+                strings: [
+                    element.find("div.msg_chat").text()
+                ],
+                // typing speed
+                typeSpeed: 20,
+                // backspacing speed
+                backSpeed: 0,
+                //don't show dynamic cursor (set in HTML)
+                showCursor: false,
+                // loop
+                loop: false,
+                //When it's finished
+                onComplete: function(self) {
+                    
+                    setTimeout(function() {
+                        
+                        animation = "slideInRight";
+                        $("#input_chat #fakeInput #fakeInputSpan").html("");
+                        intro_script_display_next_msg(element, animation, msg_nb);
+                    }, 1000);
+                }
+            });
+            
+        }
+        else if(element.hasClass("me")){
+            
+            animation = "slideInLeft";
+            intro_script_display_next_msg(element, animation, msg_nb)
+        }
+       
+    }
+    
+    
+    var needToScroll = true;
+    
+    
+    function intro_script_display_next_msg(element, animation, msg_nb){
         
         element.show().addClass(animation);
         
-        scrollHeight = $("#intro_desc #read_chat")[0].scrollHeight;
-        scrollTop = $("#intro_desc #read_chat")[0].scrollTop;
-        
-        if( scrollHeight - scrollTop <= 400 ){
-            $("#intro_desc #read_chat").scrollTop(scrollHeight);
-        }
+        if( needToScroll )  $("#intro_desc #read_chat").scrollTop($("#intro_desc #read_chat")[0].scrollHeight);
 
-        return msg_nb+1;
+        var waitingTime = element.attr("data-waitingTime");
+        
+        if(waitingTime != -1) {
+            setTimeout(function() {
+                intro_script_next_msg(msg_nb+1);
+            }, waitingTime * 1000);
+        }
     }
     
-    var msg_cnt = 1;
-    
-    setInterval(function() {
-            
-            msg_cnt = intro_script_display(msg_cnt);
-    }, 1000);
-    
-    
-    /*var typed = new Typed('#typed_intro_desc', {
-        strings: [
-            "[ <span class=\"blue_text_color\">Rénald Morice</span> ] *Pssst*",
-            "[ <span class=\"orange_text_color\">Visiteur</span> ] Qui est-ce ?!" ,
-            "[ <span class=\"blue_text_color\">Rénald Morice</span> ] Bien le bonjour visiteur !",
-            "[ <span class=\"orange_text_color\">Visiteur</span> ] Ah Rénald ! Salut à toi !" ,
-            "[ <span class=\"blue_text_color\">Rénald Morice</span> ] J'imagine que si tu es présent ici c'est que t'aimerais en savoir plus sur moi ?",
-            "[ <span class=\"orange_text_color\">Visiteur</span> ] Oui avec plaisir ! Qui es-tu en quelques lignes ?" ,
-            "[ <span class=\"blue_text_color\">Rénald Morice</span> ] Je suis un étudiant de 22 ans en double diplomation entre un établissement français et québecois.",
-            "[ <span class=\"orange_text_color\">Visiteur</span> ] Comment ça ? Tu poursuis deux formations ?!" ,
-            "[ <span class=\"blue_text_color\">Rénald Morice</span> ] En effet, je suis étudiant à l'ISEN Brest (France) qui est une école d'ingénieurs spécialisée dans le numérique et l'électronique.",
-            "[ <span class=\"blue_text_color\">Rénald Morice</span> ] L'ISEN Brest est partenaire avec l'UQAC (Université du Québec à Chicoutimi) et propose à ses étudiants de partir à Chicoutimi pour réaliser un double diplôme à l'international.",
-            "[ <span class=\"blue_text_color\">Rénald Morice</span> ] Pour ma dernière année d'études, j'ai donc décidé de participer à cette aventure !",
-            "[ <span class=\"orange_text_color\">Visiteur</span> ] Un petit nouveau français au Québec *rigole* ! Et tu comptes faire quoi maintenant ?" ,
-            "[ <span class=\"blue_text_color\">Rénald Morice</span> ] Je recherche un <b>un stage de fin d'études</b> au Québec dans le domaine vaste de l'informatique.",
-            "[ <span class=\"blue_text_color\">Rénald Morice</span> ] Alors si tu peux m'aider, je te serai très reconnaissant. Je te paierai même une bière !",
-            "[ <span class=\"blue_text_color\">Rénald Morice</span> ] Mais avant ça, il faut que mon profil t'intéresse !",
-            "[ <span class=\"blue_text_color\">Rénald Morice</span> ] Tu devrais trouver toutes les informations que tu cherches ici ! Si je t'intéresse, n'hésite pas à me contacter !",
-            "[ <span class=\"blue_text_color\">Rénald Morice</span> ] Je te souhaite une bonne lecture ;)"
-        ],
-        // typing speed
-        typeSpeed: 20,
-        // backspacing speed
-        backSpeed: 5,
-        // time before backspacing
-        backDelay: 2500,
-        // loop
-        loop: false
-    });*/
+    $("#intro_desc #read_chat").on('scroll', function() {
+        
+        if( Math.abs($("#intro_desc #read_chat").scrollTop() + $("#intro_desc #read_chat").innerHeight() - $("#intro_desc #read_chat")[0].scrollHeight) <= 100 )
+            needToScroll = true;
+        else needToScroll = false;
+    })
+
+    intro_script_next_msg(1);
     
     /*-----------------*/
     /* ToTheTop button */
