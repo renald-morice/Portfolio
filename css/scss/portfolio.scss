@@ -34,7 +34,7 @@ $min-font-size-Big    : $min-font-size-Normal * 3;
 //Colors
 $color-Black           : #14100E;
 $color-BlueGray        : #2c3e50;
-$color-Gray            : #F1F0F0;
+$color-Gray            : #EEEEEE;
 $color-White           : #FFFFFF;
 $color-SmoothWhite     : #FEFEFE;
 $color-WhiteLittleGray : #FBFBFB;
@@ -55,12 +55,24 @@ $padding-Basic : 2rem;
 // Class
 //------------
 
-.blue_text_color{
-    color: $color-BrightBlue;
-}
+.custom_scrollbar{
+    
+    &::-webkit-scrollbar-track{
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
 
-.orange_text_color{
-    color: $color-Orange;
+    &::-webkit-scrollbar{
+        width: 12px;
+        background-color: #F5F5F5;
+    }
+
+    &::-webkit-scrollbar-thumb{
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #555;
+    }
 }
 
 //------------
