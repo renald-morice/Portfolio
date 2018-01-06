@@ -104,7 +104,9 @@ $( document ).ready(function() {
         else needToScroll = false;
     })
 
-    intro_script_next_msg(1);
+    setTimeout(function(){
+        intro_script_next_msg(1);
+    }, 1700);
     
     /*-----------------*/
     /* ToTheTop button */
@@ -121,5 +123,20 @@ $( document ).ready(function() {
             $('#to_the_top').addClass("fadeOut");
         }
     }, 100);
+    
+    
+    /*-------*/
+    /* Close */
+    /*-------*/
+    $('.close').on("click", function() {
+         $(this).parent().remove();
+     });
+    
+    /*-------------*/
+    /* Build alert */
+    /*-------------*/
+    setInterval( function(){
+        $('#build_msg').show().addClass("fadeInDown");
+    }, 600);
 
 });

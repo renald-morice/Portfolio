@@ -13,11 +13,19 @@
     </head>
 	<body>
         
-        <div id="to_the_top" class="animated scrollTo" data-scrollTo="header">
-            <i class="fas fa-chevron-circle-up"></i>
-        </div>
-        
 		<div class="container-fluid">
+            
+            <div id="to_the_top" class="animated scrollTo" data-scrollTo="header">
+                <i class="fas fa-chevron-circle-up"></i>
+            </div>
+
+            <div id="build_msg" class="animated">
+                <div class="close"><i class="fas fa-times"></i></div>
+                <div class="blink">
+                    Site en cours de construction
+                </div>
+            </div>
+            
 			<!--––––––––––––––––––––––––––––––––––––––––--->
 			<!--                HEADER                   -->
 			<!--––––––––––––––––––––––––––––––––––––––––--->
@@ -30,17 +38,13 @@
 					</div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3" id="name">
-                        <h1 class="fadeIn animated">Rénald Morice</h1>
+                    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2" id="name">
+                        <h1>Rénald Morice</h1>
+                        <div>Etudiant ingénieur à l'ISEN Brest (France) actuellement en double diplôme à l'Université du Québec à Chicoutimi</div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12" id="build_msg">
-                        <i class="fas fa-exclamation-triangle"></i>  Site en cours de construction  <i class="fas fa-exclamation-triangle"></i>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3" id="intro_desc">
+                    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2" id="intro_desc">
                         <div class="row custom_scrollbar" id="read_chat">
                             
                             <div class="row animated me" data-waitingTime="1.5">
@@ -125,42 +129,68 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12" id="cv">
-						<a href="#">CV (bientôt) disponible ici !</a>
-					</div>
-                </div>
-                <div class="row">
                     <div class="col-12" id="go_down_arrow">
-                        <div class="animated scrollTo" data-scrollTo="#section1">
+                        <div class="animated scrollTo" data-scrollTo="#CV">
                             <i class="fas fa-chevron-down fa-2x"></i>
                         </div>
                     </div>
                 </div>
                 
 			</header>
+            <!--––––––––––––––––––––––––––––––––––––––––--->
+			<!--                CV AREA                  -->
+			<!--––––––––––––––––––––––––––––––––––––––––--->
+            <div class="row" id="CV">
+				<a href="#CV">CV (bientôt) disponible ici !</a>
+            </div>
 			<!--––––––––––––––––––––––––––––––––––––––––--->
 			<!--                CONTENT                  -->
 			<!--––––––––––––––––––––––––––––––––––––––––--->
-			<section class="row" id="section1">
-			  <h2 class="col-md-12">Section N&deg;1</h2>
+			<section class="row orange_section" id="summary">
+                <h2 class="col-12">À propos de moi</h2>
+                
+                <div class="col-sm-12 col-md-6 summary_item">
+                    <div class="summary_item_title">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Actuellement en études</h3>
+                    </div>
+                    <div class="summary_item_text">
+                        Je suis étudiant français arrivé en août 2017 à l'UQAC (Université du Québec à Chicoutimi) pour réaliser une 
+                        maîtrise en informatique (option jeux vidéo). Je suis également étudiant à l'ISEN Brest (en France) qui est
+                        une école d'ingénieurs spécialisée dans le numérique et l'électronique, école d'où je suis origine. Cette école
+                        française propose, en partenariat avec l'UQAC, de terminer son parcours d'études au Canada.
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 summary_item">
+                    <div class="summary_item_title">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Actuellement en études</h3>
+                    </div>
+                    <div class="summary_item_text">
+                        Je suis étudiant français arrivé en août 2017 à l'UQAC (Université du Québec à Chicoutimi) pour réaliser une 
+                        maîtrise en informatique (option jeux vidéo). Je suis également étudiant à l'ISEN Brest (en France) qui est
+                        une école d'ingénieurs spécialisée dans le numérique et l'électronique, école d'où je suis origine. Cette école
+                        française propose, en partenariat avec l'UQAC, de terminer son parcours d'études au Canada.
+                    </div>
+                </div>
 			</section>
             
-            <section class="row" id="section2">
-			  <h2 class="col-md-12">Section N&deg;2</h2>
+            <section class="row blue_section" id="section2">
+                <h2 class="col-12">Section N&deg;2</h2>
 			</section>
             
-            <section class="row" id="section3">
-			  <h2 class="col-md-12">Section N&deg;3</h2>
+            <section class="row orange_section" id="section3">
+                <h2 class="col-12">Section N&deg;3</h2>
 			</section>
             
-            <section class="row" id="section4">
-			  <h2 class="col-md-12">Section N&deg;4</h2>
+            <section class="row blue_section" id="section4">
+                <h2 class="col-12">Section N&deg;4</h2>
 			</section>
 			<!--––––––––––––––––––––––––––––––––––––––––--->
 			<!--                FOOTER                   -->
 			<!--––––––––––––––––––––––––––––––––––––––––--->
 			<footer class="row">
-				<div class="col-md-12">Pied de page</div>
+				<div class="col-12">Pied de page</div>
 			</footer>
 		</div>
 
