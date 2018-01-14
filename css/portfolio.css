@@ -223,8 +223,8 @@ section#summary div.summary_item {
     padding: 1rem 2rem;
     border: 2px solid #FBFBFB; }
     section#summary div.summary_item div.summary_item_title svg {
-      width: 50px;
-      height: auto;
+      height: 45px;
+      width: auto;
       vertical-align: middle; }
   section#summary div.summary_item div.summary_item_text {
     margin-top: 2rem;
