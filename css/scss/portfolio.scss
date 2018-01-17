@@ -128,6 +128,7 @@ html{
     
     display: none;
     position: fixed;
+    z-index: 1;
     right: 2rem;
     bottom: 2rem;
     padding: 8px;
@@ -190,12 +191,51 @@ h3{
 
 
 //---------------
+// Nav
+//---------------
+
+nav {
+    position:fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    color: $color-SmoothWhite;
+    background-color: $color-Black;
+    border-bottom: 1px solid $color-WhiteLittleGray;
+    text-align: center;
+    padding: $padding-Basic/4 $padding-Basic/2;
+    
+    #nav_wrap{
+        display: none;
+        
+        svg{
+            width: 4vh;
+            height: auto;
+        }
+    }
+    
+    ul{
+        list-style-type: none;
+        
+        margin: 0;
+        padding: 0;
+        
+        li{
+            cursor: pointer;
+            padding: $padding-Basic/4 0;
+        }
+    }
+ }
+
+//---------------
 // Header
 //---------------
 
 header{
     
-    background-image: url("../images/backgrounds/parc2.jpg");
+    background-image: url("../images/backgrounds/network.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
@@ -205,7 +245,7 @@ header{
     color: $color-SmoothWhite;
     
     
-    #profil_picture{
+    /*#profil_picture{
         
         margin-top: $margin-Basic;
         
@@ -218,11 +258,11 @@ header{
             width: auto;
             height: auto;
         }
-    }
+    }*/
     
     #name{
         
-        margin-top: $margin-Basic*3/4;
+        margin-top: $margin-Basic * 4;
     
         color : $color-WhiteLittleGray;
         text-align: center;
@@ -230,12 +270,12 @@ header{
         padding-right: 0;
         
         div{
+            padding: $margin-Basic/3 $margin-Basic/2 0 $margin-Basic/2;
             
-            margin-top: $margin-Basic/2;
-            border-top: 1px solid $color-WhiteLittleGray;
-            border-bottom: 1px solid $color-WhiteLittleGray;
-            padding: $margin-Basic/2 $margin-Basic $margin-Basic/2 $margin-Basic;
-            /*background-color: rgba(242, 143, 33,0.3);*/
+            &#status{
+                border-top: 1px solid $color-WhiteLittleGray;
+                @include customFontSize($font-size-Medium, $min-font-size-Medium);
+            }
         }
     }
     
@@ -333,12 +373,6 @@ header{
                     border: none;
                     color: $color-White;
                     padding: $padding-Basic/4 $padding-Basic/2 $padding-Basic/4 $padding-Basic/2;
-                    cursor: pointer;
-                    
-                    &:hover, &:active {
-                        outline-width: 0;
-                        background-color: $color-Orange;
-                    }
                     
                 }
             }
@@ -347,43 +381,36 @@ header{
         
     }
     
-    #go_down_arrow{
+    /*#go_down_arrow{
         text-align: center;
         margin-top : $margin-Basic;
         
         div{
             display: inline-block;
         }
-    }
+    }*/
     
-}
-
-//---------------
-// CV Area
-//---------------
-
-#CV{
-    
-    text-align: center;
-    padding: $padding-Basic;
-    
-    background-color: $color-Black;
-    
-
-    a{
-        display: inline-block;
-        text-decoration: none;
-
-        color: $color-SmoothWhite;
-        padding: $padding-Basic/2 $padding-Basic;
-        border: 1px solid $color-WhiteLittleGray;
+    #CV{
         
-        transition: background-color 0.5s ease;
-        
-        &:hover, &:active{
-            background-color: $color-BlueGray;
+        margin-top: $margin-Basic * 2; 
+        text-align: center;
+
+        a{
+            display: inline-block;
+            text-decoration: none;
+
+            background-color: $color-Black;
+            color: $color-SmoothWhite;
+            padding: $padding-Basic/2 $padding-Basic;
+
+            transition: background-color 0.5s ease;
+
+            &:hover, &:active{
+                background-color: $color-BlueGray;
+            }
         }
     }
+    
 }
 
 //---------------
@@ -393,7 +420,7 @@ section{
     
     text-align: center;
     min-height: 100vh;
-    padding: $padding-Basic;
+    padding: $padding-Basic * 3 $padding-Basic $padding-Basic $padding-Basic;
     color: $color-WhiteLittleGray; 
     
     &.orange_section{

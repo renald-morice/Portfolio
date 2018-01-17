@@ -1,5 +1,45 @@
 $( document ).ready(function() {
     
+    /*---------------*/
+    /* resize window */
+    /*---------------*/
+    
+    var window_width = $(window).width();
+    var responsive_nav_triggered = false;
+    
+    function resize_window(){
+        
+        if ($(window).width() < 992) {
+            $('nav #nav_wrap').show();
+            if( !responsive_nav_triggered ) $('nav ul').hide();
+            responsive_nav_triggered = true;
+        }
+        else{
+            $('nav #nav_wrap').hide();
+            $('nav ul').show();
+            responsive_nav_triggered = false;
+        }
+        
+        window_width = $(window).width();
+    }
+    
+    resize_window();
+    
+    $(window).on('resize', function(){
+        resize_window();
+    });
+    
+    /*-------------------*/
+    /* responsive navbar */
+    /*-------------------*/
+    
+    $('nav #nav_wrap').on("click", function() {
+        var list = $('nav ul'); 
+        
+        if ( list.css('display') == 'none' ) list.slideDown();
+        else list.slideUp();
+     });
+    
     /*-----------------------------------*/
     /* function scroll to id HTML Object */
     /*-----------------------------------*/
@@ -11,8 +51,10 @@ $( document ).ready(function() {
     
     //scrollTo class scroll to data-scrollTo attribute's content
     $('.scrollTo').on("click", function() {
-         scrollTo($(this).attr("data-scrollTo"));
-     });
+        scrollTo($(this).attr("data-scrollTo"));
+        
+        if($(this).is("nav ul li") && responsive_nav_triggered) $('nav ul').slideUp();
+    });
     
     
     /*------------------------*/
