@@ -40,8 +40,9 @@ $color-SmoothWhite     : #FEFEFE;
 $color-WhiteLittleGray : #FBFBFB;
 $color-WhiteLittleBlue : #E4F1FE;
 
+$color-DarkBlue    : #213247;
 $color-BrightBlue  : #0084FF;
-$color-Orange      : #F28F21;
+$color-Orange      : #F67D33;
 $color-DarkPink    : #ED6362;
 
 //Transparent colors
@@ -159,7 +160,7 @@ html{
     background-color: rgba(0,0,0,0.95);
     
     color: $color-SmoothWhite;
-    padding: $padding-Basic*15 $padding-Basic;
+    padding: $padding-Basic*7 $padding-Basic;
 
     text-align: center;
     @include customFontSize($font-size-Normal*1.2, $min-font-size-Normal*1.2);
@@ -203,16 +204,17 @@ nav {
     
     color: $color-SmoothWhite;
     background-color: $color-Black;
-    border-bottom: 1px solid $color-WhiteLittleGray;
     text-align: center;
     padding: $padding-Basic/4 $padding-Basic/2;
+    
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     
     #nav_wrap{
         display: none;
         
         svg{
             width: 4vh;
-            height: auto;
+            height: 4vh;
         }
     }
     
@@ -401,12 +403,15 @@ header{
 
             background-color: $color-Black;
             color: $color-SmoothWhite;
+            font-weight: $Quicksand-Normal;
             padding: $padding-Basic/2 $padding-Basic;
+            border-radius: 2px;
+            border: 1px solid $color-SmoothWhite;
 
             transition: background-color 0.5s ease;
 
             &:hover, &:active{
-                background-color: $color-BlueGray;
+                background-color: $color-DarkBlue;
             }
         }
     }
