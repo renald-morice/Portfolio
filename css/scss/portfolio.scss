@@ -26,14 +26,16 @@ $Quicksand-Normal : 400;
 $font-size-Normal    : 2vh;
 $font-size-Medium    : $font-size-Normal * 1.5;
 $font-size-Big       : $font-size-Normal * 3;
+$font-size-Small     : $font-size-Normal * 0.7;
 
 $min-font-size-Normal : 15px;
 $min-font-size-Medium : $min-font-size-Normal * 1.5;
 $min-font-size-Big    : $min-font-size-Normal * 3;
+$min-font-size-Small  : $min-font-size-Normal * 0.7;
 
 //Colors
 $color-Black           : #14100E;
-$color-Gray            : #3f3f3f;
+$color-Gray            : #1a1a1a;
 $color-BlueGray        : #2c3e50;
 $color-SmoothGray      : #EEEEEE;
 $color-White           : #FFFFFF;
@@ -50,8 +52,8 @@ $color-DarkPink    : #ED6362;
 $transparentColor-White : rgba(255, 255, 255, 0.9);
 
 //Marging & padding
-$margin-Basic : 2rem;
-$padding-Basic : 2rem;
+$margin-Basic : 2em;
+$padding-Basic : 2em;
 
 //------------
 // Class
@@ -277,7 +279,7 @@ header{
     
     #name{
         
-        margin-top: $margin-Basic * 4;
+        margin-top: $margin-Basic * 1.5;
     
         color : $color-WhiteLittleGray;
         text-align: center;
@@ -295,7 +297,7 @@ header{
     }
     
     #intro_desc{
-        margin-top: $margin-Basic * 1.5;
+        margin-top: $margin-Basic ;
         height: 42vh;
         min-height: 150px;
         
@@ -407,7 +409,7 @@ header{
     
     #CV{
         
-        margin-top: $margin-Basic * 2; 
+        margin-top: $margin-Basic *1.5; 
         text-align: center;
 
         a{
@@ -438,7 +440,7 @@ section{
     
     text-align: center;
     min-height: 100vh;
-    padding: $padding-Basic * 3 $padding-Basic $padding-Basic $padding-Basic;
+    padding: $padding-Basic * 2 $padding-Basic $padding-Basic $padding-Basic;
     color: $color-WhiteLittleGray; 
     
     &.orange_section{
@@ -449,7 +451,7 @@ section{
     }
     
     h2{
-        margin-bottom: $margin-Basic*2;
+        margin-bottom: $margin-Basic/2;
     }
 }
 
@@ -492,12 +494,12 @@ section#summary{
 
 footer{
     
-    color : $color-SmoothWhite;
+    color : $color-SmoothWhite;  
     text-align: center;
     
      #contact {
         background-color : $color-Black;
-        padding: $padding-Basic/2;
+        padding: $padding-Basic/4;
         margin-left: 0px;
         margin-right: 0px;
          
@@ -507,31 +509,33 @@ footer{
              svg{
                 width: 4vh;
                 height: 4vh;
-                display: inline-block;
-                vertical-align: middle;
+                 
+                 &:nth-child(1){
+                     margin-left: $margin-Basic/2;
+                 }
+             }
+              
+             #email{
+                 @include customFontSize($font-size-Medium, $min-font-size-Medium);
              }
              
-             span{
-                @include customFontSize($font-size-Medium, $min-font-size-Medium);
-                padding-left: $padding-Basic;
-                display: inline-block;
-                vertical-align: middle;
+             a{
+                 transition: color 0.25s ease;
+             
+                 &:hover, &:active{
+                    color: $color-Orange;
+                    cursor: pointer;
+                }
              }
-             
-             transition: color 0.25s ease;
-             
-             &:hover, &:active{
-                color: $color-Orange;
-                cursor: pointer;
-            }
          }
     }
 
     #copyright{
-        padding: $padding-Basic/2;
+        padding: $padding-Basic *3/4;
         background-color : $color-Gray;
         margin-left: 0px;
         margin-right: 0px;
+        @include customFontSize($font-size-Small, $min-font-size-Small);
     }
     
 }

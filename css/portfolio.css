@@ -73,14 +73,14 @@ html {
   z-index: 10;
   background-color: rgba(0, 0, 0, 0.95);
   color: #FEFEFE;
-  padding: 14rem 2rem;
+  padding: 14em 2em;
   text-align: center;
   font-size: 2.4vh; }
   @media (max-height: 650px) {
     #build_msg {
       font-size: 18px; } }
   #build_msg div.blink {
-    margin-top: 1rem; }
+    margin-top: 1em; }
 
 a, a:hover, a:visited, a:focus {
   color: inherit;
@@ -111,7 +111,7 @@ nav {
   color: #FEFEFE;
   background-color: #14100E;
   text-align: center;
-  padding: 0.5rem 1rem;
+  padding: 0.5em 1em;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
   nav #nav_wrap {
     display: none; }
@@ -124,7 +124,7 @@ nav {
     padding: 0; }
     nav ul li {
       cursor: pointer;
-      padding: 0.5rem 0;
+      padding: 0.5em 0;
       transition: color 0.25s ease; }
       nav ul li:hover, nav ul li:active {
         color: #F67D33;
@@ -137,7 +137,7 @@ header {
   background-attachment: scroll;
   background-size: cover;
   min-height: 100vh;
-  padding: 2rem;
+  padding: 2em;
   color: #FEFEFE;
   /*#profil_picture{
       
@@ -162,13 +162,13 @@ header {
       }
   }*/ }
   header #name {
-    margin-top: 8rem;
+    margin-top: 3em;
     color: #FBFBFB;
     text-align: center;
     padding-left: 0;
     padding-right: 0; }
     header #name div {
-      padding: 0.6666666667rem 1rem 0 1rem; }
+      padding: 0.6666666667em 1em 0 1em; }
       header #name div#status {
         border-top: 1px solid #FBFBFB;
         font-size: 3vh; }
@@ -176,22 +176,22 @@ header {
           header #name div#status {
             font-size: 22.5px; } }
   header #intro_desc {
-    margin-top: 3rem;
+    margin-top: 2em;
     height: 42vh;
     min-height: 150px;
     background-color: #FEFEFE;
     border-radius: 2px;
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1em 2em 1em 2em;
     color: #2c3e50; }
     header #intro_desc #read_chat {
       height: 80%;
       overflow-x: hidden;
       overflow-y: auto;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-      margin-bottom: 0.5rem; }
+      padding-top: 1em;
+      padding-bottom: 1em;
+      margin-bottom: 0.5em; }
       header #intro_desc #read_chat div.row {
-        margin-bottom: 1rem;
+        margin-bottom: 1em;
         display: none; }
         header #intro_desc #read_chat div.row .picture_chat {
           text-align: center; }
@@ -201,7 +201,7 @@ header {
             max-height: 50px;
             width: auto; }
         header #intro_desc #read_chat div.row .msg_chat {
-          padding: 0.6666666667rem;
+          padding: 0.6666666667em;
           border-radius: 5px; }
         header #intro_desc #read_chat div.row.me .msg_chat {
           background-color: #EEEEEE;
@@ -228,9 +228,9 @@ header {
           background-color: #14100E;
           border: none;
           color: #FFFFFF;
-          padding: 0.5rem 1rem 0.5rem 1rem; }
+          padding: 0.5em 1em 0.5em 1em; }
   header #CV {
-    margin-top: 4rem;
+    margin-top: 3em;
     text-align: center; }
     header #CV a {
       display: inline-block;
@@ -238,7 +238,7 @@ header {
       background-color: #14100E;
       color: #FEFEFE;
       font-weight: 400;
-      padding: 1rem 2rem;
+      padding: 1em 2em;
       border-radius: 2px;
       border: 1px solid #FEFEFE;
       transition: background-color 0.5s ease; }
@@ -248,59 +248,61 @@ header {
 section {
   text-align: center;
   min-height: 100vh;
-  padding: 6rem 2rem 2rem 2rem;
+  padding: 4em 2em 2em 2em;
   color: #FBFBFB; }
   section.orange_section {
     background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%); }
   section.blue_section {
     background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%); }
   section h2 {
-    margin-bottom: 4rem; }
+    margin-bottom: 1em; }
 
 section#summary div.summary_item {
-  margin-bottom: 1rem; }
+  margin-bottom: 1em; }
   section#summary div.summary_item div.summary_item_title {
-    padding: 1rem 2rem;
+    padding: 1em 2em;
     border: 2px solid #FBFBFB; }
     section#summary div.summary_item div.summary_item_title svg {
       height: 45px;
       width: auto;
       vertical-align: middle; }
   section#summary div.summary_item div.summary_item_text {
-    margin-top: 2rem;
-    margin-bottom: 2rem; }
+    margin-top: 2em;
+    margin-bottom: 2em; }
 
 footer {
   color: #FEFEFE;
   text-align: center; }
   footer #contact {
     background-color: #14100E;
-    padding: 1rem;
+    padding: 0.5em;
     margin-left: 0px;
     margin-right: 0px; }
     footer #contact div {
-      padding: 0.5rem;
-      transition: color 0.25s ease; }
+      padding: 0.5em; }
       footer #contact div svg {
         width: 4vh;
-        height: 4vh;
-        display: inline-block;
-        vertical-align: middle; }
-      footer #contact div span {
-        font-size: 3vh;
-        padding-left: 2rem;
-        display: inline-block;
-        vertical-align: middle; }
+        height: 4vh; }
+        footer #contact div svg:nth-child(1) {
+          margin-left: 1em; }
+      footer #contact div #email {
+        font-size: 3vh; }
         @media (max-height: 650px) {
-          footer #contact div span {
+          footer #contact div #email {
             font-size: 22.5px; } }
-      footer #contact div:hover, footer #contact div:active {
-        color: #F67D33;
-        cursor: pointer; }
+      footer #contact div a {
+        transition: color 0.25s ease; }
+        footer #contact div a:hover, footer #contact div a:active {
+          color: #F67D33;
+          cursor: pointer; }
   footer #copyright {
-    padding: 1rem;
-    background-color: #3f3f3f;
+    padding: 1.5em;
+    background-color: #1a1a1a;
     margin-left: 0px;
-    margin-right: 0px; }
+    margin-right: 0px;
+    font-size: 1.4vh; }
+    @media (max-height: 650px) {
+      footer #copyright {
+        font-size: 10.5px; } }
 
 /*# sourceMappingURL=portfolio.css.map */
