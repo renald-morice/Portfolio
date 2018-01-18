@@ -82,6 +82,10 @@ html {
   #build_msg div.blink {
     margin-top: 1rem; }
 
+a, a:hover, a:visited, a:focus {
+  color: inherit;
+  text-decoration: inherit; }
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-weight: 300; }
@@ -120,7 +124,11 @@ nav {
     padding: 0; }
     nav ul li {
       cursor: pointer;
-      padding: 0.5rem 0; }
+      padding: 0.5rem 0;
+      transition: color 0.25s ease; }
+      nav ul li:hover, nav ul li:active {
+        color: #F67D33;
+        cursor: pointer; }
 
 header {
   background-image: url("../images/backgrounds/network.jpg");
@@ -263,9 +271,36 @@ section#summary div.summary_item {
     margin-bottom: 2rem; }
 
 footer {
-  background-color: #14100E;
   color: #FEFEFE;
-  text-align: center;
-  padding: 2rem; }
+  text-align: center; }
+  footer #contact {
+    background-color: #14100E;
+    padding: 1rem;
+    margin-left: 0px;
+    margin-right: 0px; }
+    footer #contact div {
+      padding: 0.5rem;
+      transition: color 0.25s ease; }
+      footer #contact div svg {
+        width: 4vh;
+        height: 4vh;
+        display: inline-block;
+        vertical-align: middle; }
+      footer #contact div span {
+        font-size: 3vh;
+        padding-left: 2rem;
+        display: inline-block;
+        vertical-align: middle; }
+        @media (max-height: 650px) {
+          footer #contact div span {
+            font-size: 22.5px; } }
+      footer #contact div:hover, footer #contact div:active {
+        color: #F67D33;
+        cursor: pointer; }
+  footer #copyright {
+    padding: 1rem;
+    background-color: #3f3f3f;
+    margin-left: 0px;
+    margin-right: 0px; }
 
 /*# sourceMappingURL=portfolio.css.map */

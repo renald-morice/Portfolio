@@ -33,8 +33,9 @@ $min-font-size-Big    : $min-font-size-Normal * 3;
 
 //Colors
 $color-Black           : #14100E;
+$color-Gray            : #3f3f3f;
 $color-BlueGray        : #2c3e50;
-$color-Gray            : #EEEEEE;
+$color-SmoothGray      : #EEEEEE;
 $color-White           : #FFFFFF;
 $color-SmoothWhite     : #FEFEFE;
 $color-WhiteLittleGray : #FBFBFB;
@@ -170,6 +171,11 @@ html{
     }
 }
 
+a, a:hover, a:visited, a:focus{
+    color: inherit;
+    text-decoration: inherit;
+}
+
 //---------------
 // Titles
 //---------------
@@ -227,6 +233,13 @@ nav {
         li{
             cursor: pointer;
             padding: $padding-Basic/4 0;
+            
+            transition: color 0.25s ease;
+            
+            &:hover, &:active{
+                color: $color-Orange;
+                cursor: pointer;
+            }
         }
     }
  }
@@ -327,7 +340,7 @@ header{
                 }
                 
                 &.me .msg_chat{
-                    background-color: $color-Gray;
+                    background-color: $color-SmoothGray;
                     color: $color-Black;
                 }
                 
@@ -479,8 +492,47 @@ section#summary{
 
 footer{
     
-  background-color : $color-Black;
-  color : $color-SmoothWhite;
-  text-align: center;
-  padding: $padding-Basic;
+    color : $color-SmoothWhite;
+    text-align: center;
+    
+     #contact {
+        background-color : $color-Black;
+        padding: $padding-Basic/2;
+        margin-left: 0px;
+        margin-right: 0px;
+         
+         & div {
+             padding: $padding-Basic/4;
+             
+             svg{
+                width: 4vh;
+                height: 4vh;
+                display: inline-block;
+                vertical-align: middle;
+             }
+             
+             span{
+                @include customFontSize($font-size-Medium, $min-font-size-Medium);
+                padding-left: $padding-Basic;
+                display: inline-block;
+                vertical-align: middle;
+             }
+             
+             transition: color 0.25s ease;
+             
+             &:hover, &:active{
+                color: $color-Orange;
+                cursor: pointer;
+            }
+         }
+    }
+
+    #copyright{
+        padding: $padding-Basic/2;
+        background-color : $color-Gray;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
 }
+
