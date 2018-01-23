@@ -12,11 +12,15 @@ $( document ).ready(function() {
         if ($(window).width() < 992) {
             $('nav #nav_wrap').show();
             if( !responsive_nav_triggered ) $('nav ul').hide();
+            $('nav ul li').css('display', 'block');
+            
             responsive_nav_triggered = true;
         }
         else{
             $('nav #nav_wrap').hide();
             $('nav ul').show();
+            $('nav ul li').css('display', 'inline-block');
+            
             responsive_nav_triggered = false;
         }
         
@@ -150,22 +154,6 @@ $( document ).ready(function() {
         intro_script_next_msg(1);
     }, 1700);
     
-    /*-----------------*/
-    /* ToTheTop button */
-    /*-----------------*/
-    setInterval( function(){
-        
-        if($(document).scrollTop() >= $(window).height() * 0.75 ){
-            $('#to_the_top').removeClass("fadeOut");
-            $('#to_the_top').addClass("fadeIn");
-            $('#to_the_top').show();
-        }
-        else{
-            $('#to_the_top').removeClass("fadeIn");
-            $('#to_the_top').addClass("fadeOut");
-        }
-    }, 100);
-    
     
     /*-------*/
     /* Close */
@@ -180,5 +168,24 @@ $( document ).ready(function() {
     setInterval( function(){
         $('#build_msg').show().addClass("fadeInDown");
     }, 600);
-
+    
+    
+    /*-----------*/
+    /* Reveal JS */
+    /*-----------*/
+    
+    window.sr = ScrollReveal();
+    
+    $(".reveal").each(function() {
+        
+        sr.reveal($(this), {
+            origin: $(this).attr("data-RevealOrigin"),
+            distance: "5vw",
+            easing: 'ease-in-out',
+            duration: 800,
+            delay: $(this).attr("data-RevealDelay")
+        });
+        
+    });
+    
 });

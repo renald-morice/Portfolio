@@ -18,20 +18,24 @@
 //------------
 
 //Fonts
-$Quicksand        : 'Quicksand', sans-serif;
-$Quicksand-Light  : 300;
-$Quicksand-Normal : 400;
+$Quicksand          : 'Quicksand', sans-serif;
+$Quicksand-Light    : 300;
+$Quicksand-Normal   : 400;
+$Quicksand-SemiBold : 500;
+$Quicksand-Bold     : 700;
 
 //font-size
 $font-size-Normal    : 2vh;
+$font-size-Small     : $font-size-Normal * 0.7;
+$font-size-Small2    : $font-size-Normal * 0.85;
 $font-size-Medium    : $font-size-Normal * 1.5;
 $font-size-Big       : $font-size-Normal * 3;
-$font-size-Small     : $font-size-Normal * 0.7;
 
 $min-font-size-Normal : 15px;
+$min-font-size-Small  : $min-font-size-Normal * 0.7;
+$min-font-size-Small2 : $min-font-size-Normal * 0.85;
 $min-font-size-Medium : $min-font-size-Normal * 1.5;
 $min-font-size-Big    : $min-font-size-Normal * 3;
-$min-font-size-Small  : $min-font-size-Normal * 0.7;
 
 //Colors
 $color-Black           : #14100E;
@@ -44,7 +48,7 @@ $color-WhiteLittleGray : #FBFBFB;
 $color-WhiteLittleBlue : #E4F1FE;
 
 $color-DarkBlue    : #213247;
-$color-BrightBlue  : #0084FF;
+$color-BrightBlue  : #466986;
 $color-Orange      : #F67D33;
 $color-DarkPink    : #ED6362;
 
@@ -96,6 +100,23 @@ $padding-Basic : 2em;
     }
 }
 
+
+.border{
+    border: 2px solid $color-WhiteLittleGray;
+}
+
+.bubbles{
+    margin-top: $margin-Basic/4;
+    
+    span{
+        border-radius: 10px;
+        padding: $padding-Basic/8 $padding-Basic/4;
+        margin-top: $margin-Basic/4;
+        display: inline-block;
+        @include customFontSize($font-size-Small2, $min-font-size-Small2);
+    }
+}
+
 //------------
 // KeyFrames
 //------------
@@ -128,28 +149,6 @@ html{
     }
 }
 
-#to_the_top{
-    
-    display: none;
-    position: fixed;
-    z-index: 1;
-    right: 2rem;
-    bottom: 2rem;
-    padding: 8px;
-    background-color : $color-BlueGray;
-    color : $color-SmoothWhite;
-    border-radius: 10px;
-    opacity: 0.5;
-    
-    svg {
-        width: 5vh;
-        height: 5vh;
-        max-width: 90px;
-        max-height: 90px;
-    }
-
-}
-
 
 #build_msg{
     
@@ -173,9 +172,32 @@ html{
     }
 }
 
-a, a:hover, a:visited, a:focus{
+a{
     color: inherit;
     text-decoration: inherit;
+}
+
+.black_text_link, .black_text_link:visited,
+.orange_text_link, .orange_text_link:visited{
+    color: inherit;
+    text-decoration: underline;
+}
+
+span.black_text_link, span.orange_text_link{
+    cursor: pointer;
+}
+
+.black_text_link:hover{
+    color: $color-Black;
+}
+
+.orange_text_link:hover{
+    color: $color-Orange;
+}
+
+p{
+    margin: 0;
+    text-align: justify;
 }
 
 //---------------
@@ -233,8 +255,9 @@ nav {
         padding: 0;
         
         li{
+            display: inline-block;
             cursor: pointer;
-            padding: $padding-Basic/4 0;
+            padding: $padding-Basic/4 $padding-Basic/2;
             
             transition: color 0.25s ease;
             
@@ -260,22 +283,6 @@ header{
     min-height: 100vh;
     padding: $padding-Basic;
     color: $color-SmoothWhite;
-    
-    
-    /*#profil_picture{
-        
-        margin-top: $margin-Basic;
-        
-        text-align: center;
-        
-        img{
-            border-radius: 50%;
-            max-height: 15vh;
-            min-height: 120px;
-            width: auto;
-            height: auto;
-        }
-    }*/
     
     #name{
         
@@ -451,22 +458,19 @@ section{
         background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
     }
     
-    h2{
-        margin-bottom: $margin-Basic/2;
-    }
 }
 
 //-------------------
 // Section : Summary
 //-------------------
 
-section#summary{
+/*section#summary{
     
-    div.summary_item{
+    .summary_item{
         
         margin-bottom: $margin-Basic/2;
         
-        div.summary_item_title{
+        .summary_item_title{
             
             padding: $padding-Basic/2 $padding-Basic;
             
@@ -475,18 +479,75 @@ section#summary{
                 width: auto;
                 vertical-align: middle;    
             }
-            
-            border: 2px solid $color-WhiteLittleGray;
-            
         }
+    }
+}*/
+
+//------------------------------------
+// Section : Studies & Certifications
+//------------------------------------
+
+section#studies_certifications{
+    
+    #studies{
         
-        div.summary_item_text{
+        margin-top: $margin-Basic * 3/4;
+     
+        .study{
+
             margin-top: $margin-Basic;
-            margin-bottom: $margin-Basic;
-            
-        }
+
+            .left_panel{
+                margin-bottom: $margin-Basic/2;
+
+                .img-container{
+
+                    padding: $padding-Basic/2;
+
+                    img{
+                        height: auto;
+                        max-width: 200px;
+                        min-width: 90px;
+                        width: 10vh;
+                    }
+
+                }
+                
+                .title{    
+                    font-weight: $Quicksand-Bold;
+                }
+            }
+
+            .right_panel{
+                border-left: 2px solid $color-WhiteLittleGray;
+                text-align: left;
+                padding-bottom: $padding-Basic /2;
+                
+                .duration img, .place img, .website img{
+                    padding-right: $padding-Basic/4;
+                    min-height: 30px;
+                    min-width: 30px;
+                    height: 3vh;
+                    width: 3vh;
+                }
+                
+                p{
+                    margin-top: $margin-Basic/2;
+                }
+                
+                .subjects_type{
+                    font-weight: $Quicksand-SemiBold;
+                }
+                
+            }
+        }   
+    }
+    
+    #certifications{
+        margin-top: $margin-Basic *2;
         
     }
+    
 }
 
 //---------------
