@@ -105,18 +105,6 @@ $padding-Basic : 2em;
     border: 2px solid $color-WhiteLittleGray;
 }
 
-.bubbles{
-    margin-top: $margin-Basic/4;
-    
-    span{
-        border-radius: 10px;
-        padding: $padding-Basic/8 $padding-Basic/4;
-        margin-top: $margin-Basic/4;
-        display: inline-block;
-        @include customFontSize($font-size-Small2, $min-font-size-Small2);
-    }
-}
-
 //------------
 // KeyFrames
 //------------
@@ -172,27 +160,24 @@ html{
     }
 }
 
-a{
+a, a:hover, a:active, a:visited, a:link{
     color: inherit;
     text-decoration: inherit;
+    cursor: pointer;
 }
 
-.black_text_link, .black_text_link:visited,
-.orange_text_link, .orange_text_link:visited{
-    color: inherit;
-    text-decoration: underline;
+.black_text_link{
+    color: $color-White;
+    border-bottom: 1px solid $color-White;
 }
 
-span.black_text_link, span.orange_text_link{
+span.black_text_link{
     cursor: pointer;
 }
 
 .black_text_link:hover{
     color: $color-Black;
-}
-
-.orange_text_link:hover{
-    color: $color-Orange;
+    border-bottom: 1px solid $color-Black;
 }
 
 p{
@@ -405,15 +390,6 @@ header{
         
     }
     
-    /*#go_down_arrow{
-        text-align: center;
-        margin-top : $margin-Basic;
-        
-        div{
-            display: inline-block;
-        }
-    }*/
-    
     #CV{
         
         margin-top: $margin-Basic *1.5; 
@@ -447,41 +423,24 @@ section{
     
     text-align: center;
     min-height: 100vh;
-    padding: $padding-Basic * 2 $padding-Basic $padding-Basic $padding-Basic;
+    padding: $padding-Basic * 1.5 $padding-Basic;
     color: $color-WhiteLittleGray; 
     
     &.orange_section{
-        background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+        background-color : #FC6948;
     }
+    
+    div.orange_to_blue, div.blue_to_orange{
+        width: 100%;
+        height: 5vh;
+        min-height: 20px;
+    }
+    
     &.blue_section{
-        /*background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);*/
-        background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+        background-color: #537895;
     }
     
 }
-
-//-------------------
-// Section : Summary
-//-------------------
-
-/*section#summary{
-    
-    .summary_item{
-        
-        margin-bottom: $margin-Basic/2;
-        
-        .summary_item_title{
-            
-            padding: $padding-Basic/2 $padding-Basic;
-            
-            svg{
-                height: 45px;
-                width: auto;
-                vertical-align: middle;    
-            }
-        }
-    }
-}*/
 
 //------------------------------------
 // Section : Studies & Certifications
@@ -490,7 +449,6 @@ section{
 section#studies_certifications{
     
     #studies{
-        
         margin-top: $margin-Basic * 3/4;
      
         .study{
@@ -499,6 +457,9 @@ section#studies_certifications{
 
             .left_panel{
                 margin-bottom: $margin-Basic/2;
+                border-left: 2px solid $color-WhiteLittleGray;
+                border-right: 2px solid $color-WhiteLittleGray;
+                padding-bottom: $padding-Basic/2;
 
                 .img-container{
 
@@ -515,28 +476,59 @@ section#studies_certifications{
                 
                 .title{    
                     font-weight: $Quicksand-Bold;
+                    margin-bottom: $margin-Basic/2;
                 }
+                
+                
+                table.tab_infos{
+                    margin-left: auto;
+                    margin-right: auto;
+                    text-align: left;
+                    
+                    tr{
+                        
+                        td.tab_icon{
+                            img{
+                                min-height: 15px;
+                                min-width: 15px;
+                                height: 2vh;
+                                width: 2vh;
+                            }
+                        }
+                        
+                        td.tab_desc{
+                            padding: $padding-Basic/8 0 $padding-Basic/8 $padding-Basic/4;
+                        }
+                    }
+                }
+                
             }
 
             .right_panel{
-                border-left: 2px solid $color-WhiteLittleGray;
                 text-align: left;
-                padding-bottom: $padding-Basic /2;
-                
-                .duration img, .place img, .website img{
-                    padding-right: $padding-Basic/4;
-                    min-height: 30px;
-                    min-width: 30px;
-                    height: 3vh;
-                    width: 3vh;
-                }
+                padding-top: $padding-Basic/2;
+                padding-bottom: $padding-Basic/2;
                 
                 p{
                     margin-top: $margin-Basic/2;
+                    
+                    &:first-child{
+                        margin-top: 0px;
+                    }
                 }
                 
                 .subjects_type{
                     font-weight: $Quicksand-SemiBold;
+                    text-align: left;
+                }
+                
+                .subjects_container{
+                    margin-right: $margin-Basic/2;
+                    
+                    span{
+                        margin-right: $margin-Basic/2;
+                        @include customFontSize($font-size-Small2, $min-font-size-Small2);
+                    }
                 }
                 
             }
@@ -544,7 +536,26 @@ section#studies_certifications{
     }
     
     #certifications{
-        margin-top: $margin-Basic *2;
+        margin-top: $margin-Basic;
+        
+        .certification{
+            margin-top: $margin-Basic/2;
+            
+            .img-container{
+                padding: $padding-Basic/2;
+                
+                img{
+                    min-height: 100px;
+                    height: 10vh;
+                    width: auto;
+                }
+            }
+            
+            p{
+                margin-top: $margin-Basic/4;
+                text-align: center;
+            }
+        }
         
     }
     

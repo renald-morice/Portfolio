@@ -43,7 +43,7 @@
 			<!--––––––––––––––––––––––––––––––––––––––––--->
 			<header>
                 <div class="row">
-                    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 reveal" data-RevealDelay="0" data-RevealOrigin="bottom" id="name">
+                    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 reveal" data-RevealDelay="100" data-RevealOrigin="bottom" id="name">
                         <h1>Rénald Morice</h1>
                         <div id="status">Etudiant en maîtrise informatique à l'Université du Québec à Chicoutimi</div>
                         <div id="looking_for">Recherche un stage de 6 mois à partir juillet 2018</div>
@@ -143,48 +143,7 @@
 			<!--––––––––––––––––––––––––––––––––––––––––--->
 			<!--                CONTENT                  -->
 			<!--––––––––––––––––––––––––––––––––––––––––--->
-            
-            <!--<section class="row orange_section" id="summary">
-                <h2 class="col-12">À propos de moi</h2>
                 
-                <div class="col-sm-12 col-md-6 summary_item reveal" data-RevealOrigin="bottom">
-                    <div class="summary_item_title border">
-                        <i class="fas fa-graduation-cap"></i>
-                        <h3>Actuellement</h3>
-                    </div>
-                    <p>
-                        Dum apud Persas, ut supra narravimus, perfidia regis motus agitat insperatos, et in eois tractibus bella rediviva consurgunt, anno sexto decimo et eo diutius post Nepotiani exitium, saeviens per urbem aeternam urebat cuncta Bellona, ex primordiis minimis ad clades excita luctuosas, quas obliterasset utinam iuge silentium! ne forte paria quandoque temptentur, plus exemplis generalibus nocitura quam delictis.
-                    </p>
-                </div>
-                <div class="col-sm-12 col-md-6 summary_item reveal" data-RevealOrigin="bottom">
-                    <div class="summary_item_title border">
-                        <i class="fas fa-bullseye"></i>
-                        <h3>Mon objectif</h3>
-                    </div>
-                    <p>
-                        Dum apud Persas, ut supra narravimus, perfidia regis motus agitat insperatos, et in eois tractibus bella rediviva consurgunt, anno sexto decimo et eo diutius post Nepotiani exitium, saeviens per urbem aeternam urebat cuncta Bellona, ex primordiis minimis ad clades excita luctuosas, quas obliterasset utinam iuge silentium! ne forte paria quandoque temptentur, plus exemplis generalibus nocitura quam delictis.
-                    </p>
-                </div>
-                <div class="col-sm-12 col-md-6 summary_item reveal" data-RevealOrigin="bottom">
-                    <div class="summary_item_title border">
-                        <i class="fab fa-leanpub"></i>
-                        <h3>Ce que j'aimerais découvrir dans les prochaines années</h3>
-                    </div>
-                    <p>
-                        Dum apud Persas, ut supra narravimus, perfidia regis motus agitat insperatos, et in eois tractibus bella rediviva consurgunt, anno sexto decimo et eo diutius post Nepotiani exitium, saeviens per urbem aeternam urebat cuncta Bellona, ex primordiis minimis ad clades excita luctuosas, quas obliterasset utinam iuge silentium! ne forte paria quandoque temptentur, plus exemplis generalibus nocitura quam delictis.
-                    </p>
-                </div>
-                <div class="col-sm-12 col-md-6 summary_item reveal" data-RevealOrigin="bottom">
-                    <div class="summary_item_title border">
-                        <i class="fas fa-check"></i>
-                        <h3>Mes qualités</h3>
-                    </div>
-                    <p>
-                        Dum apud Persas, ut supra narravimus, perfidia regis motus agitat insperatos, et in eois tractibus bella rediviva consurgunt, anno sexto decimo et eo diutius post Nepotiani exitium, saeviens per urbem aeternam urebat cuncta Bellona, ex primordiis minimis ad clades excita luctuosas, quas obliterasset utinam iuge silentium! ne forte paria quandoque temptentur, plus exemplis generalibus nocitura quam delictis.
-                    </p>
-                </div>
-			</section>-->
-            
             <!-----------  Studies & Certifications  ----------->
             <section class="row orange_section" id="studies_certifications">
                 
@@ -197,9 +156,23 @@
                             <div class="col-sm-12 col-md-3 left_panel">
                                 <div class="img-container"><img src="images/formations/uqac.svg" alt="Logo de l'Université du Québec à Chicoutimi"></div>
                                 <div class="title">Maîtrise en informatique (option jeux vidéo) à l'Université du Québec à Chicoutimi</div>
-                            </div>
-                            <div class="col-sm-12 col-md-9 right_panel">
-                                <div class="duration">
+                                
+                                <table class="tab_infos">
+                                   <tr>
+                                        <td class="tab_icon"><img src="images/icon/clock.svg"></td>
+                                        <td class="tab_desc">1 an (septembre 2017 - juin 2018)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tab_icon"><img src="images/icon/location.svg"></td>
+                                        <td class="tab_desc">Chicoutimi, QC, Canada</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tab_icon"><img src="images/icon/link.svg"></td>
+                                        <td class="tab_desc"><a class="black_text_link" href="http://uqac.ca" target="_blank">www.uqac.ca</a></td>
+                                    </tr>
+                                </table>
+                                
+                                <!--<div class="duration">
                                     <img src="images/icon/clock.svg">
                                     1 an (septembre 2017 - juin 2018)
                                 </div>
@@ -210,50 +183,52 @@
                                 <div class="website">
                                     <img src="images/icon/link.svg">
                                     <a class="black_text_link" href="http://uqac.ca" target="_blank">www.uqac.ca</a>
-                                </div>
-                                <p>J’effectue actuellement une <a class="black_text_link" href="http://programmes.uqac.ca/1537" alt="Descriptif de la maîtrise" target="_blank">maîtrise en informatique (option jeux vidéo)</a> à l’UQAC. Étant donné que je suis intéressé par les domaines métiers  liés au divertissement (dont le jeu vidéo), cette maîtrise a éveillé mon attention. Cependant, j'aime apprendre de nouvelles choses et ceci dans des domaines divers et variés. C'est ainsi que cette maîtrise a su répondre à mes attentes en me proposant des cours concernant l'industrie du jeu vidéo ainsi que les cours d'informatique compris dans la maîtrise informatique classique. Voici la liste des cours auxquels j’ai participé :</p>
+                                </div>-->
+                            </div>
+                            <div class="col-sm-12 col-md-9 right_panel">
+                                <p>J’effectue une <a class="black_text_link" href="http://programmes.uqac.ca/1537" alt="Descriptif de la maîtrise" target="_blank">maîtrise en informatique (option jeux vidéo)</a> à l’UQAC. Je suis intéressé par les domaines métiers liés au divertissement (dont le jeu vidéo) mais j'aime également acquérir de nouvelles connaissances dans d'autres domaines. C'est la raison pour laquelle j'ai apprécié réaliser cette maitrîse car j'ai pu participer à des cours concernant l'industrie du jeu vidéo ainsi et à des cours d'informatique plus conventionnels proposés par la maîtrise informatique classique.</p>
                                 
-                                <p class="subjects_type">Cours d'informatiques en lien avec l'industrie du jeu vidéo : </p>
-                                <div class="bubbles">
-                                    <span class="border">
+                                <p class="subjects_type">Cours d'informatiques suivis en lien avec l'industrie du jeu vidéo : </p>
+                                <div class="subjects_container">
+                                    <span>
                                         <a class="black_text_link" href="http://cours.uqac.ca/8INF955" alt="Descriptif du cours" target="_blank">
-                                            Principes de conception et de développement de jeux vidéo
+                                            Principes de création de jeux vidéo
                                         </a>
                                     </span>
-                                    <span class="border">
+                                    <span>
                                         <a class="black_text_link" href="http://cours.uqac.ca/8IAR125" alt="Descriptif du cours" target="_blank">
                                             Intelligence artificielle pour le jeu vidéo
                                         </a>
                                     </span>
-                                    <span class="border">
+                                    <span>
                                         <a class="black_text_link" href="http://cours.uqac.ca/8INF871" alt="Descriptif du cours" target="_blank">
                                             Principes des moteurs jeux
                                         </a>
                                     </span>
                                 </div>
-                                <p class="subjects_type">Autres cours d'informatique : </p>
-                                <div class="bubbles">
-                                    <span class="border">
+                                <p class="subjects_type">Autres cours d'informatique suivis : </p>
+                                <div class="subjects_container">
+                                    <span>
                                         <a class="black_text_link" href="http://cours.uqac.ca/8INF847" alt="Descriptif du cours" target="_blank">
                                             Gestion de projets informatiques
                                         </a>
                                     </span>
-                                    <span class="border">
+                                    <span>
                                         <a class="black_text_link" href="http://cours.uqac.ca/8INF851" alt="Descriptif du cours" target="_blank">
                                             Génie logiciel
                                         </a>
                                     </span>
-                                    <span class="border">
+                                    <span>
                                         <a class="black_text_link" href="http://cours.uqac.ca/8INF957" alt="Descriptif du cours" target="_blank">
                                             Programmation objet avancée
                                         </a>
                                     </span>
-                                    <span class="border">
+                                    <span>
                                         <a class="black_text_link" href="http://cours.uqac.ca/8INF803" alt="Descriptif du cours" target="_blank">
                                             Bases de données réparties
                                         </a>
                                     </span>
-                                    <span class="border">
+                                    <span>
                                         <a class="black_text_link" href="http://cours.uqac.ca/8INF954" alt="Descriptif du cours" target="_blank">
                                             Forage de données
                                         </a>
@@ -263,14 +238,28 @@
                         </div>
                     </div>
                     
-                    <div class="col-md-12 col-lg-10 col-lg-offset-1 study reveal" data-RevealDelay="250" data-RevealOrigin="bottom">
+                    <div class="col-md-12 col-lg-10 col-lg-offset-1 study reveal" data-RevealDelay="0" data-RevealOrigin="bottom">
                         <div class="row"> 
                             <div class="col-sm-12 col-md-3 left_panel">
                                 <div class="img-container"><img src="images/formations/isen.svg" alt="Logo de l'ISEN"></div>
                                 <div class="title">École d'ingénieurs des Hautes Technologies et du Numérique</div>
-                            </div>
-                            <div class="col-sm-12 col-md-9 right_panel">
-                                <div class="duration">
+                                
+                                <table class="tab_infos">
+                                   <tr>
+                                        <td class="tab_icon"><img src="images/icon/clock.svg"></td>
+                                        <td class="tab_desc">5 ans (septembre 2013 - juin 2018)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tab_icon"><img src="images/icon/location.svg"></td>
+                                        <td class="tab_desc">Brest, France</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tab_icon"><img src="images/icon/link.svg"></td>
+                                        <td class="tab_desc"><a class="black_text_link" href="http://isen-brest.fr/" target="_blank">www.isen-brest.fr</a></td>
+                                    </tr>
+                                </table>
+                                
+                                <!--<div class="duration">
                                     <img src="images/icon/clock.svg">
                                     5 ans (septembre 2013 - juin 2018)
                                 </div>
@@ -281,12 +270,12 @@
                                 <div class="website">
                                     <img src="images/icon/link.svg">
                                     <a class="black_text_link" href="http://isen-brest.fr/" target="_blank">www.isen-brest.fr</a>
-                                </div>
+                                </div>-->
+                            </div>
+                            <div class="col-sm-12 col-md-9 right_panel">
                                 <p>Pour mes trois premières années à l’ISEN, j’ai choisi d’intégrer la <a class="black_text_link" href="http://isen-brest.fr/formation-ingenieur/ingenieur-informatique/" target="_blank" alt="Site de l'ISEN Brest - filière CIR">filière CIR</a> (Cycle Informatique et Réseaux) qui permet immédiatement d’acquérir de solides compétences en informatique sans négliger l’apprentissage des sciences. Cette filière m'a également permis d'avoir une première expérience dans le domaine de l'informatique en réalisant un <span class="black_text_link scrollTo" data-scrollTo="#work_experiences">stage de 2 mois et une alternance d'un an</span>.</p>
                                 
-                                <p>Pour ma première année de Master, soit la quatrième année à l'ISEN, j’ai choisi l’option « <a class="black_text_link" href="http://isen-brest.fr/formation-ingenieur/domaines-professionnels/robotique-mobile/" target="_blank" alt="Site de l'ISEN Brest - Option Robotique - Drones">Robotique – Drones</a> » me permettant de me sensibiliser aux problématiques de conception de machines autonomes dans des environnements variés et changeants.</p>
-                                
-                                <p>L'ISEN Brest est partenaire avec l’Université du Québec à Chicoutimi et propose à ses étudiants de partir à Chicoutimi pour réaliser un double diplôme à l'international lors de leur dernière année, ce que j’ai décidé de faire !</p>
+                                <p>L'ISEN Brest est partenaire avec l’Université du Québec à Chicoutimi. Pour la deuxième année de Master et dernière année à L'ISEN, l'école propose à ses étudiants de partir à Chicoutimi pour réaliser un double diplôme à l'international, ce que j’ai décidé de faire !</p>
                             </div>
                         </div>
                     </div>
@@ -297,9 +286,26 @@
                 <div class="row" id="certifications">
                     <h2 class="col-12">Certifications</h2>
                     
+                    <div class="col-md-12 col-lg-5 col-lg-offset-1 reveal certification" data-RevealDelay="0" data-RevealOrigin="left">
+                        <div class="img-container"><img src="images/formations/medal.svg"></div>
+                        <h3>Cambridge English First</h3>
+                        <div><a class="black_text_link" href="doc/FCE.pdf" target="_blank" alt="Certificat - Cambridge English First">Visualiser le certificat</a></div>
+                        <p>Examen international certifiant un bon niveau d'anglais (capacité à évoluer dans un environnement anglophone sans être bilingue).</p>
+                    </div>
+
+                    <div class="col-md-12 col-lg-5 reveal certification" data-RevealDelay="0" data-RevealOrigin="right">
+                        <div class="img-container"><img src="images/formations/medal.svg"></div>
+                        <h3>Certification Voltaire</h3>
+                        <div><a class="black_text_link" href="doc/Voltaire.pdf" target="_blank" alt="Certificat - Voltaire">Visualiser le certificat</a></div>
+                        <p>Certificat permet de valider une bonne maîtrise de langue française à l'écrit (voir le certificat pour connaître les caractéristiques du barème).</p>
+                    </div>
                 </div>
                 
 			</section>
+            
+            
+            <div class="section_separator">
+            </div>
             
             <!----------------  Work Experiences ---------->
             <section class="row blue_section" id="work_experiences">

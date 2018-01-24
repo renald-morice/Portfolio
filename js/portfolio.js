@@ -174,7 +174,7 @@ $( document ).ready(function() {
     /* Reveal JS */
     /*-----------*/
     
-    window.sr = ScrollReveal();
+    window.sr = ScrollReveal({ reset: true });
     
     $(".reveal").each(function() {
         
@@ -183,6 +183,7 @@ $( document ).ready(function() {
             distance: "5vw",
             easing: 'ease-in-out',
             duration: 800,
+            scale: 1,
             delay: $(this).attr("data-RevealDelay")
         });
         
