@@ -104,6 +104,80 @@ h3 {
     h3 {
       font-size: 22.5px; } }
 
+h4 {
+  font-weight: 700;
+  font-size: 2vh;
+  margin: 1em 0; }
+  @media (max-height: 650px) {
+    h4 {
+      font-size: 15px; } }
+
+h5 {
+  font-weight: 500;
+  font-size: 2vh; }
+  @media (max-height: 650px) {
+    h5 {
+      font-size: 15px; } }
+
+.model-1 {
+  margin-top: 2em; }
+  .model-1 .left_panel {
+    margin-bottom: 1em;
+    border-left: 2px solid #FBFBFB;
+    border-right: 2px solid #FBFBFB;
+    padding-bottom: 1em; }
+    .model-1 .left_panel .img-container {
+      padding: 0 1em; }
+      .model-1 .left_panel .img-container img {
+        height: auto;
+        max-width: 200px;
+        min-width: 90px;
+        width: 10vh; }
+    .model-1 .left_panel h4 {
+      margin: 1em 0; }
+    .model-1 .left_panel table.tab_infos {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left; }
+      .model-1 .left_panel table.tab_infos tr td.tab_icon img {
+        min-height: 15px;
+        min-width: 15px;
+        height: 2vh;
+        width: 2vh; }
+      .model-1 .left_panel table.tab_infos tr td.tab_desc {
+        padding: 0.25em 0 0.25em 0.5em; }
+  .model-1 .right_panel {
+    text-align: left;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+    .model-1 .right_panel p {
+      margin-top: 1em; }
+      .model-1 .right_panel p:first-child {
+        margin-top: 0px; }
+    .model-1 .right_panel h5 {
+      text-align: left;
+      margin-top: 1em; }
+    .model-1 .right_panel .iterator {
+      margin-right: 1em; }
+      .model-1 .right_panel .iterator span {
+        margin-right: 1em;
+        font-size: 1.7vh; }
+        @media (max-height: 650px) {
+          .model-1 .right_panel .iterator span {
+            font-size: 12.75px; } }
+
+.model-2 {
+  margin-top: 1em; }
+  .model-2 .img-container {
+    padding: 1em; }
+    .model-2 .img-container img {
+      min-height: 100px;
+      height: 10vh;
+      width: auto; }
+  .model-2 p {
+    margin-top: 0.5em;
+    text-align: center; }
+
 nav {
   position: fixed;
   z-index: 2;
@@ -229,7 +303,7 @@ header {
 section {
   text-align: center;
   min-height: 100vh;
-  padding: 3em 2em;
+  padding: 4em 2em;
   color: #FBFBFB; }
   section.orange_section {
     background-color: #FC6948; }
@@ -240,68 +314,12 @@ section {
   section.blue_section {
     background-color: #537895; }
 
-section#studies_certifications #studies {
-  margin-top: 1.5em; }
-  section#studies_certifications #studies .study {
-    margin-top: 2em; }
-    section#studies_certifications #studies .study .left_panel {
-      margin-bottom: 1em;
-      border-left: 2px solid #FBFBFB;
-      border-right: 2px solid #FBFBFB;
-      padding-bottom: 1em; }
-      section#studies_certifications #studies .study .left_panel .img-container {
-        padding: 1em; }
-        section#studies_certifications #studies .study .left_panel .img-container img {
-          height: auto;
-          max-width: 200px;
-          min-width: 90px;
-          width: 10vh; }
-      section#studies_certifications #studies .study .left_panel .title {
-        font-weight: 700;
-        margin-bottom: 1em; }
-      section#studies_certifications #studies .study .left_panel table.tab_infos {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: left; }
-        section#studies_certifications #studies .study .left_panel table.tab_infos tr td.tab_icon img {
-          min-height: 15px;
-          min-width: 15px;
-          height: 2vh;
-          width: 2vh; }
-        section#studies_certifications #studies .study .left_panel table.tab_infos tr td.tab_desc {
-          padding: 0.25em 0 0.25em 0.5em; }
-    section#studies_certifications #studies .study .right_panel {
-      text-align: left;
-      padding-top: 1em;
-      padding-bottom: 1em; }
-      section#studies_certifications #studies .study .right_panel p {
-        margin-top: 1em; }
-        section#studies_certifications #studies .study .right_panel p:first-child {
-          margin-top: 0px; }
-      section#studies_certifications #studies .study .right_panel .subjects_type {
-        font-weight: 500;
-        text-align: left; }
-      section#studies_certifications #studies .study .right_panel .subjects_container {
-        margin-right: 1em; }
-        section#studies_certifications #studies .study .right_panel .subjects_container span {
-          margin-right: 1em;
-          font-size: 1.7vh; }
-          @media (max-height: 650px) {
-            section#studies_certifications #studies .study .right_panel .subjects_container span {
-              font-size: 12.75px; } }
-section#studies_certifications #certifications {
-  margin-top: 2em; }
-  section#studies_certifications #certifications .certification {
-    margin-top: 1em; }
-    section#studies_certifications #certifications .certification .img-container {
-      padding: 1em; }
-      section#studies_certifications #certifications .certification .img-container img {
-        min-height: 100px;
-        height: 10vh;
-        width: auto; }
-    section#studies_certifications #certifications .certification p {
-      margin-top: 0.5em;
-      text-align: center; }
+section#studies {
+  padding-bottom: 0px;
+  min-height: inherit; }
+
+section#certifications {
+  min-height: inherit; }
 
 footer {
   color: #FEFEFE;

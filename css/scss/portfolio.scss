@@ -205,6 +205,120 @@ h3{
     @include customFontSize($font-size-Medium, $min-font-size-Medium);
 }
 
+h4{
+    font-weight: $Quicksand-Bold;
+    @include customFontSize($font-size-Normal, $min-font-size-Normal);
+    margin: $margin-Basic/2 0;
+}
+
+h5{
+    font-weight: $Quicksand-SemiBold;
+    @include customFontSize($font-size-Normal, $min-font-size-Normal);
+}
+
+//---------------
+// MODELS
+//---------------
+
+.model-1{
+
+    margin-top: $margin-Basic;
+
+    .left_panel{
+        margin-bottom: $margin-Basic/2;
+        border-left: 2px solid $color-WhiteLittleGray;
+        border-right: 2px solid $color-WhiteLittleGray;
+        padding-bottom: $padding-Basic/2;
+
+        .img-container{
+
+            padding: 0 $padding-Basic/2;
+
+            img{
+                height: auto;
+                max-width: 200px;
+                min-width: 90px;
+                width: 10vh;
+            }
+
+        }
+        
+        h4{
+            margin: $margin-Basic/2 0;
+        }
+
+        table.tab_infos{
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+
+            tr{
+
+                td.tab_icon{
+                    img{
+                        min-height: 15px;
+                        min-width: 15px;
+                        height: 2vh;
+                        width: 2vh;
+                    }
+                }
+
+                td.tab_desc{
+                    padding: $padding-Basic/8 0 $padding-Basic/8 $padding-Basic/4;
+                }
+            }
+        }
+
+    }
+
+    .right_panel{
+        text-align: left;
+        padding-top: $padding-Basic/2;
+        padding-bottom: $padding-Basic/2;
+
+        p{
+            margin-top: $margin-Basic/2;
+
+            &:first-child{
+                margin-top: 0px;
+            }
+        }
+
+        h5{
+            text-align: left;
+            margin-top: $margin-Basic/2;
+        }
+
+        .iterator{
+            margin-right: $margin-Basic/2;
+
+            span{
+                margin-right: $margin-Basic/2;
+                @include customFontSize($font-size-Small2, $min-font-size-Small2);
+            }
+        }
+
+    }
+} 
+
+.model-2{
+    margin-top: $margin-Basic/2;
+
+    .img-container{
+        padding: $padding-Basic/2;
+
+        img{
+            min-height: 100px;
+            height: 10vh;
+            width: auto;
+        }
+    }
+
+    p{
+        margin-top: $margin-Basic/4;
+        text-align: center;
+    }
+}
 
 //---------------
 // Nav
@@ -423,7 +537,7 @@ section{
     
     text-align: center;
     min-height: 100vh;
-    padding: $padding-Basic * 1.5 $padding-Basic;
+    padding: $padding-Basic * 2 $padding-Basic;
     color: $color-WhiteLittleGray; 
     
     &.orange_section{
@@ -446,119 +560,13 @@ section{
 // Section : Studies & Certifications
 //------------------------------------
 
-section#studies_certifications{
-    
-    #studies{
-        margin-top: $margin-Basic * 3/4;
-     
-        .study{
+section#studies{
+    padding-bottom: 0px;
+    min-height: inherit;
+}
 
-            margin-top: $margin-Basic;
-
-            .left_panel{
-                margin-bottom: $margin-Basic/2;
-                border-left: 2px solid $color-WhiteLittleGray;
-                border-right: 2px solid $color-WhiteLittleGray;
-                padding-bottom: $padding-Basic/2;
-
-                .img-container{
-
-                    padding: $padding-Basic/2;
-
-                    img{
-                        height: auto;
-                        max-width: 200px;
-                        min-width: 90px;
-                        width: 10vh;
-                    }
-
-                }
-                
-                .title{    
-                    font-weight: $Quicksand-Bold;
-                    margin-bottom: $margin-Basic/2;
-                }
-                
-                
-                table.tab_infos{
-                    margin-left: auto;
-                    margin-right: auto;
-                    text-align: left;
-                    
-                    tr{
-                        
-                        td.tab_icon{
-                            img{
-                                min-height: 15px;
-                                min-width: 15px;
-                                height: 2vh;
-                                width: 2vh;
-                            }
-                        }
-                        
-                        td.tab_desc{
-                            padding: $padding-Basic/8 0 $padding-Basic/8 $padding-Basic/4;
-                        }
-                    }
-                }
-                
-            }
-
-            .right_panel{
-                text-align: left;
-                padding-top: $padding-Basic/2;
-                padding-bottom: $padding-Basic/2;
-                
-                p{
-                    margin-top: $margin-Basic/2;
-                    
-                    &:first-child{
-                        margin-top: 0px;
-                    }
-                }
-                
-                .subjects_type{
-                    font-weight: $Quicksand-SemiBold;
-                    text-align: left;
-                }
-                
-                .subjects_container{
-                    margin-right: $margin-Basic/2;
-                    
-                    span{
-                        margin-right: $margin-Basic/2;
-                        @include customFontSize($font-size-Small2, $min-font-size-Small2);
-                    }
-                }
-                
-            }
-        }   
-    }
-    
-    #certifications{
-        margin-top: $margin-Basic;
-        
-        .certification{
-            margin-top: $margin-Basic/2;
-            
-            .img-container{
-                padding: $padding-Basic/2;
-                
-                img{
-                    min-height: 100px;
-                    height: 10vh;
-                    width: auto;
-                }
-            }
-            
-            p{
-                margin-top: $margin-Basic/4;
-                text-align: center;
-            }
-        }
-        
-    }
-    
+section#certifications{
+    min-height: inherit;
 }
 
 //---------------
