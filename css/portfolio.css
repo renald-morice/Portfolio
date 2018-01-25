@@ -27,9 +27,6 @@
     width: 15px;
     height: auto; }
 
-.border {
-  border: 2px solid #FBFBFB; }
-
 @keyframes blink {
   50% {
     opacity: 1; }
@@ -73,16 +70,14 @@ a, a:hover, a:active, a:visited, a:link {
   text-decoration: inherit;
   cursor: pointer; }
 
-.black_text_link {
-  color: #FFFFFF;
-  border-bottom: 1px solid #FFFFFF; }
-
-span.black_text_link {
+a.gray_text_link, span.gray_text_link {
+  border-bottom: 1px solid #555555;
+  padding-left: 2px;
+  padding-right: 2px;
   cursor: pointer; }
-
-.black_text_link:hover {
-  color: #14100E;
-  border-bottom: 1px solid #14100E; }
+  a.gray_text_link:hover, span.gray_text_link:hover {
+    background-color: #555555;
+    color: #EFEFEF; }
 
 p {
   margin: 0;
@@ -123,8 +118,8 @@ h5 {
   margin-top: 2em; }
   .model-1 .left_panel {
     margin-bottom: 1em;
-    border-left: 2px solid #FBFBFB;
-    border-right: 2px solid #FBFBFB;
+    border-left: 1px solid #555555;
+    border-right: 1px solid #555555;
     padding-bottom: 1em; }
     .model-1 .left_panel .img-container {
       padding: 0 1em; }
@@ -202,13 +197,15 @@ nav {
       display: inline-block;
       cursor: pointer;
       padding: 0.5em 1em;
-      transition: color 0.25s ease; }
+      border: 1px solid #14100E;
+      border-radius: 3px;
+      transition: border 0.5s ease; }
       nav ul li:hover, nav ul li:active {
-        color: #F67D33;
+        border: 1px solid #FEFEFE;
         cursor: pointer; }
 
 header {
-  background-image: url("../images/backgrounds/network.jpg");
+  background-image: url("../images/backgrounds/console.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: scroll;
@@ -218,14 +215,14 @@ header {
   color: #FEFEFE; }
   header #name {
     margin-top: 3em;
-    color: #FBFBFB;
+    color: #FEFEFE;
     text-align: center;
     padding-left: 0;
     padding-right: 0; }
     header #name div {
       padding: 0.6666666667em 1em 0 1em; }
       header #name div#status {
-        border-top: 1px solid #FBFBFB;
+        border-top: 1px solid #FEFEFE;
         font-size: 3vh; }
         @media (max-height: 650px) {
           header #name div#status {
@@ -304,15 +301,9 @@ section {
   text-align: center;
   min-height: 100vh;
   padding: 4em 2em;
-  color: #FBFBFB; }
-  section.orange_section {
-    background-color: #FC6948; }
-  section div.orange_to_blue, section div.blue_to_orange {
-    width: 100%;
-    height: 5vh;
-    min-height: 20px; }
-  section.blue_section {
-    background-color: #537895; }
+  color: #FEFEFE;
+  background-color: #EFEFEF;
+  color: #555555; }
 
 section#studies {
   padding-bottom: 0px;
