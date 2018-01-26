@@ -44,6 +44,7 @@ $color-Gray            : #555555;
 $color-BlueGray        : #2c3e50;
 $color-SmoothGray      : #EEEEEE;
 $color-SmoothGray2     : #EFEFEF;
+$color-SmoothGray3     : #e5e5e5;
 $color-White           : #FFFFFF;
 $color-SmoothWhite     : #FEFEFE;
 $color-WhiteLittleBlue : #E4F1FE;
@@ -51,7 +52,7 @@ $color-WhiteLittleBlue : #E4F1FE;
 $color-DarkBlue    : #213247;
 $color-BrightBlue  : #466986;
 $color-Orange      : #F67D33;
-$color-DarkPink    : #ED6362;
+$color-LightRed    : #e74c3c;
 
 //Marging & padding
 $margin-Basic : 2em;
@@ -162,17 +163,15 @@ a, a:hover, a:active, a:visited, a:link{
 a.text_link, span.text_link{
     
     cursor: pointer;
-    color : $color-DarkPink;
+    color : $color-LightRed;
     padding-left: 2px;
     padding-right: 2px;
     
     &:hover{
-        //border-bottom: 1px solid $color-Gray;
-        background-color: $color-DarkPink;
+        background-color: $color-LightRed;
         color: $color-SmoothGray2;
     }     
 }
-
 
 p{
     margin: 0;
@@ -214,15 +213,39 @@ h5{
 // MODELS
 //---------------
 
+table.tab_infos{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+
+    tr{
+
+        td.tab_icon{
+            img{
+                min-height: 15px;
+                min-width: 15px;
+                height: 2vh;
+                width: 2vh;
+            }
+        }
+
+        td.tab_desc{
+            padding: $padding-Basic/8 0 $padding-Basic/8 $padding-Basic/4;
+        }
+    }
+}
+
+
 .model-1{
 
     margin-top: $margin-Basic;
 
     .left_panel{
         margin-bottom: $margin-Basic/2;
-        border-left: 1px solid $color-Gray;
-        border-right: 1px solid $color-Gray;
         padding-bottom: $padding-Basic/2;
+        padding-top: $padding-Basic/2;
+        background-color: $color-SmoothGray3;
+        border-radius: 5px;
 
         .img-container{
 
@@ -240,34 +263,10 @@ h5{
         h4{
             margin: $margin-Basic/2 0;
         }
-
-        table.tab_infos{
-            margin-left: auto;
-            margin-right: auto;
-            text-align: left;
-
-            tr{
-
-                td.tab_icon{
-                    img{
-                        min-height: 15px;
-                        min-width: 15px;
-                        height: 2vh;
-                        width: 2vh;
-                    }
-                }
-
-                td.tab_desc{
-                    padding: $padding-Basic/8 0 $padding-Basic/8 $padding-Basic/4;
-                }
-            }
-        }
-
     }
 
     .right_panel{
         text-align: left;
-        padding-top: $padding-Basic/2;
         padding-bottom: $padding-Basic/2;
 
         p{
@@ -302,7 +301,7 @@ h5{
         padding: $padding-Basic/2;
 
         img{
-            min-height: 100px;
+            min-height: 50px;
             height: 10vh;
             width: auto;
         }
@@ -519,7 +518,6 @@ header{
             background-color: $color-Black;
             color: $color-SmoothWhite;
             font-weight: $Quicksand-Normal;
-            //padding: $padding-Basic/2 $padding-Basic;
             border: 1px solid $color-SmoothWhite;
 
             transition: background-color 0.5s ease;
@@ -547,7 +545,7 @@ section{
 }
 
 //------------------------------------
-// Section : Studies & Certifications
+// Section : Studies
 //------------------------------------
 
 section#studies{
@@ -555,8 +553,20 @@ section#studies{
     min-height: inherit;
 }
 
+//------------------------------------
+// Section : Certifications
+//------------------------------------
+
 section#certifications{
     min-height: inherit;
+}
+
+
+//------------------------------------
+// Section : Experiences
+//------------------------------------
+
+section#experiences{
 }
 
 //---------------

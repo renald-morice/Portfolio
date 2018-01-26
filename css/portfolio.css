@@ -72,11 +72,11 @@ a, a:hover, a:active, a:visited, a:link {
 
 a.text_link, span.text_link {
   cursor: pointer;
-  color: #ED6362;
+  color: #e74c3c;
   padding-left: 2px;
   padding-right: 2px; }
   a.text_link:hover, span.text_link:hover {
-    background-color: #ED6362;
+    background-color: #e74c3c;
     color: #EFEFEF; }
 
 p {
@@ -114,13 +114,26 @@ h5 {
     h5 {
       font-size: 15px; } }
 
+table.tab_infos {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left; }
+  table.tab_infos tr td.tab_icon img {
+    min-height: 15px;
+    min-width: 15px;
+    height: 2vh;
+    width: 2vh; }
+  table.tab_infos tr td.tab_desc {
+    padding: 0.25em 0 0.25em 0.5em; }
+
 .model-1 {
   margin-top: 2em; }
   .model-1 .left_panel {
     margin-bottom: 1em;
-    border-left: 1px solid #555555;
-    border-right: 1px solid #555555;
-    padding-bottom: 1em; }
+    padding-bottom: 1em;
+    padding-top: 1em;
+    background-color: #e5e5e5;
+    border-radius: 5px; }
     .model-1 .left_panel .img-container {
       padding: 0 1em; }
       .model-1 .left_panel .img-container img {
@@ -130,20 +143,8 @@ h5 {
         width: 10vh; }
     .model-1 .left_panel h4 {
       margin: 1em 0; }
-    .model-1 .left_panel table.tab_infos {
-      margin-left: auto;
-      margin-right: auto;
-      text-align: left; }
-      .model-1 .left_panel table.tab_infos tr td.tab_icon img {
-        min-height: 15px;
-        min-width: 15px;
-        height: 2vh;
-        width: 2vh; }
-      .model-1 .left_panel table.tab_infos tr td.tab_desc {
-        padding: 0.25em 0 0.25em 0.5em; }
   .model-1 .right_panel {
     text-align: left;
-    padding-top: 1em;
     padding-bottom: 1em; }
     .model-1 .right_panel p {
       margin-top: 1em; }
@@ -166,7 +167,7 @@ h5 {
   .model-2 .img-container {
     padding: 1em; }
     .model-2 .img-container img {
-      min-height: 100px;
+      min-height: 50px;
       height: 10vh;
       width: auto; }
   .model-2 p {
