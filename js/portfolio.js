@@ -174,7 +174,7 @@ $( document ).ready(function() {
     /* Reveal JS */
     /*-----------*/
     
-    window.sr = ScrollReveal({ reset: true });
+    window.sr = ScrollReveal();
     
     $(".reveal").each(function() {
         

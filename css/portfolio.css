@@ -70,13 +70,13 @@ a, a:hover, a:active, a:visited, a:link {
   text-decoration: inherit;
   cursor: pointer; }
 
-a.gray_text_link, span.gray_text_link {
-  border-bottom: 1px solid #555555;
+a.text_link, span.text_link {
+  cursor: pointer;
+  color: #ED6362;
   padding-left: 2px;
-  padding-right: 2px;
-  cursor: pointer; }
-  a.gray_text_link:hover, span.gray_text_link:hover {
-    background-color: #555555;
+  padding-right: 2px; }
+  a.text_link:hover, span.text_link:hover {
+    background-color: #ED6362;
     color: #EFEFEF; }
 
 p {

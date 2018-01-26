@@ -159,14 +159,16 @@ a, a:hover, a:active, a:visited, a:link{
     cursor: pointer;
 }
 
-a.gray_text_link, span.gray_text_link{
-    border-bottom: 1px solid $color-Gray;
+a.text_link, span.text_link{
+    
+    cursor: pointer;
+    color : $color-DarkPink;
     padding-left: 2px;
     padding-right: 2px;
-    cursor: pointer;
     
     &:hover{
-        background-color: $color-Gray;
+        //border-bottom: 1px solid $color-Gray;
+        background-color: $color-DarkPink;
         color: $color-SmoothGray2;
     }     
 }
