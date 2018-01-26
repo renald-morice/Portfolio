@@ -506,20 +506,26 @@ header{
         text-align: center;
 
         a{
+            
+            
+            width: 12vh;
+            height: 12vh;
+            border-radius: 50%;
+            line-height: 12vh;
+            
             display: inline-block;
             text-decoration: none;
 
             background-color: $color-Black;
             color: $color-SmoothWhite;
             font-weight: $Quicksand-Normal;
-            padding: $padding-Basic/2 $padding-Basic;
-            border-radius: 2px;
+            //padding: $padding-Basic/2 $padding-Basic;
             border: 1px solid $color-SmoothWhite;
 
             transition: background-color 0.5s ease;
 
             &:hover, &:active{
-                background-color: $color-DarkBlue;
+                background-color: $color-BrightBlue;
             }
         }
     }

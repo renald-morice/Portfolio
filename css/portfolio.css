@@ -285,17 +285,19 @@ header {
     margin-top: 3em;
     text-align: center; }
     header #CV a {
+      width: 12vh;
+      height: 12vh;
+      border-radius: 50%;
+      line-height: 12vh;
       display: inline-block;
       text-decoration: none;
       background-color: #14100E;
       color: #FEFEFE;
       font-weight: 400;
-      padding: 1em 2em;
-      border-radius: 2px;
       border: 1px solid #FEFEFE;
       transition: background-color 0.5s ease; }
       header #CV a:hover, header #CV a:active {
-        background-color: #213247; }
+        background-color: #466986; }
 
 section {
   text-align: center;
