@@ -39,6 +39,7 @@
                 </div>
                 <ul class="row">
                     <li class="scrollTo" data-scrollTo="header">Accueil</li>
+                     <!-- <li class="scrollTo" data-scrollTo="#about">À propos</li> -->
                     <li class="scrollTo" data-scrollTo="#studies">Études</li>
                     <li class="scrollTo" data-scrollTo="#certifications">Certifications</li>
                     <li class="scrollTo" data-scrollTo="#work_experiences">Expériences</li>
@@ -51,15 +52,25 @@
 			<!--                HEADER                   -->
 			<!-- ======================================= -->
 			<header>
+                
                 <div class="row">
-                    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 reveal" data-RevealDelay="100" data-RevealOrigin="bottom" id="name">
+                    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 reveal" data-RevealDelay="200" data-RevealOrigin="bottom" id="name">
                         <h1>Rénald Morice</h1>
-                        <div id="status">Etudiant en maîtrise informatique à l'Université du Québec à Chicoutimi</div>
+                        <div class="row" id="email">renaldmorice@hotmai.fr</div>
+                        <div class="row" id="contact">
+                            <a href="mailto:renaldmorice@hotmail.fr" title="Envoyer un mail"><i class="fas fa-envelope"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/renaldmorice" title="Afficher le profil LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a target="_blank" href="https://github.com/renald-morice" title="Afficher le profil GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div id="status">Étudiant en maîtrise informatique à l'Université du Québec à Chicoutimi</div>
                         <div id="looking_for">Recherche un stage de 6 mois à partir juillet 2018</div>
 
                     </div>
                 </div>
-                <div class="row">
+                <div class="row reveal" data-RevealDelay="500" data-RevealOrigin="top" id="CV">
+                    <a class="rounded_btn" target="_blank" href="CV-RenaldMorice.pdf"><span>CV</span></a>
+                </div>
+                <!-- <div class="row">
                     <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2" id="intro_desc">
                         <div class="row custom_scrollbar" id="read_chat">
                             
@@ -115,7 +126,7 @@
                             
                             <div class="row animated me" data-waitingTime="3">
                                 <div class="col-xs-2 col-xs-offset-1 picture_chat"><img src="images/photo/renaldmorice.jpg" alt="Photo de Rénald Morice"></div>
-                                <div class="col-xs-6 col-md-4 msg_chat">Je recherche un <b>un stage</b> dans le domaine vaste de l'informatique, pour une durée de 6 mois à partir de juillet 2018.</div>
+                                <div class="col-xs-6 col-md-4 msg_chat">Je recherche <b>un stage</b> dans le domaine vaste de l'informatique, pour une durée de 6 mois à partir de juillet 2018.</div>
                             </div>
                             
                             <div class="row animated me" data-waitingTime="4">
@@ -143,15 +154,20 @@
                             </div>
                         </div>
                     </div>
-                </div>                
-                <div class="row" id="CV">
-				    <a target="_blank" href="CV-RenaldMorice.pdf"> CV ici !</a>
-                </div>
+                </div> -->
+            
 			</header>
             
 			<!-- ======================================= -->
 			<!--                CONTENT                  -->
 			<!-- ======================================= -->
+            
+            <!-- ========  About  ======== -->
+            <!-- <section class="row" id="about">
+                    
+                <h2 class="col-12">À propos de moi</h2>
+                
+            </section> -->
                 
             <!-- ========  Studies & Certifications  ======== -->
             <section class="row" id="studies">
@@ -362,7 +378,7 @@
                     </table>
                     <p>Réception des clients et préparation des commandes clients dans un magasin de mobilier et objets de décoration.</p>
                 </div>
-                <div class="col-sm-12 col-md-4 reveal model-2" data-RevealDelay="0" data-RevealOrigin="left">
+                <div class="col-sm-12 col-md-4 reveal model-2" data-RevealDelay="200" data-RevealOrigin="left">
                     <div class="img-container"><img src="images/experiences/wheat.svg" alt="Logo d'un blé"></div>
                     <h3>Ouvrier dans une exploitation céréalière</h3>
                     <table class="tab_infos">
@@ -385,7 +401,7 @@
                     </table>
                     <p>Réalisation des différentes tâches d'un ouvrier agricole dans le domaine des céréales.</p>
                 </div>
-                <div class="col-sm-12 col-md-4 reveal model-2" data-RevealDelay="0" data-RevealOrigin="left">
+                <div class="col-sm-12 col-md-4 reveal model-2" data-RevealDelay="400" data-RevealOrigin="left">
                     <div class="img-container"><img src="images/experiences/chicken.svg" alt="Logo d'un poussin"></div>
                     <h3>Aide à l'entreprise familiale</h3>
                     <table class="tab_infos">
@@ -432,7 +448,7 @@
 			<!-- ======================================= -->
 			<footer class="row">
 				
-                <div class="row" id="contact">
+                <!-- <div class="row" id="contact">
                     <div class="col-xs-12">
                         <a href="mailto:renaldmorice@hotmail.fr" title="Envoyer un mail"><span id="email">renaldmorice@hotmail.fr</span></a>
                     </div>
@@ -440,7 +456,7 @@
                         <a target="_blank" href="CV-RenaldMorice.pdf" title="Afficher le CV"><i class="fas fa-user-circle"></i></a>
                         <a target="_blank" href="https://www.linkedin.com/in/renaldmorice" title="Afficher le profil LinkedIn"><i class="fab fa-linkedin"></i></a>
                     </div>
-                </div>
+                </div> -->
                 
                 <div class="row" id="copyright">
                         Copyright © 2018 Rénald Morice. All Rights Reserved. Site hébergé chez OVH Canada.

@@ -27,6 +27,21 @@
     width: 15px;
     height: auto; }
 
+.rounded_btn {
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #14100E;
+  color: #FEFEFE;
+  border: 1px solid #FEFEFE;
+  transition: background-color 0.5s ease; }
+  .rounded_btn:hover, .rounded_btn:active {
+    background-color: #466986; }
+  .rounded_btn span {
+    font-weight: 400;
+    line-height: 6em; }
+
 @keyframes blink {
   50% {
     opacity: 1; }
@@ -213,92 +228,154 @@ header {
   background-size: cover;
   min-height: 100vh;
   padding: 2em;
-  color: #FEFEFE; }
+  color: #FEFEFE;
+    /*#intro_desc{
+        margin-top: $margin-Basic ;
+        height: 42vh;
+        min-height: 150px;
+        
+        background-color: $color-SmoothWhite;
+        border-radius: 2px;
+        padding: $margin-Basic/2 $margin-Basic $margin-Basic/2 $margin-Basic;
+        
+        color : $color-BlueGray;
+        
+        #read_chat{
+            height: 80%;
+            overflow-x: hidden;
+            overflow-y: auto;
+            padding-top: $margin-Basic/2;
+            padding-bottom: $margin-Basic/2;
+            margin-bottom: $margin-Basic/4;
+            
+            & div.row {
+                
+                margin-bottom: $margin-Basic/2;
+                display: none;
+                
+                .picture_chat{
+                    
+                    text-align: center;
+                    
+                    img{
+                        
+                        border-radius: 50%;
+                        height: 3rem;
+                        max-height: 50px;
+                        width: auto;
+                    }
+                    
+                }
+                
+                
+                .msg_chat{
+                    
+                    padding: $padding-Basic/3;
+                    border-radius: 5px;
+                }
+                
+                &.me .msg_chat{
+                    background-color: $color-SmoothGray;
+                    color: $color-Black;
+                }
+                
+                &.visitor .msg_chat{
+                    background-color: $color-BrightBlue;
+                    color: $color-SmoothWhite;
+                }
+                
+                
+            }
+
+        }
+        
+        #write_chat{
+            min-height: 20%;
+            
+            #input_chat{
+                
+                border-bottom: 1px solid $color-Black;
+               
+                div#fakeInput{
+                    
+
+                    display: inline-block;
+                    padding: 3px;
+                    width: 80%;
+                    border: none;
+                    background-color: transparent;
+                    
+                }
+                
+                img{
+                    width: 1.5rem;
+                    float: right;
+                }
+                
+            }
+            
+            #send_chat{
+                
+                text-align: center;
+                
+                button{
+                    background-color: $color-Black;
+                    border: none;
+                    color: $color-White;
+                    padding: $padding-Basic/4 $padding-Basic/2 $padding-Basic/4 $padding-Basic/2;
+                    
+                }
+            }
+
+        }
+        
+    }*/ }
   header #name {
-    margin-top: 3em;
-    color: #FEFEFE;
+    margin-top: 8em;
     text-align: center;
-    padding-left: 0;
-    padding-right: 0; }
-    header #name div {
+    padding: 1em 2em 2em 2em;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 10px; }
+    @media (max-width: 767px) {
+      header #name {
+        margin-top: 3em; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      header #name {
+        margin-top: 5em; } }
+    header #name div#status {
+      margin-top: 1em;
+      padding: 0 1em;
+      font-size: 3vh; }
+      @media (max-height: 650px) {
+        header #name div#status {
+          font-size: 22.5px; } }
+    header #name div#looking_for {
       padding: 0.6666666667em 1em 0 1em; }
-      header #name div#status {
-        border-top: 1px solid #FEFEFE;
-        font-size: 3vh; }
-        @media (max-height: 650px) {
-          header #name div#status {
-            font-size: 22.5px; } }
-  header #intro_desc {
-    margin-top: 2em;
-    height: 42vh;
-    min-height: 150px;
-    background-color: #FEFEFE;
-    border-radius: 2px;
-    padding: 1em 2em 1em 2em;
-    color: #2c3e50; }
-    header #intro_desc #read_chat {
-      height: 80%;
-      overflow-x: hidden;
-      overflow-y: auto;
-      padding-top: 1em;
-      padding-bottom: 1em;
-      margin-bottom: 0.5em; }
-      header #intro_desc #read_chat div.row {
-        margin-bottom: 1em;
-        display: none; }
-        header #intro_desc #read_chat div.row .picture_chat {
-          text-align: center; }
-          header #intro_desc #read_chat div.row .picture_chat img {
-            border-radius: 50%;
-            height: 3rem;
-            max-height: 50px;
-            width: auto; }
-        header #intro_desc #read_chat div.row .msg_chat {
-          padding: 0.6666666667em;
-          border-radius: 5px; }
-        header #intro_desc #read_chat div.row.me .msg_chat {
-          background-color: #EEEEEE;
-          color: #14100E; }
-        header #intro_desc #read_chat div.row.visitor .msg_chat {
-          background-color: #466986;
-          color: #FEFEFE; }
-    header #intro_desc #write_chat {
-      min-height: 20%; }
-      header #intro_desc #write_chat #input_chat {
-        border-bottom: 1px solid #14100E; }
-        header #intro_desc #write_chat #input_chat div#fakeInput {
-          display: inline-block;
-          padding: 3px;
-          width: 80%;
-          border: none;
-          background-color: transparent; }
-        header #intro_desc #write_chat #input_chat img {
-          width: 1.5rem;
-          float: right; }
-      header #intro_desc #write_chat #send_chat {
-        text-align: center; }
-        header #intro_desc #write_chat #send_chat button {
-          background-color: #14100E;
-          border: none;
-          color: #FFFFFF;
-          padding: 0.5em 1em 0.5em 1em; }
+    header #name #contact {
+      text-align: center;
+      padding: 0 1em 0.5em 1em; }
+      header #name #contact a {
+        transition: color 0.25s ease;
+        padding-left: 0.5em;
+        padding-right: 0.5em; }
+        header #name #contact a:hover, header #name #contact a:active {
+          color: #466986;
+          cursor: pointer; }
+        header #name #contact a svg {
+          width: 4vh;
+          height: 4vh; }
+    header #name #email {
+      padding-top: 0.5em;
+      padding-bottom: 1em; }
   header #CV {
-    margin-top: 3em;
+    margin-top: 5em;
     text-align: center; }
-    header #CV a {
-      width: 12vh;
-      height: 12vh;
-      border-radius: 50%;
-      line-height: 12vh;
-      display: inline-block;
-      text-decoration: none;
-      background-color: #14100E;
-      color: #FEFEFE;
-      font-weight: 400;
-      border: 1px solid #FEFEFE;
-      transition: background-color 0.5s ease; }
-      header #CV a:hover, header #CV a:active {
-        background-color: #466986; }
+    @media (max-width: 767px) {
+      header #CV {
+        margin-top: 2em; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      header #CV {
+        margin-top: 3em; } }
 
 section {
   text-align: center;
@@ -317,29 +394,39 @@ section#certifications {
 
 footer {
   color: #FEFEFE;
-  text-align: center; }
-  footer #contact {
-    background-color: #14100E;
-    padding: 0.5em;
+  text-align: center;
+ /*#contact {
+    background-color : $color-Black;
+    padding: $padding-Basic/4;
     margin-left: 0px;
-    margin-right: 0px; }
-    footer #contact div {
-      padding: 0.5em; }
-      footer #contact div svg {
-        width: 4vh;
-        height: 4vh; }
-        footer #contact div svg:nth-child(1) {
-          margin-left: 1em; }
-      footer #contact div #email {
-        font-size: 3vh; }
-        @media (max-height: 650px) {
-          footer #contact div #email {
-            font-size: 22.5px; } }
-      footer #contact div a {
-        transition: color 0.25s ease; }
-        footer #contact div a:hover, footer #contact div a:active {
-          color: #F67D33;
-          cursor: pointer; }
+    margin-right: 0px;
+     
+     & div {
+         padding: $padding-Basic/4;
+         
+         svg{
+            width: 4vh;
+            height: 4vh;
+             
+             &:nth-child(1){
+                 margin-left: $margin-Basic/2;
+             }
+         }
+          
+         #email{
+             @include customFontSize($font-size-Medium, $min-font-size-Medium);
+         }
+         
+         a{
+             transition: color 0.25s ease;
+         
+             &:hover, &:active{
+                color: $color-Orange;
+                cursor: pointer;
+            }
+         }
+     }
+}*/ }
   footer #copyright {
     padding: 1.5em;
     background-color: #1a1a1a;

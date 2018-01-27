@@ -99,6 +99,29 @@ $padding-Basic : 2em;
     }
 }
 
+.rounded_btn{
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+
+    display: inline-block;
+
+    background-color: $color-Black;
+    color: $color-SmoothWhite;
+    border: 1px solid $color-SmoothWhite;
+
+    transition: background-color 0.5s ease;
+
+    &:hover, &:active{
+        background-color: $color-BrightBlue;
+    }
+
+    span{
+        font-weight: $Quicksand-Normal;
+        line-height: 6em;
+    }
+}
+
 //------------
 // KeyFrames
 //------------
@@ -380,24 +403,57 @@ header{
     
     #name{
         
-        margin-top: $margin-Basic * 1.5;
-    
-        color : $color-SmoothWhite;
-        text-align: center;
-        padding-left: 0;
-        padding-right: 0;
+        margin-top: $margin-Basic * 4;
+        @include phone {
+            margin-top: $margin-Basic * 1.5; 
+        }
+        @include tablet {
+            margin-top: $margin-Basic * 2.5; 
+        }
         
-        div{
+        text-align: center;
+        padding: $padding-Basic/2 $padding-Basic $padding-Basic $padding-Basic;
+        background: rgba(0,0,0,0.9);
+        border-radius: 10px;
+        
+        div#status{
+            margin-top: $margin-Basic/2;
+            padding: 0 $margin-Basic/2;
+            @include customFontSize($font-size-Medium, $min-font-size-Medium);
+        }
+        
+        div#looking_for{
             padding: $margin-Basic/3 $margin-Basic/2 0 $margin-Basic/2;
-            
-            &#status{
-                border-top: 1px solid $color-SmoothWhite;
-                @include customFontSize($font-size-Medium, $min-font-size-Medium);
+        }
+        
+        #contact{
+            text-align: center;
+            padding: 0 $padding-Basic/2 $padding-Basic/4 $padding-Basic/2;
+
+            a{                
+                transition: color 0.25s ease;
+                padding-left: $padding-Basic/4;
+                padding-right: $padding-Basic/4;
+
+                &:hover, &:active{
+                    color: $color-BrightBlue;
+                    cursor: pointer;
+                }
+
+                svg{
+                    width: 4vh;
+                    height: 4vh;
+                }
             }
+        }
+        
+        #email{
+            padding-top: $padding-Basic/4;
+            padding-bottom: $padding-Basic/2;
         }
     }
     
-    #intro_desc{
+    /*#intro_desc{
         margin-top: $margin-Basic ;
         height: 42vh;
         min-height: 150px;
@@ -497,34 +553,17 @@ header{
 
         }
         
-    }
+    }*/
     
-    #CV{
-        
-        margin-top: $margin-Basic *1.5; 
+    #CV{     
+        margin-top: $margin-Basic * 2.5;
         text-align: center;
-
-        a{
-            
-            
-            width: 12vh;
-            height: 12vh;
-            border-radius: 50%;
-            line-height: 12vh;
-            
-            display: inline-block;
-            text-decoration: none;
-
-            background-color: $color-Black;
-            color: $color-SmoothWhite;
-            font-weight: $Quicksand-Normal;
-            border: 1px solid $color-SmoothWhite;
-
-            transition: background-color 0.5s ease;
-
-            &:hover, &:active{
-                background-color: $color-BrightBlue;
-            }
+        
+        @include phone {
+            margin-top: $margin-Basic; 
+        }
+        @include tablet {
+            margin-top: $margin-Basic*1.5; 
         }
     }
     
@@ -578,7 +617,7 @@ footer{
     color : $color-SmoothWhite;  
     text-align: center;
     
-     #contact {
+     /*#contact {
         background-color : $color-Black;
         padding: $padding-Basic/4;
         margin-left: 0px;
@@ -609,7 +648,7 @@ footer{
                 }
              }
          }
-    }
+    }*/
 
     #copyright{
         padding: $padding-Basic *3/4;
