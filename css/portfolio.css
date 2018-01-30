@@ -136,8 +136,8 @@ table.tab_infos {
   table.tab_infos tr td.tab_icon img {
     min-height: 15px;
     min-width: 15px;
-    height: 2vh;
-    width: 2vh; }
+    height: 1.5em;
+    width: 1.5em; }
   table.tab_infos tr td.tab_desc {
     padding: 0.25em 0 0.25em 0.5em; }
 
@@ -155,7 +155,7 @@ table.tab_infos {
         height: auto;
         max-width: 200px;
         min-width: 90px;
-        width: 10vh; }
+        width: 5em; }
     .model-1 .left_panel h4 {
       margin: 1em 0; }
   .model-1 .right_panel {
@@ -183,7 +183,7 @@ table.tab_infos {
     padding: 1em; }
     .model-2 .img-container img {
       min-height: 50px;
-      height: 10vh;
+      height: 5em;
       width: auto; }
   .model-2 p {
     margin-top: 0.5em;
@@ -203,8 +203,8 @@ nav {
   nav #nav_wrap {
     display: none; }
     nav #nav_wrap svg {
-      width: 4vh;
-      height: 4vh; }
+      width: 2em;
+      height: 2em; }
   nav ul {
     list-style-type: none;
     margin: 0;
@@ -228,108 +228,7 @@ header {
   background-size: cover;
   min-height: 100vh;
   padding: 2em;
-  color: #FEFEFE;
-    /*#intro_desc{
-        margin-top: $margin-Basic ;
-        height: 42vh;
-        min-height: 150px;
-        
-        background-color: $color-SmoothWhite;
-        border-radius: 2px;
-        padding: $margin-Basic/2 $margin-Basic $margin-Basic/2 $margin-Basic;
-        
-        color : $color-BlueGray;
-        
-        #read_chat{
-            height: 80%;
-            overflow-x: hidden;
-            overflow-y: auto;
-            padding-top: $margin-Basic/2;
-            padding-bottom: $margin-Basic/2;
-            margin-bottom: $margin-Basic/4;
-            
-            & div.row {
-                
-                margin-bottom: $margin-Basic/2;
-                display: none;
-                
-                .picture_chat{
-                    
-                    text-align: center;
-                    
-                    img{
-                        
-                        border-radius: 50%;
-                        height: 3rem;
-                        max-height: 50px;
-                        width: auto;
-                    }
-                    
-                }
-                
-                
-                .msg_chat{
-                    
-                    padding: $padding-Basic/3;
-                    border-radius: 5px;
-                }
-                
-                &.me .msg_chat{
-                    background-color: $color-SmoothGray;
-                    color: $color-Black;
-                }
-                
-                &.visitor .msg_chat{
-                    background-color: $color-BrightBlue;
-                    color: $color-SmoothWhite;
-                }
-                
-                
-            }
-
-        }
-        
-        #write_chat{
-            min-height: 20%;
-            
-            #input_chat{
-                
-                border-bottom: 1px solid $color-Black;
-               
-                div#fakeInput{
-                    
-
-                    display: inline-block;
-                    padding: 3px;
-                    width: 80%;
-                    border: none;
-                    background-color: transparent;
-                    
-                }
-                
-                img{
-                    width: 1.5rem;
-                    float: right;
-                }
-                
-            }
-            
-            #send_chat{
-                
-                text-align: center;
-                
-                button{
-                    background-color: $color-Black;
-                    border: none;
-                    color: $color-White;
-                    padding: $padding-Basic/4 $padding-Basic/2 $padding-Basic/4 $padding-Basic/2;
-                    
-                }
-            }
-
-        }
-        
-    }*/ }
+  color: #FEFEFE; }
   header #name {
     margin-top: 8em;
     text-align: center;
@@ -342,15 +241,16 @@ header {
     @media (min-width: 768px) and (max-width: 991px) {
       header #name {
         margin-top: 5em; } }
-    header #name div#status {
-      margin-top: 1em;
+    header #name div#looking_for {
       padding: 0 1em;
+      margin-top: 1em;
       font-size: 3vh; }
       @media (max-height: 650px) {
-        header #name div#status {
+        header #name div#looking_for {
           font-size: 22.5px; } }
-    header #name div#looking_for {
-      padding: 0.6666666667em 1em 0 1em; }
+    header #name div#status {
+      padding: 0 1em;
+      margin-top: 0.5em; }
     header #name #contact {
       text-align: center;
       padding: 0 1em 0.5em 1em; }
@@ -362,8 +262,8 @@ header {
           color: #466986;
           cursor: pointer; }
         header #name #contact a svg {
-          width: 4vh;
-          height: 4vh; }
+          width: 2em;
+          height: 2em; }
     header #name #email {
       padding-top: 0.5em;
       padding-bottom: 1em; }
@@ -394,39 +294,7 @@ section#certifications {
 
 footer {
   color: #FEFEFE;
-  text-align: center;
- /*#contact {
-    background-color : $color-Black;
-    padding: $padding-Basic/4;
-    margin-left: 0px;
-    margin-right: 0px;
-     
-     & div {
-         padding: $padding-Basic/4;
-         
-         svg{
-            width: 4vh;
-            height: 4vh;
-             
-             &:nth-child(1){
-                 margin-left: $margin-Basic/2;
-             }
-         }
-          
-         #email{
-             @include customFontSize($font-size-Medium, $min-font-size-Medium);
-         }
-         
-         a{
-             transition: color 0.25s ease;
-         
-             &:hover, &:active{
-                color: $color-Orange;
-                cursor: pointer;
-            }
-         }
-     }
-}*/ }
+  text-align: center; }
   footer #copyright {
     padding: 1.5em;
     background-color: #1a1a1a;

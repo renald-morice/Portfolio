@@ -247,8 +247,8 @@ table.tab_infos{
             img{
                 min-height: 15px;
                 min-width: 15px;
-                height: 2vh;
-                width: 2vh;
+                height: 1.5em;
+                width: 1.5em;
             }
         }
 
@@ -278,7 +278,7 @@ table.tab_infos{
                 height: auto;
                 max-width: 200px;
                 min-width: 90px;
-                width: 10vh;
+                width: 5em;
             }
 
         }
@@ -325,7 +325,7 @@ table.tab_infos{
 
         img{
             min-height: 50px;
-            height: 10vh;
+            height: 5em;
             width: auto;
         }
     }
@@ -358,8 +358,8 @@ nav {
         display: none;
         
         svg{
-            width: 4vh;
-            height: 4vh;
+            width: 2em;
+            height: 2em;
         }
     }
     
@@ -416,14 +416,14 @@ header{
         background: rgba(0,0,0,0.9);
         border-radius: 10px;
         
-        div#status{
+        div#looking_for{
+            padding: 0 $padding-Basic/2;
             margin-top: $margin-Basic/2;
-            padding: 0 $margin-Basic/2;
             @include customFontSize($font-size-Medium, $min-font-size-Medium);
         }
-        
-        div#looking_for{
-            padding: $margin-Basic/3 $margin-Basic/2 0 $margin-Basic/2;
+        div#status{
+            padding: 0 $padding-Basic/2;
+            margin-top: $margin-Basic/4;
         }
         
         #contact{
@@ -441,8 +441,8 @@ header{
                 }
 
                 svg{
-                    width: 4vh;
-                    height: 4vh;
+                    width: 2em;
+                    height: 2em;
                 }
             }
         }
@@ -452,109 +452,7 @@ header{
             padding-bottom: $padding-Basic/2;
         }
     }
-    
-    /*#intro_desc{
-        margin-top: $margin-Basic ;
-        height: 42vh;
-        min-height: 150px;
         
-        background-color: $color-SmoothWhite;
-        border-radius: 2px;
-        padding: $margin-Basic/2 $margin-Basic $margin-Basic/2 $margin-Basic;
-        
-        color : $color-BlueGray;
-        
-        #read_chat{
-            height: 80%;
-            overflow-x: hidden;
-            overflow-y: auto;
-            padding-top: $margin-Basic/2;
-            padding-bottom: $margin-Basic/2;
-            margin-bottom: $margin-Basic/4;
-            
-            & div.row {
-                
-                margin-bottom: $margin-Basic/2;
-                display: none;
-                
-                .picture_chat{
-                    
-                    text-align: center;
-                    
-                    img{
-                        
-                        border-radius: 50%;
-                        height: 3rem;
-                        max-height: 50px;
-                        width: auto;
-                    }
-                    
-                }
-                
-                
-                .msg_chat{
-                    
-                    padding: $padding-Basic/3;
-                    border-radius: 5px;
-                }
-                
-                &.me .msg_chat{
-                    background-color: $color-SmoothGray;
-                    color: $color-Black;
-                }
-                
-                &.visitor .msg_chat{
-                    background-color: $color-BrightBlue;
-                    color: $color-SmoothWhite;
-                }
-                
-                
-            }
-
-        }
-        
-        #write_chat{
-            min-height: 20%;
-            
-            #input_chat{
-                
-                border-bottom: 1px solid $color-Black;
-               
-                div#fakeInput{
-                    
-
-                    display: inline-block;
-                    padding: 3px;
-                    width: 80%;
-                    border: none;
-                    background-color: transparent;
-                    
-                }
-                
-                img{
-                    width: 1.5rem;
-                    float: right;
-                }
-                
-            }
-            
-            #send_chat{
-                
-                text-align: center;
-                
-                button{
-                    background-color: $color-Black;
-                    border: none;
-                    color: $color-White;
-                    padding: $padding-Basic/4 $padding-Basic/2 $padding-Basic/4 $padding-Basic/2;
-                    
-                }
-            }
-
-        }
-        
-    }*/
-    
     #CV{     
         margin-top: $margin-Basic * 2.5;
         text-align: center;
@@ -616,39 +514,6 @@ footer{
     
     color : $color-SmoothWhite;  
     text-align: center;
-    
-     /*#contact {
-        background-color : $color-Black;
-        padding: $padding-Basic/4;
-        margin-left: 0px;
-        margin-right: 0px;
-         
-         & div {
-             padding: $padding-Basic/4;
-             
-             svg{
-                width: 4vh;
-                height: 4vh;
-                 
-                 &:nth-child(1){
-                     margin-left: $margin-Basic/2;
-                 }
-             }
-              
-             #email{
-                 @include customFontSize($font-size-Medium, $min-font-size-Medium);
-             }
-             
-             a{
-                 transition: color 0.25s ease;
-             
-                 &:hover, &:active{
-                    color: $color-Orange;
-                    cursor: pointer;
-                }
-             }
-         }
-    }*/
 
     #copyright{
         padding: $padding-Basic *3/4;
