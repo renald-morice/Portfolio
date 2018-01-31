@@ -42,6 +42,11 @@
     font-weight: 400;
     line-height: 6em; }
 
+.gray_background {
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  padding: 0.5em; }
+
 @keyframes blink {
   50% {
     opacity: 1; }
@@ -130,6 +135,8 @@ h5 {
       font-size: 15px; } }
 
 table.tab_infos {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
   text-align: left; }
@@ -139,16 +146,14 @@ table.tab_infos {
     height: 1.5em;
     width: 1.5em; }
   table.tab_infos tr td.tab_desc {
-    padding: 0.25em 0 0.25em 0.5em; }
+    padding: 0.5em 0 0.5em 0.5em; }
 
 .model-1 {
   margin-top: 2em; }
   .model-1 .left_panel {
     margin-bottom: 1em;
     padding-bottom: 1em;
-    padding-top: 1em;
-    background-color: #e5e5e5;
-    border-radius: 5px; }
+    padding-top: 1em; }
     .model-1 .left_panel .img-container {
       padding: 0 1em; }
       .model-1 .left_panel .img-container img {
@@ -180,13 +185,13 @@ table.tab_infos {
 .model-2 {
   margin-top: 1em; }
   .model-2 .img-container {
-    padding: 1em; }
+    padding: 0.5em; }
     .model-2 .img-container img {
       min-height: 50px;
-      height: 5em;
+      height: 4em;
       width: auto; }
   .model-2 p {
-    margin-top: 0.5em;
+    margin-top: 1em;
     text-align: center; }
 
 nav {
@@ -285,12 +290,35 @@ section {
   background-color: #EFEFEF;
   color: #555555; }
 
+section#about #presentation p {
+  margin-top: 2em;
+  font-size: 2.5vh; }
+  @media (max-height: 650px) {
+    section#about #presentation p {
+      font-size: 18.75px; } }
+section#about #open_minded {
+  margin-top: 1em; }
+  section#about #open_minded img {
+    min-height: 50px;
+    height: 7em;
+    width: auto; }
+  section#about #open_minded p {
+    margin-top: 1em;
+    font-size: 2.5vh; }
+    @media (max-height: 650px) {
+      section#about #open_minded p {
+        font-size: 18.75px; } }
+section#about #preferences {
+  margin-top: 1em; }
+
 section#studies {
   padding-bottom: 0px;
   min-height: inherit; }
 
 section#certifications {
   min-height: inherit; }
+  section#certifications h2 {
+    margin-bottom: 1em; }
 
 footer {
   color: #FEFEFE;

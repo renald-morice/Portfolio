@@ -33,13 +33,13 @@
             <!-- ======================================= -->
 			<!--                NAV                      -->
 			<!-- ======================================= -->
-            <nav>
+            <nav class="reveal" data-RevealDelay="0" data-RevealOrigin="top">
                 <div class="row" id="nav_wrap">
                     <i class="fas fa-bars"></i>
                 </div>
                 <ul class="row">
                     <li class="scrollTo" data-scrollTo="header">Accueil</li>
-                     <!-- <li class="scrollTo" data-scrollTo="#about">À propos</li> -->
+                    <li class="scrollTo" data-scrollTo="#about">À propos</li>
                     <li class="scrollTo" data-scrollTo="#studies">Études</li>
                     <li class="scrollTo" data-scrollTo="#certifications">Certifications</li>
                     <li class="scrollTo" data-scrollTo="#work_experiences">Expériences</li>
@@ -54,7 +54,7 @@
 			<header>
                 
                 <div class="row">
-                    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 reveal" data-RevealDelay="200" data-RevealOrigin="bottom" id="name">
+                    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 reveal" data-RevealDelay="400" data-RevealOrigin="bottom" id="name">
                         <h1>Rénald Morice</h1>
                         <div class="row" id="email">renaldmorice@hotmail.fr</div>
                         <div class="row" id="contact">
@@ -62,12 +62,12 @@
                             <a target="_blank" href="https://www.linkedin.com/in/renaldmorice" title="Afficher le profil LinkedIn"><i class="fab fa-linkedin"></i></a>
                             <a target="_blank" href="https://github.com/renald-morice" title="Afficher le profil GitHub"><i class="fab fa-github"></i></a>
                         </div>
-                        <div id="looking_for">Recherche un stage de 6 mois à partir juillet 2018</div>
+                        <div id="looking_for">Recherche un stage de 6 mois à partir de juillet 2018</div>
                         <div id="status">Étudiant en maîtrise informatique à l'Université du Québec à Chicoutimi</div>
 
                     </div>
                 </div>
-                <div class="row reveal" data-RevealDelay="500" data-RevealOrigin="top" id="CV">
+                <div class="row reveal" data-RevealDelay="700" data-RevealOrigin="top" id="CV">
                     <a class="rounded_btn" target="_blank" href="CV-RenaldMorice.pdf"><span>CV</span></a>
                 </div>
             
@@ -78,11 +78,79 @@
 			<!-- ======================================= -->
             
             <!-- ========  About  ======== -->
-            <!-- <section class="row" id="about">
+            <section class="row" id="about">
                     
-                <h2 class="col-12">À propos de moi</h2>
+                <h2>À propos</h2>
                 
-            </section> -->
+                <div class="row" id="presentation">
+                    <p class="col-xs-12 col-md-10 col-lg-8 col-lg-offset-2">Je suis un étudiant de l’UQAC en fin de maîtrise informatique, option jeux vidéo (<span class="text_link scrollTo" data-scrollTo="#studies">voir les détails de ma formattion</span>). J’ai pour objectif de réaliser un <b>stage de 6 mois dans le domaine de l’informatique</b> à partir de l’été 2018.</p>
+                </div>
+                
+                <div class="row" id="open_minded">
+                    <div class="col-xs-12 col-md-10 col-lg-8 col-lg-offset-2">
+                        <img src="images/icon/open.svg" alt="Logo ouvert">
+                        <p>Vous allez découvrir juste après ce paragraphe le domaine métier et les sujets qui m’attirent le plus, ce qui vous permettra d’en connaître un peu plus sur moi. Néanmoins, j’aime me diversifier et expérimenter de nouvelles choses, c’est pourquoi je reste très <b>ouvert d’esprit</b> quant aux missions auxquelles je pourrais être amené à contribuer.</p>
+                    </div>
+                </div>
+                
+                 <div class="row" id="preferences">
+                    <div class="col-md-12 col-lg-4 col-lg-offset-2">
+                        <h3>Les domaines métiers en lien avec le divertissement m’attirent beaucoup :</h3>
+                        <table class="tab_infos">
+                            <tr>
+                                <td class="tab_icon"><img src="images/icon/music-player.svg" alt="Logo d'une note de musique"></td>
+                                <td class="tab_desc">Musique</td>
+                            </tr>
+                            <tr>
+                                <td class="tab_icon"><img src="images/icon/console.svg" alt="Logo d'une manette"></td>
+                                <td class="tab_desc">Jeu vidéo</td>
+                            </tr>
+                            <tr>
+                                <td class="tab_icon"><img src="images/icon/film.svg" alt="Logo d'une bobine de film"></td>
+                                <td class="tab_desc">Cinéma</td>
+                            </tr>
+                            <tr>
+                                <td class="tab_icon"><img src="images/icon/television.svg" alt="Logo d'une TV"></td>
+                                <td class="tab_desc">Audiovisuel</td>
+                            </tr>
+                            <tr>
+                                <td class="tab_icon"><img src="images/icon/stage.svg" alt="Logo d'une scène"></td>
+                                <td class="tab_desc">Spectacle</td>
+                            </tr>
+                            <tr>
+                                <td class="tab_icon"></td>
+                                <td class="tab_desc">Etc...</td>
+                            </tr>
+                        </table>
+                    </div>
+                     <div class="col-md-12 col-lg-4">
+                         <h3>Voici 4 exemples de sujets qui attisent ma curiosité :</h3>
+                        <table class="tab_infos">
+                            <tr>
+                                <td class="tab_icon"><img src="images/icon/speaker.svg" alt="Logo d'un haut-parleur"></td>
+                                <td class="tab_desc">L’audio (spatialisation, effets sonores, codecs, etc…)</td>
+                            </tr>
+                            <tr>
+                                <td class="tab_icon"><img src="images/icon/video-player.svg" alt="Logo d'un lecteur vidéo"></td>
+                                <td class="tab_desc">La vidéo (codecs, streaming, etc…)</td>
+                            </tr>
+                            <tr>
+                                <td class="tab_icon"><img src="images/icon/artificial-intelligence.svg" alt="Logo d'une IA"></td>
+                                <td class="tab_desc">L’Intelligence artificielle</td>
+                            </tr>
+                            <tr>
+                                <td class="tab_icon"><img src="images/icon/database.svg" alt="Logo d'une base de données"></td>
+                                <td class="tab_desc">Le Big Data</td>
+                            </tr>
+                            <tr>
+                                <td class="tab_icon"><img src="images/icon/speech-bubble.svg" alt="Logo d'une bulle de texte"></td>
+                                <td class="tab_desc">Le Natural Language Processing (NLP)</td>
+                            </tr> 
+                        </table>
+                    </div>
+                </div>
+                
+            </section>
                 
             <!-- ========  Studies & Certifications  ======== -->
             <section class="row" id="studies">
@@ -92,7 +160,7 @@
 
                 <div class="col-md-12 col-lg-10 col-lg-offset-1 model-1 reveal" data-RevealDelay="0" data-RevealOrigin="left">
                     <div class="row"> 
-                        <div class="col-sm-12 col-md-3 left_panel">
+                        <div class="col-sm-12 col-md-3 gray_background left_panel">
                             <div class="img-container"><img src="images/formations/uqac.svg" alt="Logo de l'Université du Québec à Chicoutimi"></div>
                             <h4>Maîtrise en informatique (option jeux vidéo) à l'Université du Québec à Chicoutimi</h4>
 
@@ -166,7 +234,7 @@
 
                 <div class="col-md-12 col-lg-10 col-lg-offset-1 model-1 reveal" data-RevealDelay="0" data-RevealOrigin="left">
                     <div class="row"> 
-                        <div class="col-sm-12 col-md-3 left_panel">
+                        <div class="col-sm-12 col-md-3 gray_background left_panel">
                             <div class="img-container"><img src="images/formations/isen.svg" alt="Logo de l'ISEN"></div>
                             <h4>École d'ingénieurs des Hautes Technologies et du Numérique</h4>
 
@@ -219,7 +287,7 @@
                 
                 <div class="col-md-12 col-lg-10 col-lg-offset-1 model-1 reveal" data-RevealDelay="0" data-RevealOrigin="left">
                     <div class="row"> 
-                        <div class="col-sm-12 col-md-3 left_panel">
+                        <div class="col-sm-12 col-md-3 gray_background left_panel">
                             <div class="img-container"><img src="images/experiences/salamander.svg" alt="Logo de l'entreprise Salamander"></div>
                             <div class="img-container"><img src="images/experiences/salamander2.svg" alt="Logo de l'entreprise Salamander"></div>
                             <h4>Développeur d'applications informatiques</h4>
@@ -271,73 +339,76 @@
                 </div>
                 
                 <div class="col-sm-12 col-md-4 reveal model-2" data-RevealDelay="0" data-RevealOrigin="left">
-                    <div class="img-container"><img src="images/experiences/delivery-man.svg" alt="Logo livraison"></div>
-                    <h3>Préparateur de commande</h3>
-                    <table class="tab_infos">
-                        <tr>
-                            <td class="tab_icon"><img src="images/icon/building.svg" alt="Logo d'un immeuble"></td>
-                            <td class="tab_desc">Conforama</td>
-                        </tr>
-                        <tr>
-                            <td class="tab_icon"><img src="images/icon/certificate.svg" alt="Logo d'un contrat"></td>
-                            <td class="tab_desc">Emploi saisonnier</td>
-                        </tr>
-                        <tr>
-                            <td class="tab_icon"><img src="images/icon/clock.svg" alt="Logo d'une horloge"></td>
-                            <td class="tab_desc">Juillet - août 2013 et 2014</td>
-                        </tr>
-                        <tr>
-                            <td class="tab_icon"><img src="images/icon/location.svg" alt="Logo d'une position"></td>
-                            <td class="tab_desc">Trégueux, France</td>
-                        </tr>
-                    </table>
-                    <p>Réception des clients et préparation des commandes clients dans un magasin de mobilier et objets de décoration.</p>
+                    <div class="gray_background">
+                        <div class="img-container"><img src="images/experiences/delivery-man.svg" alt="Logo livraison"></div>
+                        <h4>Préparateur de commande</h4>
+                        <table class="tab_infos">
+                            <tr>
+                                <td class="tab_icon"><img src="images/icon/building.svg" alt="Logo d'un immeuble"></td>
+                                <td class="tab_desc">Conforama</td>
+                            </tr>
+                            <tr>
+                                <td class="tab_icon"><img src="images/icon/certificate.svg" alt="Logo d'un contrat"></td>
+                                <td class="tab_desc">Emploi saisonnier</td>
+                            </tr>
+                            <tr>
+                                <td class="tab_icon"><img src="images/icon/clock.svg" alt="Logo d'une horloge"></td>
+                                <td class="tab_desc">Juillet - août 2013 et 2014</td>
+                            </tr>
+                            <tr>
+                                <td class="tab_icon"><img src="images/icon/location.svg" alt="Logo d'une position"></td>
+                                <td class="tab_desc">Trégueux, France</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-4 reveal model-2" data-RevealDelay="200" data-RevealOrigin="left">
-                    <div class="img-container"><img src="images/experiences/wheat.svg" alt="Logo d'un blé"></div>
-                    <h3>Ouvrier dans une exploitation céréalière</h3>
-                    <table class="tab_infos">
-                        <tr>
-                            <td class="tab_icon"><img src="images/icon/building.svg" alt="Logo d'un immeuble"></td>
-                            <td class="tab_desc">Ferme de la Godine</td>
-                        </tr>
-                        <tr>
-                            <td class="tab_icon"><img src="images/icon/certificate.svg" alt="Logo d'un contrat"></td>
-                            <td class="tab_desc">Emploi saisonnier</td>
-                        </tr>
-                        <tr>
-                            <td class="tab_icon"><img src="images/icon/clock.svg" alt="Logo d'une horloge"></td>
-                            <td class="tab_desc">Août 2012</td>
-                        </tr>
-                        <tr>
-                            <td class="tab_icon"><img src="images/icon/location.svg" alt="Logo d'une position"></td>
-                            <td class="tab_desc">Les Essarts-lès-Sézanne, France</td>
-                        </tr>
-                    </table>
-                    <p>Réalisation des différentes tâches d'un ouvrier agricole dans le domaine des céréales.</p>
+                    <div class="gray_background">
+                        <div class="img-container"><img src="images/experiences/wheat.svg" alt="Logo d'un blé"></div>
+                        <h4>Ouvrier dans une exploitation céréalière</h4>
+                        <table class="tab_infos">
+                            <tr>
+                                <td class="tab_icon"><img src="images/icon/building.svg" alt="Logo d'un immeuble"></td>
+                                <td class="tab_desc">Ferme de la Godine</td>
+                            </tr>
+                            <tr>
+                                <td class="tab_icon"><img src="images/icon/certificate.svg" alt="Logo d'un contrat"></td>
+                                <td class="tab_desc">Emploi saisonnier</td>
+                            </tr>
+                            <tr>
+                                <td class="tab_icon"><img src="images/icon/clock.svg" alt="Logo d'une horloge"></td>
+                                <td class="tab_desc">Août 2012</td>
+                            </tr>
+                            <tr>
+                                <td class="tab_icon"><img src="images/icon/location.svg" alt="Logo d'une position"></td>
+                                <td class="tab_desc">Les Essarts-lès-Sézanne, France</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-4 reveal model-2" data-RevealDelay="400" data-RevealOrigin="left">
-                    <div class="img-container"><img src="images/experiences/chicken.svg" alt="Logo d'un poussin"></div>
-                    <h3>Aide à l'entreprise familiale</h3>
-                    <table class="tab_infos">
-                        <tr>
-                            <td class="tab_icon"><img src="images/icon/building.svg" alt="Logo d'un immeuble"></td>
-                            <td class="tab_desc">EARL de l'Hippodrome</td>
-                        </tr>
-                        <tr>
-                            <td class="tab_icon"><img src="images/icon/certificate.svg" alt="Logo d'un contrat"></td>
-                            <td class="tab_desc">Pas de statut</td>
-                        </tr>
-                        <tr>
-                            <td class="tab_icon"><img src="images/icon/clock.svg" alt="Logo d'une horloge"></td>
-                            <td class="tab_desc">Depuis le plus jeune âge</td>
-                        </tr>
-                        <tr>
-                            <td class="tab_icon"><img src="images/icon/location.svg" alt="Logo d'une position"></td>
-                            <td class="tab_desc">Plédran, France</td>
-                        </tr>
-                    </table>
-                    <p>Participation aux différentes tâches à réaliser dans l'entreprise familiale (exploitation avicole).</p>
+                    <div class="gray_background">
+                        <div class="img-container"><img src="images/experiences/chicken.svg" alt="Logo d'un poussin"></div>
+                        <h4>Aide à l'entreprise familiale (exploitation avicole)</h4>
+                        <table class="tab_infos">
+                            <tr>
+                                <td class="tab_icon"><img src="images/icon/building.svg" alt="Logo d'un immeuble"></td>
+                                <td class="tab_desc">EARL de l'Hippodrome</td>
+                            </tr>
+                            <tr>
+                                <td class="tab_icon"><img src="images/icon/certificate.svg" alt="Logo d'un contrat"></td>
+                                <td class="tab_desc">Pas de statut</td>
+                            </tr>
+                            <tr>
+                                <td class="tab_icon"><img src="images/icon/clock.svg" alt="Logo d'une horloge"></td>
+                                <td class="tab_desc">Depuis le plus jeune âge</td>
+                            </tr>
+                            <tr>
+                                <td class="tab_icon"><img src="images/icon/location.svg" alt="Logo d'une position"></td>
+                                <td class="tab_desc">Plédran, France</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
                 
                 
@@ -374,5 +445,6 @@
         <script src="js/typed.min.js"></script>
         <script defer src="js/fontawesome-all.min.js"></script>
         <script src="js/portfolio.js"></script>
+        <script src="js/build-msg.js"></script>
 	</body>
 </html>

@@ -86,14 +86,6 @@ $( document ).ready(function() {
          $(this).parent().remove();
      });
     
-    /*-------------*/
-    /* Build alert */
-    /*-------------*/
-    setInterval( function(){
-        $('#build_msg').show().addClass("fadeInDown");
-    }, 600);
-    
-    
     /*-----------*/
     /* Reveal JS */
     /*-----------*/
