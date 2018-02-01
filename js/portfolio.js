@@ -1,5 +1,17 @@
 $( document ).ready(function() {
     
+    /*----------------*/
+    /* Loading Screen */
+    /*----------------*/
+    
+    setTimeout(function(){
+        $("#loading_screen").addClass("fadeOut");
+    }, 500);
+    
+    setTimeout(function(){
+        $("#loading_screen").hide();
+    }, 1000);
+    
     /*---------------*/
     /* resize window */
     /*---------------*/

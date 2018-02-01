@@ -29,15 +29,17 @@ $font-size-Normal    : 2vh;
 $font-size-Small     : $font-size-Normal * 0.7;
 $font-size-Small2    : $font-size-Normal * 0.85;
 $font-size-Medium    : $font-size-Normal * 1.5;
-$font-size-Medium2   : $font-size-Normal * 1.25;
+$font-size-Medium2   : $font-size-Normal * 1.15;
 $font-size-Big       : $font-size-Normal * 3;
+$font-size-Huge      : $font-size-Normal * 6;
 
 $min-font-size-Normal  : 15px;
 $min-font-size-Small   : $min-font-size-Normal * 0.7;
 $min-font-size-Small2  : $min-font-size-Normal * 0.85;
 $min-font-size-Medium  : $min-font-size-Normal * 1.5;
-$min-font-size-Medium2 : $min-font-size-Normal * 1.25;
+$min-font-size-Medium2 : $min-font-size-Normal * 1.15;
 $min-font-size-Big     : $min-font-size-Normal * 3;
+$min-font-size-Huge    : $min-font-size-Normal * 6;
 
 //Colors
 $color-Black           : #14100E;
@@ -345,6 +347,46 @@ table.tab_infos{
 }
 
 //---------------
+// Loading Screen
+//---------------
+
+#loading_screen{
+    position:fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    
+    text-align: center;
+
+    span {
+        
+        vertical-align: middle;
+        line-height: 100vh;
+        
+        display: inline-block;
+        animation: pulse 0.4s alternate infinite ease-in-out;
+        color: $color-SmoothWhite;
+        font-size: $Quicksand-Bold;
+        @include customFontSize($font-size-Huge, $min-font-size-Huge);
+        
+        &:nth-child(odd) {
+            animation-delay: 0.4s;
+        }  
+    }
+         
+}
+
+@keyframes pulse {
+  to {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+}
+
+//---------------
 // Nav
 //---------------
 
@@ -503,11 +545,11 @@ section#about{
     }
     
     #open_minded{
-        margin-top: $margin-Basic/2;
+        margin-top: $margin-Basic;
         
         img{
             min-height: 50px;
-            height: 7em;
+            height: 5em;
             width: auto;
         }  
         
@@ -518,7 +560,7 @@ section#about{
     }
     
     #preferences{
-        margin-top: $margin-Basic/2;
+        margin-top: $margin-Basic;
     }
     
 }
@@ -570,4 +612,3 @@ footer{
     }
     
 }
-
