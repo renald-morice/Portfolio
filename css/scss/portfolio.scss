@@ -132,6 +132,26 @@ $padding-Basic : 2em;
     padding: $padding-Basic/4;
 }
 
+.bubbles{
+    
+    span{
+        display: inline-block;
+        padding: $padding-Basic/4 $padding-Basic/2;
+        margin: $margin-Basic/4 $margin-Basic/8;
+        background-color: $color-Gray;
+        color: $color-SmoothWhite;
+        border-radius: 10px;
+        @include customFontSize($font-size-Small2, $min-font-size-Small2);
+        
+        transition: background-color 0.3s ease;
+
+        &:hover, &:active{
+            background-color: $color-LightRed;
+        }
+        
+    }
+}
+
 //------------
 // KeyFrames
 //------------
@@ -592,6 +612,26 @@ section#certifications{
 //------------------------------------
 
 section#experiences{
+}
+
+//------------------------------------
+// Section : Skills
+//------------------------------------
+
+section#skills{
+    
+    h2{
+        margin-bottom: $margin-Basic/4;
+    }
+    
+    .skill{
+        
+        padding-bottom: $padding-Basic/2;
+        
+        h3{
+            margin-bottom: $margin-Basic/4;
+        }
+    }
 }
 
 //---------------
