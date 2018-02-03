@@ -138,7 +138,7 @@ $padding-Basic : 2em;
         display: inline-block;
         padding: $padding-Basic/4 $padding-Basic/2;
         margin: $margin-Basic/4 $margin-Basic/8;
-        background-color: $color-Gray;
+        background-color: $color-Orange;
         color: $color-SmoothWhite;
         border-radius: 10px;
         @include customFontSize($font-size-Small2, $min-font-size-Small2);
