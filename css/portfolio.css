@@ -41,7 +41,7 @@
   -moz-transition: 0.5s ease;
   -webkit-transition: 0.5s ease; }
   .rounded_btn:hover, .rounded_btn:active {
-    background-color: #466986; }
+    background-color: #e74c3c; }
   .rounded_btn span {
     font-weight: 400;
     line-height: 6em; }
@@ -55,7 +55,7 @@
   display: inline-block;
   padding: 0.5em 1em;
   margin: 0.5em 0.25em;
-  background-color: #27ae60;
+  background-color: #e74c3c;
   color: #FEFEFE;
   border-radius: 10px;
   font-size: 1.7vh;
@@ -68,7 +68,7 @@
     .bubbles span {
       font-size: 12.75px; } }
   .bubbles span:hover, .bubbles span:active {
-    background-color: #e74c3c; }
+    background-color: #466986; }
 
 @keyframes blink {
   50% {
@@ -218,9 +218,10 @@ table.tab_infos {
     text-align: center; }
 
 .card_container .card_col .card {
-  margin: 2em 0;
+  margin: 2em auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  max-width: 500px;
   transition: 0.3s ease;
   -o-transition: 0.3s ease;
   -ms-transition: 0.3s ease;
@@ -241,10 +242,10 @@ table.tab_infos {
       margin-top: 0; }
     .card_container .card_col .card .text_container button {
       padding: 0.5em;
-      background-color: inherit;
+      background: transparent;
       color: #27ae60;
       font-weight: 700;
-      border: 2px solid #27ae60;
+      border: 1px solid #27ae60;
       border-radius: 3px;
       transition: 0.3s ease;
       -o-transition: 0.3s ease;
@@ -306,15 +307,14 @@ nav {
       display: inline-block;
       cursor: pointer;
       padding: 0.5em 1em;
-      border: 1px solid #14100E;
       border-radius: 3px;
-      transition: 0.5s ease;
-      -o-transition: 0.5s ease;
-      -ms-transition: 0.5s ease;
-      -moz-transition: 0.5s ease;
-      -webkit-transition: 0.5s ease; }
+      transition: 0.3s ease;
+      -o-transition: 0.3s ease;
+      -ms-transition: 0.3s ease;
+      -moz-transition: 0.3s ease;
+      -webkit-transition: 0.3s ease; }
       nav ul li:hover, nav ul li:active {
-        border: 1px solid #FEFEFE;
+        background-color: #e74c3c;
         cursor: pointer; }
 
 header {
@@ -360,7 +360,7 @@ header {
         padding-left: 0.5em;
         padding-right: 0.5em; }
         header #name #contact a:hover, header #name #contact a:active {
-          color: #466986;
+          color: #e74c3c;
           cursor: pointer; }
         header #name #contact a svg {
           width: 2em;
