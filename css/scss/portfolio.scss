@@ -57,6 +57,7 @@ $color-DarkBlue    : #213247;
 $color-BrightBlue  : #466986;
 $color-Orange      : #F67D33;
 $color-LightRed    : #e74c3c;
+$color-Green       : #27ae60;
 
 //Marging & padding
 $margin-Basic : 2em;
@@ -114,7 +115,7 @@ $padding-Basic : 2em;
     color: $color-SmoothWhite;
     border: 1px solid $color-SmoothWhite;
 
-    transition: background-color 0.5s ease;
+    @include timeTransition(0.5s);
 
     &:hover, &:active{
         background-color: $color-BrightBlue;
@@ -138,12 +139,12 @@ $padding-Basic : 2em;
         display: inline-block;
         padding: $padding-Basic/4 $padding-Basic/2;
         margin: $margin-Basic/4 $margin-Basic/8;
-        background-color: $color-Orange;
+        background-color: $color-Green;
         color: $color-SmoothWhite;
         border-radius: 10px;
         @include customFontSize($font-size-Small2, $min-font-size-Small2);
         
-        transition: background-color 0.3s ease;
+        @include timeTransition(0.3s);
 
         &:hover, &:active{
             background-color: $color-LightRed;
@@ -366,6 +367,58 @@ table.tab_infos{
     }
 }
 
+.card_container{
+    
+    .card_col{
+     
+        .card{
+            margin: $margin-Basic 0;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            border-radius: 4px;
+            @include timeTransition(0.3s);
+
+            &:hover{
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+
+            img{
+                border-top-right-radius: 4px;
+                border-top-left-radius: 4px;
+                width: 100%;
+            }
+
+            .text_container{
+                padding: $padding-Basic/2;
+                background-color: $color-White;
+                border-bottom-right-radius: 4px;
+                border-bottom-left-radius: 4px;
+
+                h4{
+                   margin-top: 0; 
+                }
+
+                button{
+                    padding: $padding-Basic/4;
+                    background-color: inherit;
+                    color : $color-Green;
+                    font-weight: $Quicksand-Bold;
+                    border: 2px solid $color-Green;
+                    border-radius: 3px;
+
+                    @include timeTransition(0.3s);
+
+                    &:hover{
+                        color : $color-SmoothWhite;
+                        background-color: $color-Green;
+                    }
+
+                }
+            }
+        }
+        
+    }
+}
+
 //---------------
 // Loading Screen
 //---------------
@@ -446,7 +499,7 @@ nav {
 
             border: 1px solid $color-Black;
             border-radius: 3px;
-            transition: border 0.5s ease;
+            @include timeTransition(0.5s);
             
             &:hover, &:active{
                 border: 1px solid $color-SmoothWhite;
@@ -501,7 +554,7 @@ header{
             padding: 0 $padding-Basic/2 $padding-Basic/4 $padding-Basic/2;
 
             a{                
-                transition: color 0.25s ease;
+                @include timeTransition(0.3s);
                 padding-left: $padding-Basic/4;
                 padding-right: $padding-Basic/4;
 
@@ -632,6 +685,14 @@ section#skills{
             margin-bottom: $margin-Basic/4;
         }
     }
+}
+
+//------------------------------------
+// Section : Projects
+//------------------------------------
+
+section#projects{
+    
 }
 
 //---------------

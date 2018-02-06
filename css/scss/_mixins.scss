@@ -12,3 +12,11 @@
     }
     
 }
+
+@mixin timeTransition($time){
+    transition:         $time ease;
+    -o-transition:      $time ease;
+    -ms-transition:     $time ease;
+    -moz-transition:    $time ease;
+    -webkit-transition: $time ease;
+}
