@@ -194,7 +194,7 @@ html{
 }
 
 
-#build_msg{
+/*#build_msg{
     
     display: none;
     position: fixed;
@@ -214,7 +214,7 @@ html{
     div.blink{
         margin-top: $margin-Basic/2;
     }
-}
+}*/
 
 a, a:hover, a:active, a:visited, a:link{
     color: inherit;
@@ -837,6 +837,14 @@ section#skills{
 //------------------------------------
 
 section#projects{
+    
+}
+
+//------------------------------------
+// Section : Hobbies
+//------------------------------------
+
+section#hobbies{
     
 }
 
