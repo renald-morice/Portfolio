@@ -161,6 +161,10 @@ $padding-Basic : 2em;
     }
 }
 
+.showing_modal{
+    overflow: hidden;
+}
+
 //------------
 // KeyFrames
 //------------
@@ -175,14 +179,10 @@ $padding-Basic : 2em;
 //---------------
 
 html{
-    
     font-size: 80%;
-    overflow-x: hidden;
     
     body{
-        
-        overflow-x: hidden;
-
+        z-index: 1;
         font-family: $Quicksand;
         font-weight: $Quicksand-Normal;
 
@@ -202,7 +202,7 @@ html{
     width: 100%;
     height: 100%;
     left: 0;
-    z-index: 10;
+    z-index: 4;
     background-color: rgba(0,0,0,0.95);
     
     color: $color-SmoothWhite;
@@ -423,13 +423,137 @@ table.tab_infos{
     }
 }
 
+.card_desc{
+    display: none;
+    position:fixed;
+    overflow: auto;
+    z-index: 3;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 100%;
+    width: 100%;
+    background-color : $color-SmoothGray2;
+
+    .card_desc_content{
+        text-align: center;
+        
+        h2{
+            margin-top: $margin-Basic/2;
+            font-weight: $Quicksand-Bold;
+        }
+        
+        h3{
+            font-weight: $Quicksand-SemiBold;
+        }
+        
+        ul{
+            margin: 0;
+            padding: 0;
+        }
+        
+        
+        
+        div.github_link{
+            margin-top: $margin-Basic/4;
+            
+            svg{
+                color: $color-LightRed;
+                width: 4em;
+                height: 4em;
+                @include timeTransition(0.3s);
+            
+                &:hover{
+                    color: $color-BrightBlue;
+                }
+            }
+        }
+        
+        div.skills_needed{
+            margin-top: $margin-Basic/2;
+            
+            ul{
+                margin-top: $margin-Basic/2;
+                list-style-type: none; 
+            }
+        }
+        
+        div.description{
+            margin-top: $margin-Basic*2;
+            
+            h3{
+                margin-bottom: $margin-Basic/2;
+            }
+            
+            h4{
+                margin: $margin-Basic/4 0;
+            }
+            
+            ul{
+                padding: $padding-Basic/4 0;
+                list-style-type: none;
+            }
+            
+            p{
+                text-align: center;
+            }
+        }
+        
+        div.documents{
+            margin-top: $margin-Basic*2;
+            
+            h3{
+                margin-bottom: $margin-Basic/2;
+            }
+        }
+        
+        div.pictures{
+            margin-top: $margin-Basic;
+            margin-bottom: $margin-Basic*2;
+            
+            h3{
+                margin-bottom: $margin-Basic/2;
+            }
+            
+            div img{
+                width: 100%;
+                padding: $padding-Basic/4;
+                max-width: 500px;
+            }
+        }
+
+    }
+
+    .card_desc_close{
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin: $margin-Basic $margin-Basic*2 0 0;
+        @include phone {
+            margin: $margin-Basic $margin-Basic 0 0;
+        }   
+        
+        svg{
+            color : $color-LightRed;
+            width: 2em;
+            height: 2em;
+            @include timeTransition(0.3s);
+            
+            &:hover{
+                color: $color-BrightBlue;
+            }
+        }
+    }
+}
+
 //---------------
 // Loading Screen
 //---------------
 
 #loading_screen{
     position:fixed;
-    z-index: 3;
+    z-index: 5;
     top: 0;
     left: 0;
     min-height: 100vh;

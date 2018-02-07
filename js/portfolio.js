@@ -117,4 +117,17 @@ $( document ).ready(function() {
         
     });
     
+    /*------------------*/
+    /* Projects details */
+    /*------------------*/
+    $('.card .text_container button').on("click", function() {
+        $("body").addClass("showing_modal");
+        $('.card_desc[data-CardDescNumber="'+$(this).closest('.card').attr('data-CardNumber')+'"]').fadeIn("fast");
+     });
+    
+    $('.card_desc_close').on("click", function() {
+        $("body").removeClass("showing_modal");
+        $(this).closest('.card_desc').fadeOut("fast");
+    });
+    
 });
