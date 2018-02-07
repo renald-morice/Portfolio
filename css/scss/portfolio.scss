@@ -133,6 +133,14 @@ $padding-Basic : 2em;
     padding: $padding-Basic/4;
 }
 
+.shadow_box{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+    &:hover{
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }  
+}
+
 .bubbles{
     
     span{
@@ -373,14 +381,9 @@ table.tab_infos{
         
         .card{
             margin: $margin-Basic auto;
-            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
             border-radius: 4px;
-            max-width: 500px;
+            max-width: 570px;
             @include timeTransition(0.3s);
-
-            &:hover{
-                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-            }
 
             img{
                 border-top-right-radius: 4px;
