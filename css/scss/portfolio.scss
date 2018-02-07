@@ -453,10 +453,15 @@ table.tab_infos{
             padding: 0;
         }
         
+        div.context{
+            margin: $margin-Basic/4 0;
+            @include customFontSize($font-size-Medium2, $min-font-size-Medium2);
+        }
+        
         
         
         div.github_link{
-            margin-top: $margin-Basic/4;
+            margin-top: $margin-Basic;
             
             svg{
                 color: $color-LightRed;
@@ -481,6 +486,7 @@ table.tab_infos{
         
         div.description{
             margin-top: $margin-Basic*2;
+            margin-bottom: $margin-Basic;
             
             h3{
                 margin-bottom: $margin-Basic/2;
@@ -491,17 +497,29 @@ table.tab_infos{
             }
             
             ul{
-                padding: $padding-Basic/4 0;
+                margin: 0 0 $margin-Basic/2 0;
                 list-style-type: none;
+                
+                li{
+                    padding-bottom: $padding-Basic/4;
+                }
+            }
+            
+            ul.compact_list{
+                margin: 0 auto $margin-Basic/2 auto;
+                width: 80%;
+                list-style-type: inherit;
+                text-align: left;
             }
             
             p{
+                margin: 0 0 $margin-Basic/2 0;
                 text-align: center;
             }
         }
         
         div.documents{
-            margin-top: $margin-Basic*2;
+            margin-top: $margin-Basic;
             
             h3{
                 margin-bottom: $margin-Basic/2;
