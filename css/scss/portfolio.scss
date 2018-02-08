@@ -185,6 +185,7 @@ html{
         z-index: 1;
         font-family: $Quicksand;
         font-weight: $Quicksand-Normal;
+        overflow-x: hidden;
 
         margin : 0;
         padding: 0;
@@ -845,6 +846,23 @@ section#projects{
 //------------------------------------
 
 section#hobbies{
+    
+    .hobbies_container{
+        margin-top: $margin-Basic*2;
+        
+        .hobby{
+            margin-bottom: $margin-Basic/2;
+            
+            img{
+                width: 3em;
+                height: 3em;
+            }
+            
+            div.hobby_text{
+                padding: $padding-Basic/2 0;
+            }
+        }
+    }
     
 }
 
