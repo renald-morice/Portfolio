@@ -514,8 +514,7 @@ section#about #preferences {
   margin-top: 2em; }
 
 section#studies {
-  padding-bottom: 0px;
-  min-height: inherit; }
+  padding-bottom: 0px; }
 
 section#certifications {
   min-height: inherit; }
@@ -538,6 +537,14 @@ section#hobbies .hobbies_container {
       height: 3em; }
     section#hobbies .hobbies_container .hobby div.hobby_text {
       padding: 1em 0; }
+
+section#videos h2 {
+  margin-bottom: 1em; }
+section#videos .yt_video_container .yt_video {
+  margin-bottom: 2em; }
+  section#videos .yt_video_container .yt_video .shadow_box iframe {
+    width: 100%;
+    height: 100%; }
 
 footer {
   color: #FEFEFE;

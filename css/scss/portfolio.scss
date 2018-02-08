@@ -790,7 +790,6 @@ section#about{
 
 section#studies{
     padding-bottom: 0px;
-    min-height: inherit;
 }
 
 //------------------------------------
@@ -860,6 +859,33 @@ section#hobbies{
             
             div.hobby_text{
                 padding: $padding-Basic/2 0;
+            }
+        }
+    }
+    
+}
+
+//------------------------------------
+// Section : Videos
+//------------------------------------
+
+section#videos{
+    
+    h2{
+        margin-bottom: $margin-Basic/2;
+    }
+    
+    .yt_video_container{
+        
+        .yt_video{
+            margin-bottom: $margin-Basic;
+            
+            .shadow_box{
+                
+                iframe{
+                    width: 100%;
+                    height: 100%;//56,25%;
+                }
             }
         }
     }

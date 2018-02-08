@@ -36,6 +36,11 @@ $( document ).ready(function() {
             responsive_nav_triggered = false;
         }
         
+        //Resize youtube video
+        $('.yt_video iframe').each(function(){
+            $(this).parent().css("height", $(this).width()*0.5625);
+        });
+        
         window_width = $(window).width();
     }
     
