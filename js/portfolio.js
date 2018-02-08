@@ -109,18 +109,22 @@ $( document ).ready(function() {
     
     window.sr = ScrollReveal();
     
-    $(".reveal").each(function() {
+    setTimeout(function(){
         
-        sr.reveal($(this), {
-            origin: $(this).attr("data-RevealOrigin"),
-            distance: "5vw",
-            easing: 'ease-in-out',
-            duration: 800,
-            scale: 1,
-            delay: $(this).attr("data-RevealDelay")
+        $(".reveal").each(function() {
+        
+            sr.reveal($(this), {
+                origin: $(this).attr("data-RevealOrigin"),
+                distance: "5vw",
+                easing: 'ease-in-out',
+                duration: 800,
+                scale: 1,
+                delay: $(this).attr("data-RevealDelay")
+            });
+
         });
         
-    });
+    }, 500);
     
     /*------------------*/
     /* Projects details */
