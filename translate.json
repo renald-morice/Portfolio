@@ -1,0 +1,40 @@
+{
+	"traductions": {
+		"nav_home": {
+			"fr":"Accueil",
+			"en":"Home"
+		},
+        "nav_about": {
+			"fr":"À propos",
+			"en":"About me"
+		},
+        "nav_education": {
+			"fr":"Études",
+			"en":"Education"
+		},
+        "nav_certificates": {
+			"fr":"Certifications",
+			"en":"Certificates"
+		},
+        "nav_experiences": {
+			"fr":"Expériences",
+			"en":"Experiences"
+		},
+        "nav_skills": {
+			"fr":"Compétences",
+			"en":"Skills"
+		},
+        "nav_projects": {
+			"fr":"Projets",
+			"en":"Projects"
+		},
+        "nav_hobbies": {
+			"fr":"Centres d'intérêt",
+			"en":"Hobbies"
+		},
+        "nav_videos": {
+			"fr":"Vidéos",
+			"en":"Videos"
+		}
+	}
+}

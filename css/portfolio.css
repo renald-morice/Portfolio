@@ -14,10 +14,6 @@
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #555; }
 
-.blink {
-  animation: blink 3s linear infinite;
-  opacity: 0; }
-
 .close {
   position: relative;
   top: 0;
@@ -78,11 +74,15 @@
 .showing_modal {
   overflow: hidden; }
 
-@keyframes blink {
-  50% {
-    opacity: 1; }
-  20% {
-    opacity: 0; } }
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+@keyframes pulse {
+  to {
+    transform: scale(0.8);
+    opacity: 0.5; } }
 html {
   font-size: 80%; }
   html body {
@@ -97,27 +97,6 @@ html {
       html body {
         font-size: 15px; } }
 
-/*#build_msg{
-    
-    display: none;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    z-index: 4;
-    background-color: rgba(0,0,0,0.95);
-    
-    color: $color-SmoothWhite;
-    padding: $padding-Basic*7 $padding-Basic;
-
-    text-align: center;
-    @include customFontSize($font-size-Normal*1.2, $min-font-size-Normal*1.2);
-    
-    div.blink{
-        margin-top: $margin-Basic/2;
-    }
-}*/
 a, a:hover, a:active, a:visited, a:link {
   color: inherit;
   text-decoration: inherit;
@@ -385,10 +364,6 @@ table.tab_infos {
     #loading_screen span:nth-child(odd) {
       animation-delay: 0.4s; }
 
-@keyframes pulse {
-  to {
-    transform: scale(0.8);
-    opacity: 0.5; } }
 nav {
   position: fixed;
   z-index: 2;
@@ -422,6 +397,26 @@ nav {
       nav ul li:hover, nav ul li:active {
         background-color: #e74c3c;
         cursor: pointer; }
+  nav #languages {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 3em;
+    margin-right: 2em; }
+    nav #languages img.lang {
+      width: 1.75em;
+      height: 1.75em;
+      margin-right: 1em; }
+
+.lang:hover {
+  cursor: pointer; }
+
+.lang-selected {
+  animation-name: spin;
+  animation-duration: 1000ms;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out; }
 
 header {
   background-image: url("../images/backgrounds/console.jpg");

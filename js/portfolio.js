@@ -1,5 +1,26 @@
 $( document ).ready(function() {
     
+    /*--------------------*/
+    /* Language Selection */
+    /*--------------------*/
+    
+    var selectedLanguage = "fr";
+    
+    $('.lang').click(function() {
+        if($(this).attr('data-lang') != selectedLanguage){
+            
+            selectedLanguage = $(this).attr('data-lang');
+            $('.lang').removeClass('lang-selected');
+            $(this).addClass('lang-selected');
+
+            $.getJSON('translate.json', function(fileContent) {
+                $('[data-TradID]').each(function() {
+                    $(this).html(fileContent.traductions[$(this).attr('data-TradID')][selectedLanguage]);
+                });
+            });
+        }
+    });
+
     /*----------------*/
     /* Loading Screen */
     /*----------------*/
