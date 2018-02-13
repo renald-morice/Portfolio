@@ -196,21 +196,321 @@
             "fr":"Certifications",
 			"en":"Certificates"
         },
-        "certificate_show": {
+        "certificate_FCE_show": {
             "fr":"Visualiser le certificat",
-			"en":"Visualize certificate"
+			"en":"See certificate"
         },
         "certificate_FCE_desc": {
             "fr":"Examen international certifiant un bon niveau d'anglais (capacité à évoluer dans un environnement anglophone sans être bilingue).",
 			"en":"International exam certifying good English skills (ability to evolve in an English-speaking environment)."
         },
-        "XXXXXXXX": {
+        "certificate_V_show": {
+            "fr":"Visualiser le certificat",
+			"en":"See certificate"
+        },
+        "certificate_V_desc": {
             "fr":"Certificat permet de valider une bonne maîtrise de langue française à l'écrit (voir le certificat pour connaître les caractéristiques du barème).",
 			"en":"French exam certifying good French skills (see the certificate for the scale’s details)."
         },
-        "XXXXXXXX": {
-            "fr":"",
-			"en":""
+        "exp": {
+            "fr":"Expériences",
+			"en":"Experiences"
+        },
+        "exp_sal": {
+            "fr":"Développeur d'applications informatiques",
+			"en":"Software developer"
+        },
+        "exp_sal_soc": {
+            "fr":"Salamander, filiale d'Alcyon SI",
+			"en":"Salamander, subsidiary of Alcyon SI"
+        },
+        "exp_sal_contract": {
+            "fr":"Stage &amp; alternance",
+			"en":"Internship &amp; part-time internship"
+        },
+        "exp_sal_dates": {
+            "fr":"Juillet 2015 - Septembre 2016",
+			"en":"July 2015 - September 2016"
+        },
+        "exp_sal_desc": {
+            "fr":"Salamander est une entreprise qui édite un logiciel nommé « S@M » destiné aux sociétés de gestion de portefeuilles qui ont pour mission d'obtenir le meilleur rendement possible pour leurs comptes clients. S@M permet d’accompagner un gestionnaire de portefeuille dans son travail au quotidien (pilotage de portefeuilles, optimisation des performances, gestion du risque, amélioration de la relation client, etc...).",
+			"en":"Salamander develops a software named “S@M” for portfolio management companies whose mission is to get the best possible performance on their customer accounts. S@M is helping a portfolio management company in its daily work (portfolio management, performance optimization, risk management, customer relationship improvement, etc.)."
+        },
+        "exp_sal_i": {
+            "fr":"Durant mon stage, j'ai eu pour mission de :",
+			"en":"During my 2-month internship, my missions were to:"
+        },
+        "exp_sal_i1": {
+            "fr":"rédiger une documentation utilisateur S@M disponible en ligne",
+			"en":"write “S@M” user documentation available online"
+        },
+        "exp_sal_i2": {
+            "fr":"créer une page synthétisant les importations fournisseurs",
+			"en":"create a new page summarizing supplier imports"
+        },
+        "exp_sal_i3": {
+            "fr":"proposer une page afin de réaliser plusieurs ordres ou opérations à la fois",
+			"en":"develop a new page allowing a manager to create new orders and operations massively"
+        },
+        "exp_sal_pti": {
+            "fr":"Durant mon alternance, j'ai eu pour mission de :",
+			"en":"During my one-year part-time internship, my missions were to:"
+        },
+        "exp_sal_pti1": {
+            "fr":"créer un module S@M destiné à la gestion du risque avec implémentation d'indicateurs financiers",
+			"en":"design a new S@M module of risk management allowing a manager to automate financial risk controls"
+        },
+        "exp_sal_pti2": {
+            "fr":"créer un nouveau dashboard permettant de synthétiser l'état d'un environnement client",
+			"en":"create a new dashboard to summarize the state of a customer environment"
+        },
+        "exp_sal_pti3": {
+            "fr":"développer un site vitrine pour Salamander à l'aide de la technologie Drupal",
+			"en":"develop a showcase website for Salamander using Drupal technology"
+        },
+        "exp_sal_skills": {
+            "fr":"Compétences nécessaires :",
+			"en":"Skills required :"
+        },
+        "exp_sal_skills_list": {
+            "fr":"Oracle Database, Oracle APEX, PL/SQL, Script Shell, Technologies web standards (HTML/CSS/JS/PHP), Drupal (CMS), Dokuwiki",
+			"en":"Oracle Database, Oracle APEX, PL/SQL, Script Shell, standards web technologies (HTML/CSS/JS/PHP), Drupal (CMS), Dokuwiki"
+        },
+        "exp_conf": {
+            "fr":"Préparateur de commande",
+			"en":"Order picker"
+        },
+        "exp_conf_contract": {
+            "fr":"Emploi saisonnier",
+			"en":"Summer job"
+        },
+        "exp_conf_dates": {
+            "fr":"Juillet - Août 2013 &amp; 2014",
+			"en":"July - August 2013 &amp; 2014"
+        },
+        "exp_fg": {
+            "fr":"Ouvrier dans une exploitation céréalière",
+			"en":"Worker on a grain farm"
+        },
+        "exp_fg_contract": {
+            "fr":"Emploi saisonnier",
+			"en":"Summer job"
+        },
+        "exp_fg_dates": {
+            "fr":"Août 2012",
+			"en":"August 2012"
+        },
+        "exp_earl": {
+            "fr":"Entreprise familiale (exploitation avicole)",
+			"en":"Family business (poultry farm)"
+        },
+        "exp_earl_contract": {
+            "fr":"Pas de statut",
+			"en":"No status"
+        },
+        "exp_earl_dates": {
+            "fr":"Depuis plusieurs années",
+			"en":"Since many years"
+        },
+        "skill": {
+            "fr":"Compétences",
+			"en":"Skills"
+        },
+        "skill_g1": {
+            "fr":"Programmation",
+			"en":"Software development"
+        },
+        "skill_g2": {
+            "fr":"Technologies Web",
+			"en":"Web technologies"
+        },
+        "skill_g3": {
+            "fr":"Base de données",
+			"en":"Databases"
+        },
+        "skill_design_db": {
+            "fr":"Conception",
+			"en":"Design"
+        },
+        "skill_g4": {
+            "fr":"Systèmes d’exploitation",
+			"en":"Operating systems"
+        },
+        "skill_g5": {
+            "fr":"Moteur de jeu",
+			"en":"Game engine"
+        },
+        "skill_g6": {
+            "fr":"Moteur audio",
+			"en":"Audio engine"
+        },
+        "skill_FMOD": {
+            "fr":"FMOD (notions)",
+			"en":"FMOD (bases)"
+        },
+        "skill_g7": {
+            "fr":"Enregistrement audio",
+			"en":"Audio recording"
+        },
+        "skill_g8": {
+            "fr":"Photo / Vidéo",
+			"en":"Photo / Video"
+        },
+        "skill_g9": {
+            "fr":"Gestion de projet",
+			"en":"Project management"
+        },
+        "skill_SCRUM": {
+            "fr":"Méthode Scrum",
+			"en":"Scrum method"
+        },
+        "skill_g10": {
+            "fr":"Langues",
+			"en":"Languages"
+        },
+        "skill_fr": {
+            "fr":"Français",
+			"en":"French"
+        },
+        "skill_en": {
+            "fr":"Anglais",
+			"en":"English"
+        },
+        "projects": {
+            "fr":"Projets",
+			"en":"Projects"
+        },
+        "projects_LIDW": {
+            "fr":"« Lost In DinoWorld » - Jeu 2D Android",
+			"en":"“Lost In DinoWorld” - 2D Android game"
+        },
+        "projects_LIDW_more": {
+            "fr":"En savoir plus",
+			"en":"More details"
+        },
+        "projects_GameEngine": {
+            "fr":"Création d’un moteur de jeu",
+			"en":"Game engine development"
+        },
+        "projects_GameEngine_more": {
+            "fr":"En savoir plus",
+			"en":"More details"
+        },
+        "projects_Raven": {
+            "fr":"« Raven » - Jeu de tir entre des robots intelligents",
+			"en":"“Raven” - Shooter game between bots with IA"
+        },
+        "projects_Raven_more": {
+            "fr":"En savoir plus",
+			"en":"More details"
+        },
+        "projects_AM": {
+            "fr":"« Monitoring d’activité »",
+			"en":"“Activity monitoring”"
+        },
+        "projects_AM_more": {
+            "fr":"En savoir plus",
+			"en":"More details"
+        },
+        "projects_BQ": {
+            "fr":"« Burger Quiz » - Jeu de questions",
+			"en":"“Burger Quiz” - Questions game"
+        },
+        "projects_BQ_more": {
+            "fr":"En savoir plus",
+			"en":"More details"
+        },
+        "projects_RE": {
+            "fr":"Robot extincteur",
+			"en":"Fire extinguisher robot"
+        },
+        "projects_RE_more": {
+            "fr":"En savoir plus",
+			"en":"More details"
+        },
+        "projects_LIPS": {
+            "fr":"« LIPS » - Application pour personnes âgées",
+			"en":"“LIPS” - Application for elderly people"
+        },
+        "projects_LIPS_more": {
+            "fr":"En savoir plus",
+			"en":"More details"
+        },
+        "projects_FOA": {
+            "fr":"Forum Ouest Avenir",
+			"en":"Forum Ouest Avenir"
+        },
+        "projects_FOA_more": {
+            "fr":"En savoir plus",
+			"en":"More details"
+        },
+        "hobbies": {
+            "fr":"Centres d'intérêt",
+			"en":"Hobbies"
+        },
+        "hobbies_music": {
+            "fr":"Musique<br>(pratique du piano)",
+			"en":"Music<br>(play the piano)"
+        },
+        "hobbies_film": {
+            "fr":"Films<br>Séries TV",
+			"en":"Movies<br>TV series"
+        },
+        "hobbies_vg": {
+            "fr":"Jeux vidéo",
+			"en":"Video games"
+        },
+        "hobbies_dev": {
+            "fr":"Programmation<br>informatique",
+			"en":"Computer<br>programming"
+        },
+        "hobbies_ar": {
+            "fr":"Enregistrement<br>audio",
+			"en":"Audio<br>recording"
+        },
+        "hobbies_ve": {
+            "fr":"Montage<br>vidéo",
+			"en":"Video<br>editting"
+        },
+        "hobbies_squash": {
+            "fr":"Squash",
+			"en":"Squash"
+        },
+        "hobbies_ski": {
+            "fr":"Ski",
+			"en":"Ski"
+        },
+        "hobbies_go": {
+            "fr":"Sortir",
+			"en":"Go out"
+        },
+        "hobbies_travel": {
+            "fr":"Voyage",
+			"en":"Travel"
+        },
+        "hobbies_show": {
+            "fr":"Spectacles",
+			"en":"Shows"
+        },
+        "hobbies_science": {
+            "fr":"Sciences",
+			"en":"Sciences"
+        },
+        "videos": {
+            "fr":"Vidéos",
+			"en":"Videos"
+        },
+        "footer_creator": {
+            "fr":"Site réalisé par Rénald Morice",
+			"en":"Website created by Rénald Morice"
+        },
+        "footer_host": {
+            "fr":"Site hébergé chez <a class=\"text_link\" href=\"https://www.ovh.com/ca/fr/\" title=\"OVH Canada\" target=\"_blank\">OVH Canada</a>",
+			"en":"Website hosted by <a class=\"text_link\" href=\"https://www.ovh.com/ca/fr/\" title=\"OVH Canada\" target=\"_blank\">OVH Canada</a>"
+        },
+        "footer_icons": {
+            "fr":"Icônes provenant de <a class=\"text_link\" href=\"https://www.flaticon.com/\" title=\"Flaticon\" target=\"_blank\">www.flaticon.com</a>",
+			"en":"Icons from <a class=\"text_link\" href=\"https://www.flaticon.com/\" title=\"Flaticon\" target=\"_blank\">www.flaticon.com</a>"
         }
 	}
 }
