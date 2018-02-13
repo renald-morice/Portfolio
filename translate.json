@@ -288,6 +288,10 @@
             "fr":"Ouvrier dans une exploitation céréalière",
 			"en":"Worker on a grain farm"
         },
+        "exp_fg_comp": {
+            "fr":"Ferme de la Godine",
+			"en":"“Ferme de la Godine”"
+        },
         "exp_fg_contract": {
             "fr":"Emploi saisonnier",
 			"en":"Summer job"
@@ -299,6 +303,10 @@
         "exp_earl": {
             "fr":"Entreprise familiale (exploitation avicole)",
 			"en":"Family business (poultry farm)"
+        },
+        "exp_earl_comp": {
+            "fr":"EARL de l'Hippodrome",
+			"en":"“EARL de l'Hippodrome”"
         },
         "exp_earl_contract": {
             "fr":"Pas de statut",
