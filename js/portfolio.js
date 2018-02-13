@@ -20,6 +20,7 @@ $( document ).ready(function() {
             });
         }
     });
+    
 
     /*----------------*/
     /* Loading Screen */
@@ -92,38 +93,12 @@ $( document ).ready(function() {
     }
     
     //scrollTo class scroll to data-scrollTo attribute's content
-    $('.scrollTo').on("click", function() {
+    $(document).on('click','.scrollTo', function() {
         scrollTo($(this).attr("data-scrollTo"));
         
         if($(this).is("nav ul li") && responsive_nav_triggered) $('nav ul').slideUp();
     });
-    
-    
-    /*------------------------*/
-    /* Bottom arrow animation */
-    /*------------------------*/
-    
-    function bottomArrowAnimation(){
-        
-        $('#go_down_arrow div').removeClass("slideOutUp");
-        $('#go_down_arrow div').addClass("slideInDown");
-        
-        setTimeout(function() {
-            $('#go_down_arrow div').removeClass("slideInDown");
-            $('#go_down_arrow div').addClass("slideOutUp");
-        }, 1000);
-    }
-    
-    bottomArrowAnimation();
-    setInterval( bottomArrowAnimation, 2000);
-    
-    /*-------*/
-    /* Close */
-    /*-------*/
-    $('.close').on("click", function() {
-         $(this).parent().remove();
-     });
-    
+
     /*-----------*/
     /* Reveal JS */
     /*-----------*/

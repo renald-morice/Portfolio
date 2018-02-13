@@ -99,29 +99,6 @@ $padding-Basic : 2em;
     }
 }
 
-.rounded_btn{
-    width: 6em;
-    height: 6em;
-    border-radius: 50%;
-
-    display: inline-block;
-
-    background-color: $color-Black;
-    color: $color-SmoothWhite;
-    border: 1px solid $color-SmoothWhite;
-
-    @include timeTransition(0.5s);
-
-    &:hover, &:active{
-        background-color: $color-LightRed;
-    }
-
-    span{
-        font-weight: $Quicksand-Normal;
-        line-height: 6em;
-    }
-}
-
 .gray_background{
     background-color: $color-SmoothGray3;
     border-radius: 5px;
@@ -163,15 +140,6 @@ $padding-Basic : 2em;
 //------------
 // KeyFrames
 //------------
-
-@keyframes spin {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
-}
 
 @keyframes pulse {
   to {
@@ -649,17 +617,12 @@ nav {
  }
 
 .lang{
+    
     &:hover{
         cursor: pointer;
     }
 }
 
-.lang-selected{
-    animation-name: spin;
-    animation-duration: 1000ms;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-}
 
 //---------------
 // Header
@@ -737,6 +700,26 @@ header{
         }
         @include tablet {
             margin-top: $margin-Basic*1.5; 
+        }
+        
+        a{
+            width: 6em;
+            height: 6em;
+            border-radius: 50%;
+            display: inline-block;
+
+            background-color: $color-Black;
+            color: $color-SmoothWhite;
+            border: 1px solid $color-SmoothWhite;
+            font-weight: $Quicksand-Normal;
+            line-height: 6em;
+            cursor: pointer;
+
+            @include timeTransition(0.5s);
+
+            &:hover, &:active{
+                background-color: $color-LightRed;
+            }
         }
     }
     

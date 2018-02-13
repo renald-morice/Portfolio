@@ -23,25 +23,6 @@
     width: 15px;
     height: auto; }
 
-.rounded_btn {
-  width: 6em;
-  height: 6em;
-  border-radius: 50%;
-  display: inline-block;
-  background-color: #14100E;
-  color: #FEFEFE;
-  border: 1px solid #FEFEFE;
-  transition: 0.5s ease;
-  -o-transition: 0.5s ease;
-  -ms-transition: 0.5s ease;
-  -moz-transition: 0.5s ease;
-  -webkit-transition: 0.5s ease; }
-  .rounded_btn:hover, .rounded_btn:active {
-    background-color: #e74c3c; }
-  .rounded_btn span {
-    font-weight: 400;
-    line-height: 6em; }
-
 .gray_background {
   background-color: #e5e5e5;
   border-radius: 5px;
@@ -74,11 +55,6 @@
 .showing_modal {
   overflow: hidden; }
 
-@keyframes spin {
-  from {
-    transform: rotate(0deg); }
-  to {
-    transform: rotate(360deg); } }
 @keyframes pulse {
   to {
     transform: scale(0.8);
@@ -412,12 +388,6 @@ nav {
 .lang:hover {
   cursor: pointer; }
 
-.lang-selected {
-  animation-name: spin;
-  animation-duration: 1000ms;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in-out; }
-
 header {
   background-image: url("../images/backgrounds/console.jpg");
   background-repeat: no-repeat;
@@ -478,6 +448,24 @@ header {
     @media (min-width: 768px) and (max-width: 991px) {
       header #CV {
         margin-top: 3em; } }
+    header #CV a {
+      width: 6em;
+      height: 6em;
+      border-radius: 50%;
+      display: inline-block;
+      background-color: #14100E;
+      color: #FEFEFE;
+      border: 1px solid #FEFEFE;
+      font-weight: 400;
+      line-height: 6em;
+      cursor: pointer;
+      transition: 0.5s ease;
+      -o-transition: 0.5s ease;
+      -ms-transition: 0.5s ease;
+      -moz-transition: 0.5s ease;
+      -webkit-transition: 0.5s ease; }
+      header #CV a:hover, header #CV a:active {
+        background-color: #e74c3c; }
 
 section {
   text-align: center;

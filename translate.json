@@ -35,6 +35,182 @@
         "nav_videos": {
 			"fr":"Vidéos",
 			"en":"Videos"
-		}
+		},
+        "linkedin_link": {
+			"fr":"<a target=\"_blank\" href=\"https://www.linkedin.com/in/renaldmorice\" title=\"Afficher le profil LinkedIn\"><i class=\"fab fa-linkedin\"></i></a>",
+			"en":"<a target=\"_blank\" href=\"https://www.linkedin.com/in/renaldmorice\" title=\"Afficher le profil LinkedIn\"><i class=\"fab fa-linkedin\"></i></a>"
+		},
+        "looking_for": {
+			"fr":"Recherche un stage de fin d'études de 6 mois à partir de juillet 2018",
+			"en":"Looking for a 6-month end-of-studies internship starting from July 2018"
+		},
+        "status": {
+			"fr":"Étudiant en maîtrise informatique à l'Université du Québec à Chicoutimi",
+			"en":"Computer Science Engineer student at UQAC"
+		},
+        "CV": {
+			"fr":"<a class=\"animated\" target=\"_blank\" href=\"RenaldMorice-fr.pdf\">CV</a>",
+			"en":"<a class=\"animated\" target=\"_blank\" href=\"RenaldMorice-en.pdf\">Resume</a>"
+		},
+        "about": {
+			"fr":"À propos",
+			"en":"About me"
+		},
+        "about_p1": {
+			"fr":"Je suis un étudiant de l’UQAC en fin de maîtrise informatique, option jeux vidéo (<span class=\"text_link scrollTo\" data-scrollTo=\"#studies\">voir les détails de ma formation</span>). J’ai pour objectif de réaliser un <b>stage de fin d'études de 6 mois dans le domaine de l’informatique</b> à partir de l’été 2018.",
+			"en":"This year, i am finishing my master in Computer Science (video game option) at UQAC (<span class=\"text_link scrollTo\" data-scrollTo=\"#studies\">click here for more information</span>). I am currently looking for a <b>six-month Computer Science internship</b> from July 2018."
+		},
+        "about_p2": {
+			"fr":"Vous allez découvrir juste après ce paragraphe les domaines métiers et les sujets qui m’attirent le plus, ce qui vous permettra d’en connaître un peu plus sur moi. Néanmoins, j’aime me diversifier et expérimenter de nouvelles choses, c’est pourquoi je reste très <b>ouvert d’esprit</b> quant aux missions auxquelles je pourrais être amené à contribuer.",
+			"en":"You will discover just after this paragraph the business sectors and missions that attract me the most. Nevertheless, I like to discover new things, that’s why I stay very <b>open-minded</b> about the missions I could possibly contribute."
+		},
+        "about_sectors": {
+			"fr":"Les domaines métiers en lien avec le divertissement m’attirent beaucoup :",
+			"en":"Business sectors related to entertainment attract me a lot:"
+		},
+        "about_sectors_1": {
+			"fr":"Musique",
+			"en":"Music"
+		},
+        "about_sectors_2": {
+			"fr":"Jeu vidéo",
+			"en":"Video game"
+		},
+        "about_sectors_3": {
+			"fr":"Cinéma",
+			"en":"Cinema"
+		},
+        "about_sectors_4": {
+			"fr":"Audiovisuel",
+			"en":"Audiovisual"
+		},
+        "about_sectors_5": {
+			"fr":"Spectacle",
+			"en":"Show"
+		},
+        "about_sectors_6": {
+			"fr":"Etc...",
+			"en":"Etc."
+		},
+        "about_missions": {
+			"fr":"Voici 5 exemples de sujets qui attisent ma curiosité :",
+			"en":"Here are 5 examples of missions that arouse my curiosity:"
+		},
+        "about_missions_1": {
+			"fr":"L’audio (spatialisation, effets sonores, codecs, etc…)",
+			"en":"Audio (spatialization, sound effects, codecs, etc…)"
+		},
+        "about_missions_2": {
+			"fr":"La vidéo (streaming, codecs, etc…)",
+			"en":"Video (streaming, codecs, etc.)"
+		},
+        "about_missions_3": {
+			"fr":"L’Intelligence artificielle",
+			"en":"Artifical Intelligence"
+		},
+        "about_missions_4": {
+			"fr":"Le Big Data",
+			"en":"Big Data"
+		},
+        "about_missions_5": {
+			"fr":"Le Natural Language Processing (NLP)",
+			"en":"Natural Language Processing (NLP)"
+		},
+        "education_t1": {
+			"fr":"Études",
+			"en":"Education"
+		},
+        "education_t2": {
+			"fr":"Double diplôme",
+			"en":"Dual degree"
+		},
+        "education_U": {
+            "fr":"Maîtrise en informatique (option jeux vidéo) à l'Université du Québec à Chicoutimi",
+			"en":"Master in Computer Science (video game option) at Université du Québec à Chicoutimi"
+        },
+        "education_U_dates": {
+            "fr":"Septembre 2017 - Juin 2018",
+			"en":"September 2017 - Juny 2018"
+        },
+        "education_U_desc": {
+            "fr":"J’effectue une <a class=\"text_link\" href=\"http://programmes.uqac.ca/1537\" target=\"_blank\">maîtrise en informatique (option jeux vidéo)</a> à l’UQAC. Je suis intéressé par les domaines métiers liés au divertissement (dont le jeu vidéo), mais j'aime également acquérir de nouvelles connaissances dans d'autres domaines. C'est la raison pour laquelle j'apprécie réaliser cette maitrîse car je participe à des cours concernant l'industrie du jeu vidéo et à des cours d'informatique plus conventionnels.",
+			"en":"I am doing a <a class=\"text_link\" href=\"http://programmes.uqac.ca/1537\" target=\"_blank\">master’s degree in computer science (video game option)</a> in this university. All business fields related to entertainment (including video games) are attracting me a lot, but I also like to develop new skills in other fields. That's why I really enjoy doing this master because I can follow courses in relation with the video game industry and more classical computer courses."
+        },
+        "education_U_VG": {
+            "fr":"Cours informatiques suivis en lien avec l'industrie du jeu vidéo :",
+			"en":"Followed courses in relation with the video game industry:"
+        },
+        "education_U_VG_1": {
+            "fr":"Principes de création de jeux vidéo",
+			"en":"Design and development of video games"
+        },
+        "education_U_VG_2": {
+            "fr":"Intelligence artificielle pour le jeu vidéo",
+			"en":" Artificial intelligence for video games"
+        },
+        "education_U_VG_3": {
+            "fr":"Principes des moteurs jeux",
+			"en":"Principles of game engines"
+        },
+        "education_U_O": {
+            "fr":"Autres cours informatiques suivis :",
+			"en":"Other followed computer courses:"
+        },
+        "education_U_O_1": {
+            "fr":"Gestion de projets informatiques",
+			"en":"IT project management"
+        },
+        "education_U_O_2": {
+            "fr":"Génie logiciel",
+			"en":"Software engineering"
+        },
+        "education_U_O_3": {
+            "fr":"Programmation objet avancée",
+			"en":"Advanced Object Oriented Programming"
+        },
+        "education_U_O_4": {
+            "fr":"Bases de données réparties",
+			"en":"Distributed databases"
+        },
+        "education_U_O_5": {
+            "fr":"Forage de données",
+			"en":"Data mining"
+        },
+        "education_I": {
+            "fr":"École d'ingénieurs des Hautes Technologies et du Numérique",
+			"en":"ISEN Engineering School"
+        },
+        "education_I_dates": {
+            "fr":"Septembre 2013 - Juin 2018",
+			"en":"September 2013 - Juny 2018"
+        },
+        "education_I_desc": {
+            "fr":"Pour mes trois premières années à l’ISEN, j’ai choisi d’intégrer la <a class=\"text_link\" href=\"http://isen-brest.fr/formation-ingenieur/ingenieur-informatique/\" target=\"_blank\">filière CIR</a> (Cycle Informatique et Réseaux) qui permet immédiatement d’acquérir de solides compétences en informatique sans négliger l’apprentissage des sciences. Cette filière m'a également permis d'avoir une première expérience dans le domaine de l'informatique en réalisant un <span class=\"text_link scrollTo\" data-scrollTo=\"#work_experiences\">stage de 2 mois et une alternance d'un an</span>.",
+			"en":"For my first three years at ISEN, I chose to integrate the <a class=\"text_link\" href=\"http://isen-brest.fr/formation-ingenieur/ingenieur-informatique/\" target=\"_blank\">CIR Program</a> (“Cycle Informatique et Réseaux” which means “Computer Science and Networks Program”). I have immediately acquired solid computer skills without neglecting basic science learning (such as math, physics, etc.). This program also gave me the opportunity to have a first professional computer experience by completing a <span class=\"text_link scrollTo\" data-scrollTo=\"#work_experiences\">two-month internship and a one-year part-time internship</span>."
+        },
+        "education_I_desc2": {
+            "fr":"L'ISEN est partenaire avec l’UQAC. Pour la deuxième année de Master et dernière année, L'ISEN propose à ses étudiants de partir à Chicoutimi (Canada) pour réaliser un double diplôme à l'international, ce que j’ai décidé de faire !",
+			"en":"ISEN is a partner of UQAC. For the fifth and last year, ISEN proposes its students to go to Chicoutimi (Canada) to do a dual degree abroad, which I decided to do!"
+        },
+        "certificate": {
+            "fr":"Certifications",
+			"en":"Certificates"
+        },
+        "certificate_show": {
+            "fr":"Visualiser le certificat",
+			"en":"Visualize certificate"
+        },
+        "certificate_FCE_desc": {
+            "fr":"Examen international certifiant un bon niveau d'anglais (capacité à évoluer dans un environnement anglophone sans être bilingue).",
+			"en":"International exam certifying good English skills (ability to evolve in an English-speaking environment)."
+        },
+        "XXXXXXXX": {
+            "fr":"Certificat permet de valider une bonne maîtrise de langue française à l'écrit (voir le certificat pour connaître les caractéristiques du barème).",
+			"en":"French exam certifying good French skills (see the certificate for the scale’s details)."
+        },
+        "XXXXXXXX": {
+            "fr":"",
+			"en":""
+        }
 	}
 }
