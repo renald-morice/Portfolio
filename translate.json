@@ -196,17 +196,13 @@
             "fr":"Certifications",
 			"en":"Certificates"
         },
-        "certificate_FCE_show": {
+        "certificate_show": {
             "fr":"Visualiser le certificat",
 			"en":"See certificate"
         },
         "certificate_FCE_desc": {
             "fr":"Examen international certifiant un bon niveau d'anglais (capacité à évoluer dans un environnement anglophone sans être bilingue).",
 			"en":"International exam certifying good English skills (ability to evolve in an English-speaking environment)."
-        },
-        "certificate_V_show": {
-            "fr":"Visualiser le certificat",
-			"en":"See certificate"
         },
         "certificate_V_desc": {
             "fr":"Certificat permet de valider une bonne maîtrise de langue française à l'écrit (voir le certificat pour connaître les caractéristiques du barème).",
@@ -384,7 +380,7 @@
             "fr":"« Lost In DinoWorld » - Jeu 2D Android",
 			"en":"“Lost In DinoWorld” - 2D Android game"
         },
-        "projects_LIDW_more": {
+        "projects_more": {
             "fr":"En savoir plus",
 			"en":"More details"
         },
@@ -392,57 +388,29 @@
             "fr":"Création d’un moteur de jeu",
 			"en":"Game engine development"
         },
-        "projects_GameEngine_more": {
-            "fr":"En savoir plus",
-			"en":"More details"
-        },
         "projects_Raven": {
             "fr":"« Raven » - Jeu de tir entre des robots intelligents",
 			"en":"“Raven” - Shooter game between bots with IA"
-        },
-        "projects_Raven_more": {
-            "fr":"En savoir plus",
-			"en":"More details"
         },
         "projects_AM": {
             "fr":"« Monitoring d’activité »",
 			"en":"“Activity monitoring”"
         },
-        "projects_AM_more": {
-            "fr":"En savoir plus",
-			"en":"More details"
-        },
         "projects_BQ": {
             "fr":"« Burger Quiz » - Jeu de questions",
 			"en":"“Burger Quiz” - Questions game"
-        },
-        "projects_BQ_more": {
-            "fr":"En savoir plus",
-			"en":"More details"
         },
         "projects_RE": {
             "fr":"Robot extincteur",
 			"en":"Fire extinguisher robot"
         },
-        "projects_RE_more": {
-            "fr":"En savoir plus",
-			"en":"More details"
-        },
         "projects_LIPS": {
             "fr":"« LIPS » - Application pour personnes âgées",
 			"en":"“LIPS” - Application for elderly people"
         },
-        "projects_LIPS_more": {
-            "fr":"En savoir plus",
-			"en":"More details"
-        },
         "projects_FOA": {
             "fr":"Forum Ouest Avenir",
 			"en":"Forum Ouest Avenir"
-        },
-        "projects_FOA_more": {
-            "fr":"En savoir plus",
-			"en":"More details"
         },
         "hobbies": {
             "fr":"Centres d'intérêt",
@@ -511,6 +479,310 @@
         "footer_icons": {
             "fr":"Icônes provenant de <a class=\"text_link\" href=\"https://www.flaticon.com/\" title=\"Flaticon\" target=\"_blank\">www.flaticon.com</a>",
 			"en":"Icons from <a class=\"text_link\" href=\"https://www.flaticon.com/\" title=\"Flaticon\" target=\"_blank\">www.flaticon.com</a>"
+        },
+        "project_details_skills": {
+            "fr":"Compétences nécessaires",
+			"en":"Skills required"
+        },
+        "project_details_rapport": {
+            "fr":"Rapport de projet",
+			"en":"Project report"
+        },
+        "project_details_slides": {
+            "fr":"Slides de présentation",
+			"en":"Presentation's slides"
+        },
+        "LIDW": {
+            "fr":"« Lost In DinoWorld » - Jeu 2D Android",
+			"en":"“Lost In DinoWorld” - 2D Android game"
+        },
+        "LIDW_context": {
+            "fr":"Projet de 4 étudiants réalisé dans le cadre du cours « Principes de création de jeux vidéo » - UQAC automne 2017",
+			"en":"A 4-student project in relation with the “Principles of creating video games” course - UQAC autumn 2017"
+        },
+        "LIDW_genre": {
+            "fr":"« Lost In DinoWord » est un jeu 2D coloré à l’ambiance cartoon qui se classe parmi les 4 genres suivants :",
+			"en":"“Lost In DinoWord” is a colorful 2D game that ranks among the following 4 kind of video games:"
+        },
+        "LIDW_genre1": {
+            "fr":"Jeu d’aventure",
+			"en":"Adventure game"
+        },
+        "LIDW_genre2": {
+            "fr":"Jeu de combat",
+			"en":"Fighting game"
+        },
+        "LIDW_genre3": {
+            "fr":"Jeu de plateforme",
+			"en":"Platform game"
+        },
+        "LIDW_genre4": {
+            "fr":"Side scrolling (jeu à défilement horizontal)",
+			"en":"Side scrolling (horizontal scrolling game)"
+        },
+        "LIDW_synopsis": {
+            "fr":"Un scientifique souhaite éradiquer le virus qui ravage la population humaine en 2150. Il est parvenu à trouver la formule de l’antidote. Le problème ? Les ingrédients nécessaires à cette formule n’existent qu’à l’époque des dinosaures ! Il décide alors de voyager dans le temps.",
+			"en":"A scientist wants to eradicate the virus that ravages the human population in 2150. He already managed to find out the antidote formula. The problem? All necessary ingredients for this formula only exist at the time of the dinosaurs! That’s why he decides to travel back in time."
+        },
+        "LIDW_game": {
+            "fr":"Jeu",
+			"en":"Game"
+        },
+        "LIDW_game_desc": {
+            "fr":"Le joueur, qui incarne le scientifique nouvellement arrivé à l’époque des dinosaures, va devoir parcourir un ensemble de six régions pour récolter les ingrédients tant convoités. Il pourra revenir en 2150 grâce au téléporteur présent à la sixième région. Malheureusement pour lui, des dinosaures peu dociles ainsi que des obstacles ralentiront sa course.",
+			"en":"The player, who takes control of the newly arrived scientist at the time of the dinosaurs, will have to travel through a set of six regions to collect all the desired ingredients. He will be able to return in 2150 thanks to the teleporter available in the sixth region. Unfortunately for him, some dinosaurs and obstacles will slow down his race."
+        },
+        "GameEngine": {
+            "fr":"Création d’un moteur de jeu",
+			"en":"Game engine development"
+        },
+        "GameEngine_context": {
+            "fr":"Projet de 5 étudiants réalisé dans le cadre du cours « Principes des moteurs jeux » - UQAC Automne 2017",
+			"en":"A 5-student project in relation with the “Principles of game engines” course - UQAC autumn 2017"
+        },
+        "GameEngine_desc": {
+            "fr":"L’objectif final de ce cours était la création d’un moteur de jeu en groupe afin de s’initier aux problématiques de leur conception et développement. Une des contraintes du projet était l’implémentation de l’architecture  « Entité-Composant-Système », très utilisée de nos jours (architecture adoptée par Unity 3D par exemple).",
+			"en":"The final goal of this course was the development of a new game engine to better understand the issues related to their design. One of the constraints was to set up the “Entity-Component-System” architecture, widely used today (architecture adopted by Unity 3D for example)."
+        },
+        "GameEngine_skill1": {
+            "fr":"Architecture Entité-Composant-Système",
+			"en":"Entity-Component-System Architecture"
+        },
+        "GameEngine_skill2": {
+            "fr":"OpenTK (wrapper C# pour OpenGL, OpenGL ES et OpenAL)",
+			"en":"OpenTK (C# wrapper for OpenGL, OpenGL ES and OpenAL)"
+        },
+        "GameEngine_skill3": {
+            "fr":"Moteur audio FMOD",
+			"en":"FMOD audio engine"
+        },
+        "GameEngine_skill4": {
+            "fr":"Json.Net pour la sérialisation des données",
+			"en":"Json.Net for data serialization"
+        },
+        "GameEngine_sys": {
+            "fr":"Ce moteur comprend :",
+			"en":"This engine includes:"
+        },
+        "GameEngine_sys1": {
+            "fr":"Un système de logique",
+			"en":"A logic system"
+        },
+        "GameEngine_sys2": {
+            "fr":"Un système de rendu",
+			"en":"A rendering system"
+        },
+        "GameEngine_sys3": {
+            "fr":"Un système de physique",
+			"en":"A physics system"
+        },
+        "GameEngine_sys4": {
+            "fr":"Un système de gestion des entrées/sorties",
+			"en":"An I/O management system"
+        },
+        "GameEngine_sys5": {
+            "fr":"Un moteur audio",
+			"en":"An audio système"
+        },
+        "Raven": {
+            "fr":"« Raven » - Jeu de tir entre des robots intelligents",
+			"en":"“Raven” - Shooter game between bots with IA"
+        },
+        "Raven_context": {
+            "fr":"Projet de 5 étudiants réalisé dans le cadre du cours « Intelligence artificielle pour le jeu vidéo » - UQAC automne 2017",
+			"en":"A 5-student project in relation with the “Artificial intelligence for video game” course - UQAC autumn 2017"
+        },
+        "Raven_skill1": {
+            "fr":"Techniques d'IA",
+			"en":"AI techniques"
+        },
+        "Raven_desc": {
+            "fr":"« Raven » est un jeu où des robots intelligents qui s’affrontent en adoptant un comportement le plus humain possible :",
+			"en":"“Raven” is a game where intelligent bots confront each other by adopting the most human behavior possible:"
+        },
+        "Raven_hum1": {
+            "fr":"Déplacement stratégique sur le terrain de jeu",
+			"en":"Strategic movements on the playing field"
+        },
+        "Raven_hum2": {
+            "fr":"Récupération d’armes et de vie au besoin",
+			"en":"Search for weapons and life if necessary"
+        },
+        "Raven_hum3": {
+            "fr":"Tir « humain » (temps de réaction, imprécision, etc…)",
+			"en":"“Human” shooting (reaction time, accuracy, etc.)"
+        },
+        "Raven_goal": {
+            "fr":"À partir du code source « Raven » du livre « <a class=\"text_link\" href=\"http://www.jblearning.com/Catalog/9781556220784/student/\" target=\"_blank\">Programming Game AI by Example</a> » de Mat Buckland, l’objectif de ce projet était d’améliorer l’intelligence artificielle des robots. Voici ce que nous avons ajouté :",
+			"en":"From the Raven source code of Mat Buckland's “<a class=\"text_link\" href=\"http://www.jblearning.com/Catalog/9781556220784/student/\" target=\"_blank\">Programming Game AI by Example</a>” book, the goal of this project was to improve the artificial intelligence of bots. Here's what we added:"
+        },
+        "Raven_goal1": {
+            "fr":"Comportement dirigé par les buts pour tendre vers un raisonnement humain dans la sélection d’objectifs",
+			"en":"Goal-driven behavior to simulate human reasoning in goal selection"
+        },
+        "Raven_goal2": {
+            "fr":"Logique floue permettant au robot de manipuler facilement plusieurs variables et leur degré de certitude afin de prendre une décision",
+			"en":"Fuzzy logic allowing the bot to easily manipulate multiple variables and their degree of certainty in order to make suitable decision"
+        },
+        "Raven_goal3": {
+            "fr":"Réseau de neurones (perceptron mono-couche) pour permettre à un robot d’apprendre le comportement stratégique d’un robot contrôlé par un humain",
+			"en":"Neural network (single-layer perceptron) to enable a bot to learn a human-based strategy behavior"
+        },
+        "Raven_goal4": {
+            "fr":"Amélioration des techniques de Steering Behaviors (stratégies de déplacement des robots)",
+			"en":"Improvement of Steering Behaviors techniques (bots moving strategies)"
+        },
+        "Raven_goal5": {
+            "fr":"Possibilité de créer des équipes de robots avec un leader sélectionnant la cible pour l’ensemble de son équipe",
+			"en":"Possibility to create bot teams with a leader selecting a target for his entire team"
+        },
+        "AM": {
+            "fr":"« Monitoring d’activité »",
+			"en":"“Activity monitoring”"
+        },
+        "AM_context": {
+            "fr":"Projet de 2 étudiants réalisé dans le cadre de la fin d’année de Master 1 – ISEN 2017",
+			"en":"A 2-student project for the first year of Master – ISEN 2017"
+        },
+        "AM_skill1": {
+            "fr":"Base de données (MySQL)",
+			"en":"Databases (MySQL)"
+        },
+        "AM_skill2": {
+            "fr":"Technologies web standards",
+			"en":"Standard web technologies"
+        },
+        "AM_desc": {
+            "fr":"L’objectif du monitoring d’activité est de proposer une interface web permettant de visualiser l’ensemble des informations caractérisant l’activité de la personne présente dans une pièce nommée « LaboVision ». Cette pièce dispose de plusieurs capteurs. Afin de caractériser l'activité de la personne présente dans la pièce, trois indicateurs ont été développés :",
+			"en":"The project consists in developing a monitoring screen showing the activity of a patient living in a medical room named “LaboVision” (which includes multiple sensors) to better understand his habits and adapt them to his pathology. Three indicators have been developed to characterize the patient’s activity:"
+        },
+        "AM_i1": {
+            "fr":"Temps passé devant la télévision <b>(voir image 1)</b>.",
+			"en":"Time spent watching TV <b>(see image 1)</b>."
+        },
+        "AM_i2": {
+            "fr":"Présence de la personne dans les différentes parties du LaboVision : cuisine, salon, chambre <b>(voir image 2)</b>.",
+			"en":"Person's location in the different parts of the “LaboVision”: kitchen, living room, bedroom (see image 2)."
+        },
+        "AM_i3": {
+            "fr":"Anomalies sonores (niveau sonore anormalement élevé). L’utilisateur du monitoring peut configurer les paramètres qui caractérisent une anomalie sonore (le seuil de déclenchement, pendant combien de secondes, et sur quelle tranche horaire de la journée).",
+			"en":"Sound anomalies (abnormally high sound level). A sound anomaly can be configured (trigger threshold, for how many seconds, on which time of the day)."
+        },
+        "AM_exe": {
+            "fr":"Trois programmes, s'exécutant sur des machines présentes dans le LaboVision, permettent de générer les données de ces indicateurs. Le monitoring d’activité permet de synthétiser ces données et de les afficher via un site internet simple et intuitif <b>(voir image 3)</b>.",
+			"en":"Three programs are running on machines located in the LaboVision and generating the data of their respective indicator. The monitoring screen synthesize these data and display them via a simple and intuitive website (see image 3)."
+        },
+        "BQ": {
+            "fr":"« Burger Quiz » - Jeu de questions",
+			"en":"“Burger Quiz” - Questions game"
+        },
+        "BQ_context": {
+            "fr":"Projet de 2 étudiants réalisé dans le cadre de la fin de deuxième année de CIR (Cycle Informatique et Réseaux) – ISEN 2015",
+			"en":"A 2-student project for the second year of CIR Program – ISEN 2015"
+        },
+        "BQ_skill1": {
+            "fr":"Technologies web",
+			"en":"Web technologies"
+        },
+        "BQ_desc": {
+            "fr":"« Burger Quiz » est un jeu télévisé inventé par Alain Chabat et Abd-el-Kader Aoun qui fut diffusé sur Canal+ (France). Le principe consiste à répondre à diverses questions plus ou moins loufoques pour marquer le plus de points possibles.",
+			"en":"“Burger Quiz” is a television game invented by Alain Chabat and Abd-el-Kader Aoun which was broadcast on Canal + (France). Participants need to answer various questions (more or less wacky) to score maximum points."
+        },
+        "BQ_desc2": {
+            "fr":"La première partie du projet était le développement d’une application web permettant de faire une partie de Burger Quiz simplifiée. Après la sélection au hasard d’une catégorie et de l’un de ces jeux de réponses, le joueur a 3 possibilités pour répondre à chaque question :",
+			"en":"The first part of the project was to develop a web application to play a simplified version of  “Burger Quiz”. After a random selection of one category of questions, the player has 3 answer possibilities for each question:"
+        },
+        "BQ_a1": {
+            "fr":"Réponse 1",
+			"en":"Answer 1"
+        },
+        "BQ_a2": {
+            "fr":"Réponse 2",
+			"en":"Answer 2"
+        },
+        "BQ_a3": {
+            "fr":"Les deux",
+			"en":"Both"
+        },
+        "BQ_desc3": {
+            "fr":"La deuxième partie du projet était la création d’une application Java permettant de gérer la banque des questions et réponses (stockée dans une base de données).",
+			"en":"The second part of the project was to develop a Java application to manage the bank of questions and answers (stored in a database)."
+        },
+        "RE": {
+            "fr":"Robot extincteur",
+			"en":"Fire extinguisher robot"
+        },
+        "RE_context": {
+            "fr":"Projet réalisé dans le cadre du cours d’apprentissage du langage C en première année de CIR (Cycle Informatique et Réseaux) – ISEN 2014",
+			"en":"Project for the first year of CIR Program – ISEN 2014"
+        },
+        "RE_skill1": {
+            "fr":"Librairie SDL",
+			"en":"SDL Library"
+        },
+        "RE_desc": {
+            "fr":"L’objectif du projet était de créer un programme avec un affichage console et graphique d’un robot extincteur qui doit éteindre l’incendie de l’appartement dans lequel il se trouve. L’ensemble du comportement du robot était à développer et se caractérise en trois points :",
+			"en":"The aim of the project was to create a program (with a console and graphic display) of a fire extinguisher robot. It needs to extinguish the fire of the apartment in which it is located. The whole robot’s behavior had to be developed. This behavior can be summarized in three points:"
+        },
+        "RE_o1": {
+            "fr":"Connaissant la position de l’extincteur dans l’appartement, le robot utilise un algorithme de pathfinding A* pour planifier son chemin vers l’extincteur",
+			"en":"Knowing the position of the fire extinguisher in the apartment, the robot uses the A* pathfinding algorithm to plan its way to the fire extinguisher"
+        },
+        "RE_o2": {
+            "fr":"Une fois l’extincteur récupéré, le robot parcourt à l’aveugle l’intégralité de l’appartement à la recherche du feu",
+			"en":"As soon as the fire extinguisher is recovered, the robot blindly searches the fire in the entire apartment"
+        },
+        "RE_o3": {
+            "fr":"Une fois le feu trouvé, le robot adopte la meilleure stratégie possible pour subir le moins de dégâts lors de l’extinction du feu",
+			"en":"Once the fire is found, the robot adopts the best possible strategy possible to undergo the least damage during the fire extinction"
+        },
+        "LIPS": {
+            "fr":"« LIPS » - Application pour personnes âgées",
+			"en":"“LIPS” - Application for elderly people"
+        },
+        "LIPS_context": {
+            "fr":"Projet d’une dizaine d’étudiants de différentes écoles",
+			"en":"Project of around ten students from different schools"
+        },
+        "LIPS_skill1": {
+            "fr":"Développement Android",
+			"en":"Android development"
+        },
+        "LIPS_skill2": {
+            "fr":"Esprit d’innovation",
+			"en":"Spirit of innovation"
+        },
+        "LIPS_desc": {
+            "fr":"LIPS est une application sur tablette destinée aux personnes âgées. Elle propose des services classiques (mail, messagerie instantanée, photo, appel téléphonique, etc...).",
+			"en":"LIPS is a Android application for the elderly people. It offers classic services (email, instant messaging, photo, phone call, etc.)."
+        },
+        "LIPS_desc2": {
+            "fr":"Le principe du projet est de rompre l’isolement des personnes âgées avec leur famille ou leurs amis en proposant une application simplifiée pour la personne âgée. L'application est paramétrée à distance par leur famille via une interface web.",
+			"en":"The aim of the project is to break the isolation of elderly people with their family or friends by offering them a simplified application. This application is managed remotely by their family via a web interface."
+        },
+        "LIPS_desc3": {
+            "fr":"J'ai participé à ce projet en tant que développeur Android. Ce projet a participé au <b>Startup Weekend Brest</b> en janvier 2015 et a reçu le <b>prix de l'innovation sociale aux Entrepreneuriales</b> (Quimper, France).",
+			"en":"I participated in this project as an Android developer. This project participated in the <b>Startup Weekend Brest</b> in January 2015 and received the <b>social innovation award at the “Entrepreneuriales” (Quimper, France)."
+        },
+        "FOA": {
+            "fr":"Forum Ouest Avenir",
+			"en":"Forum Ouest Avenir"
+        },
+        "FOA_context": {
+            "fr":"Participation à l’organisation d’un forum partenaire avec l’ISEN Brest",
+			"en":"Participation in the organization of a forum partner with ISEN Engineering school"
+        },
+        "FOA_skill1": {
+            "fr":"Organisation",
+			"en":"Organization"
+        },
+        "FOA_desc": {
+            "fr":"Le <a class=\"text_link\" href=\"http://forumouestavenir.com/\" target=\"_blank\">Forum Ouest Avenir</a> est un moment de rencontre entre entreprises et étudiants. Ce forum est organisé par une équipe d'étudiants volontaires en provenance de différentes écoles (ISEN, l'UBO, Télécom Bretagne, France Business School ou encore ENSTA Bretagne).",
+			"en":"The “Forum Ouest Avenir” is a good opportunity to bring closer companies and students. This forum is organized by a team of volunteer students from different schools (ISEN, UBO, Télécom Bretagne, France Business School or ENSTA Bretagne)."
+        },
+        "FOA_desc2": {
+            "fr":"J'ai participé à l'organisation de l'édition 2014 au sein du pôle partenariat. J'ai eu pour principale mission de démarcher des sponsors afin de faire de la publicité pour l’événement. Cette expérience a été enrichissante, que ce soit au sein du pôle partenariat ou pour toutes les autres tâches diverses auxquelles j'ai pu contribuer le jour même du forum.",
+			"en":"I participated in the organization of the 2014 edition. I joined the sponsor team. My main mission was to solicit sponsors to advertise the event. This experience has been rewarding, whether in the sponsor team or for all the other various tasks I contributed to during the day of the forum."
         }
 	}
 }
