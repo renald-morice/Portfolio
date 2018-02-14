@@ -1,17 +1,42 @@
+function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+
+function eraseCookie(name) {   
+    document.cookie = name+'=; Max-Age=-99999999;';  
+}
+
+
 $( document ).ready(function() {
     
     /*--------------------*/
     /* Language Selection */
     /*--------------------*/
     
-    var selectedLanguage = "fr";
+    var selectedLanguage = "";
     
-    $('.lang').click(function() {
-        if($(this).attr('data-lang') != selectedLanguage){
-            
-            selectedLanguage = $(this).attr('data-lang');
-            $('.lang').removeClass('lang-selected');
-            $(this).addClass('lang-selected');
+    function translation(language){
+        
+        if(language != selectedLanguage){
+
+            selectedLanguage = language;
 
             $.getJSON('translate.json', function(fileContent) {
                 $('[data-TradID]').each(function() {
@@ -19,7 +44,17 @@ $( document ).ready(function() {
                 });
             });
         }
+    }
+    
+    //On language change
+    $('.lang').click(function() {
+        setCookie("lang", $(this).attr('data-lang'), 365);
+        translation($(this).attr('data-lang'));
     });
+    
+    //Init language
+    if(getCookie("lang") == "en" ) translation(getCookie("lang"));
+    else selectedLanguage = "fr";
     
 
     /*----------------*/
