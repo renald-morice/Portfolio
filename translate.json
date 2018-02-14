@@ -37,8 +37,8 @@
 			"en":"Videos"
 		},
         "linkedin_link": {
-			"fr":"<a target=\"_blank\" href=\"https://www.linkedin.com/in/renaldmorice\" title=\"Afficher le profil LinkedIn\"><i class=\"fab fa-linkedin\"></i></a>",
-			"en":"<a target=\"_blank\" href=\"https://www.linkedin.com/in/renaldmorice\" title=\"Afficher le profil LinkedIn\"><i class=\"fab fa-linkedin\"></i></a>"
+			"fr":"<a target=\"_blank\" href=\"https://www.linkedin.com/in/renaldmorice\" title=\"Visit LinkedIn profile\"><i class=\"fab fa-linkedin\"></i></a>",
+			"en":"<a target=\"_blank\" href=\"https://www.linkedin.com/in/renaldmorice/?locale=en_US\" title=\"Visit LinkedIn profile\"><i class=\"fab fa-linkedin\"></i></a>"
 		},
         "looking_for": {
 			"fr":"Recherche un stage de fin d'études de 6 mois à partir de juillet 2018",
@@ -58,7 +58,7 @@
 		},
         "about_p1": {
 			"fr":"Je suis un étudiant de l’UQAC en fin de maîtrise informatique, option jeux vidéo (<span class=\"text_link scrollTo\" data-scrollTo=\"#studies\">voir les détails de ma formation</span>). J’ai pour objectif de réaliser un <b>stage de fin d'études de 6 mois dans le domaine de l’informatique</b> à partir de l’été 2018.",
-			"en":"This year, i am finishing my master in Computer Science (video game option) at UQAC (<span class=\"text_link scrollTo\" data-scrollTo=\"#studies\">click here for more information</span>). I am currently looking for a <b>six-month Computer Science internship</b> from July 2018."
+			"en":"This year, i am finishing a master's in Computer Science (video game option) at UQAC (<span class=\"text_link scrollTo\" data-scrollTo=\"#studies\">click here for more information</span>). I am currently looking for a <b>six-month Computer Science internship</b> from July 2018."
 		},
         "about_p2": {
 			"fr":"Vous allez découvrir juste après ce paragraphe les domaines métiers et les sujets qui m’attirent le plus, ce qui vous permettra d’en connaître un peu plus sur moi. Néanmoins, j’aime me diversifier et expérimenter de nouvelles choses, c’est pourquoi je reste très <b>ouvert d’esprit</b> quant aux missions auxquelles je pourrais être amené à contribuer.",
@@ -589,7 +589,7 @@
 			"en":"An I/O management system"
         },
         "GameEngine_sys5": {
-            "fr":"Un moteur audio",
+            "fr":"Un système audio",
 			"en":"An audio système"
         },
         "Raven": {
