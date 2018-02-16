@@ -37,6 +37,7 @@ $( document ).ready(function() {
         if(language != selectedLanguage){
 
             selectedLanguage = language;
+            setCookie("lang", selectedLanguage, 365);
 
             $.getJSON('translate.json', function(fileContent) {
                 $('[data-TradID]').each(function() {
@@ -48,12 +49,14 @@ $( document ).ready(function() {
     
     //On language change
     $('.lang').click(function() {
-        setCookie("lang", $(this).attr('data-lang'), 365);
         translation($(this).attr('data-lang'));
     });
     
+    var userNavLang = navigator.language;     
+    var langCookie = getCookie("lang");
+    
     //Init language
-    if(getCookie("lang") == "en" ) translation(getCookie("lang"));
+    if( (langCookie == null && !/fr/gi.test(userNavLang)) || langCookie == "en" ) translation("en");
     else selectedLanguage = "fr";
     
 
