@@ -61,8 +61,8 @@
 			"en":"This year, i am finishing a master's in Computer Science (video game option) at UQAC (<span class=\"text_link scrollTo\" data-scrollTo=\"#studies\">click here for more information</span>). I am currently looking for a <b>six-month Computer Science internship</b> from July 2018."
 		},
         "about_p2": {
-			"fr":"Vous allez découvrir juste après ce paragraphe les domaines métiers et les sujets qui m’attirent le plus, ce qui vous permettra d’en connaître un peu plus sur moi. Néanmoins, j’aime me diversifier et expérimenter de nouvelles choses, c’est pourquoi je reste très <b>ouvert d’esprit</b> quant aux missions auxquelles je pourrais être amené à contribuer.",
-			"en":"You will discover just after this paragraph the business sectors and missions that attract me the most. Nevertheless, I like to discover new things, that’s why I stay very <b>open-minded</b> about the missions I could possibly contribute."
+			"fr":"Vous allez découvrir, juste après ce paragraphe, les domaines métiers et les sujets qui m’attirent le plus, ce qui vous permettra d’en connaître un peu plus sur moi. Néanmoins, j’aime me diversifier et expérimenter de nouvelles choses, c’est pourquoi je reste très <b>ouvert d’esprit</b> quant aux missions auxquelles je pourrais être amené à contribuer.",
+			"en":"You will discover, just after this paragraph, business sectors and missions that attract me the most. Nevertheless, I like to discover new things, that’s why I stay very <b>open-minded</b> about the missions I could possibly contribute."
 		},
         "about_sectors": {
 			"fr":"Les domaines métiers en lien avec le divertissement m’attirent beaucoup :",
@@ -93,8 +93,8 @@
 			"en":"Etc."
 		},
         "about_missions": {
-			"fr":"Voici 5 exemples de sujets qui attisent ma curiosité :",
-			"en":"Here are 5 examples of missions that arouse my curiosity:"
+			"fr":"Voici 7 exemples de sujets qui attisent ma curiosité :",
+			"en":"Here are 7 examples of missions that arouse my curiosity:"
 		},
         "about_missions_1": {
 			"fr":"L’audio (spatialisation, effets sonores, codecs, etc…)",
@@ -105,14 +105,22 @@
 			"en":"Video (streaming, codecs, etc.)"
 		},
         "about_missions_3": {
+			"fr":"La programmation 3D",
+			"en":"3D programming"
+		},
+        "about_missions_4": {
 			"fr":"L’Intelligence artificielle",
 			"en":"Artifical Intelligence"
 		},
-        "about_missions_4": {
+        "about_missions_5": {
+			"fr":"Le développement logiciel",
+			"en":"Software development"
+		},
+        "about_missions_6": {
 			"fr":"Le Big Data",
 			"en":"Big Data"
 		},
-        "about_missions_5": {
+        "about_missions_7": {
 			"fr":"Le Natural Language Processing (NLP)",
 			"en":"Natural Language Processing (NLP)"
 		},
