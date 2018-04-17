@@ -41,11 +41,11 @@
 			"en":"<a target=\"_blank\" href=\"https://www.linkedin.com/in/renaldmorice/?locale=en_US\" title=\"Visit LinkedIn profile\"><i class=\"fab fa-linkedin\"></i></a>"
 		},
         "looking_for": {
-			"fr":"Recherche un stage de fin d'études de 6 mois à partir de juillet 2018",
-			"en":"Looking for a 6-month end-of-studies internship starting from July 2018"
+			"fr":"Recherche un stage de fin d'études",
+			"en":"Looking for an end-of-studies internship"
 		},
         "status": {
-			"fr":"Étudiant en maîtrise informatique à l'Université du Québec à Chicoutimi",
+			"fr":"Étudiant en maîtrise informatique à l'UQAC",
 			"en":"Computer Science Engineer student at UQAC"
 		},
         "CV": {
@@ -61,8 +61,8 @@
 			"en":"This year, i am finishing a master's in Computer Science (video game option) at UQAC (<span class=\"text_link scrollTo\" data-scrollTo=\"#studies\">click here for more information</span>). I am currently looking for a <b>six-month Computer Science internship</b> from July 2018."
 		},
         "about_p2": {
-			"fr":"Vous allez découvrir, juste après ce paragraphe, les domaines métiers et les sujets qui m’attirent le plus, ce qui vous permettra d’en connaître un peu plus sur moi. Néanmoins, j’aime me diversifier et expérimenter de nouvelles choses, c’est pourquoi je reste très <b>ouvert d’esprit</b> quant aux missions auxquelles je pourrais être amené à contribuer.",
-			"en":"You will discover, just after this paragraph, business sectors and missions that attract me the most. Nevertheless, I like to discover new things, that’s why I stay very <b>open-minded</b> about the missions I could possibly contribute."
+			"fr":"Les secteurs d'activité qui me passionnent sont nombreux. Je suis polyvalent et j'aime pouvoir expérimenter de nouvelles choses, c’est pourquoi je reste très <b>ouvert d’esprit</b> quant aux missions auxquelles je pourrais être amené à contribuer.",
+			"en":"Business sectors that fascinate me are numerous. I am versatile and I like to discover new things, that is why I remain very <b>open-minded</b> about the missions to which I could possibly contribute."
 		},
         "about_sectors": {
 			"fr":"Les domaines métiers en lien avec le divertissement m’attirent beaucoup :",
@@ -538,7 +538,7 @@
         },
         "LIDW_synopsis": {
             "fr":"Un scientifique souhaite éradiquer le virus qui ravage la population humaine en 2150. Il est parvenu à trouver la formule de l’antidote. Le problème ? Les ingrédients nécessaires à cette formule n’existent qu’à l’époque des dinosaures ! Il décide alors de voyager dans le temps.",
-			"en":"A scientist wants to eradicate the virus that ravages the human population in 2150. He already managed to find out the antidote formula. The problem? All necessary ingredients for this formula only exist at the time of the dinosaurs! That’s why he decides to travel back in time."
+			"en":"A scientist wants to eradicate the virus that ravages the human population in 2150. He already managed to find out the antidote formula. The problem? All necessary ingredients for this formula only exist at the time of the dinosaurs! That is why he decides to travel back in time."
         },
         "LIDW_game": {
             "fr":"Jeu",
