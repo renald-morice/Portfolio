@@ -678,7 +678,7 @@
         },
         "AM_i2": {
             "fr":"Présence de la personne dans les différentes parties du LaboVision : cuisine, salon, chambre <b>(voir image 2)</b>.",
-			"en":"Person's location in the different parts of the “LaboVision”: kitchen, living room, bedroom (see image 2)."
+			"en":"Person's location in the different parts of the “LaboVision”: kitchen, living room, bedroom <b>(see image 2)</b>."
         },
         "AM_i3": {
             "fr":"Anomalies sonores (niveau sonore anormalement élevé). L’utilisateur du monitoring peut configurer les paramètres qui caractérisent une anomalie sonore (le seuil de déclenchement, pendant combien de secondes, et sur quelle tranche horaire de la journée).",
@@ -686,7 +686,7 @@
         },
         "AM_exe": {
             "fr":"Trois programmes, s'exécutant sur des machines présentes dans le LaboVision, permettent de générer les données de ces indicateurs. Le monitoring d’activité permet de synthétiser ces données et de les afficher via un site internet simple et intuitif <b>(voir image 3)</b>.",
-			"en":"Three programs are running on machines located in the LaboVision and generating the data of their respective indicator. The monitoring screen synthesize these data and display them via a simple and intuitive website (see image 3)."
+			"en":"Three programs are running on machines located in the LaboVision and generating the data of their respective indicator. The monitoring screen synthesize these data and display them via a simple and intuitive website <b>(see image 3)</b>."
         },
         "BQ": {
             "fr":"« Burger Quiz » - Jeu de questions",
