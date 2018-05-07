@@ -184,6 +184,14 @@
             "fr":"Forage de données",
 			"en":"Data mining"
         },
+        "education_U_O_6": {
+            "fr":"Systèmes intégrés de gestion d'entreprise (ERP)",
+			"en":"Enterprise Resource Planning (ERP)"
+        },
+        "education_U_O_7": {
+            "fr":"Cybersécurité et Analyse Forensique",
+			"en":"Cybersecurity and Forensic Analysis"
+        },
         "education_I": {
             "fr":"École d'ingénieurs des Hautes Technologies et du Numérique",
 			"en":"ISEN Engineering School"
@@ -412,9 +420,9 @@
             "fr":"« Monitoring d’activité »",
 			"en":"“Activity monitoring”"
         },
-        "projects_BQ": {
-            "fr":"« Burger Quiz » - Jeu de questions",
-			"en":"“Burger Quiz” - Questions game"
+        "projects_CC": {
+            "fr":"Projet de cluster computing",
+			"en":"Cluster computing project"
         },
         "projects_RE": {
             "fr":"Robot extincteur",
@@ -514,7 +522,7 @@
         },
         "LIDW_context": {
             "fr":"Projet de 4 étudiants réalisé dans le cadre du cours « Principes de création de jeux vidéo » - UQAC automne 2017",
-			"en":"A 4-student project in relation with the “Principles of creating video games” course - UQAC autumn 2017"
+			"en":"A 4-student project in relation with the “Principles of creating video games” course - UQAC fall 2017"
         },
         "LIDW_genre": {
             "fr":"« Lost In DinoWord » est un jeu 2D coloré à l’ambiance cartoon qui se classe parmi les 4 genres suivants :",
@@ -554,7 +562,7 @@
         },
         "GameEngine_context": {
             "fr":"Projet de 5 étudiants réalisé dans le cadre du cours « Principes des moteurs jeux » - UQAC Automne 2017",
-			"en":"A 5-student project in relation with the “Principles of game engines” course - UQAC autumn 2017"
+			"en":"A 5-student project in relation with the “Principles of game engines” course - UQAC fall 2017"
         },
         "GameEngine_desc": {
             "fr":"L’objectif final de ce cours était la création d’un moteur de jeu en groupe afin de s’initier aux problématiques de leur conception et développement. Une des contraintes du projet était l’implémentation de l’architecture  « Entité-Composant-Système », très utilisée de nos jours (architecture adoptée par Unity 3D par exemple).",
@@ -606,7 +614,7 @@
         },
         "Raven_context": {
             "fr":"Projet de 5 étudiants réalisé dans le cadre du cours « Intelligence artificielle pour le jeu vidéo » - UQAC automne 2017",
-			"en":"A 5-student project in relation with the “Artificial intelligence for video game” course - UQAC autumn 2017"
+			"en":"A 5-student project in relation with the “Artificial intelligence for video game” course - UQAC fall 2017"
         },
         "Raven_skill1": {
             "fr":"Techniques d'IA",
@@ -652,6 +660,70 @@
             "fr":"Possibilité de créer des équipes de robots avec un leader sélectionnant la cible pour l’ensemble de son équipe",
 			"en":"Possibility to create bot teams with a leader selecting a target for his entire team"
         },
+        "CC": {
+            "fr":"Projet de cluster computing",
+			"en":"Cluster computing project"
+        },
+        "CC_context": {
+            "fr":"Projet de 4 étudiants réalisé dans le cadre du cours « Bases de données réparties » - UQAC hiver 2018",
+			"en":"A 4-student project in relation with the “Distributed databases” course - UQAC winter 2018"
+        },
+        "CC_goal": {
+            "fr":"Objectifs",
+			"en":"Objectives"
+        },
+        "CC_goal_desc": {
+            "fr":"L’objectif principal de ce projet était de se familiariser avec les technologies Apache Spark et GraphX tout en utilisant le langage Scala. Apache Spark est un moteur de traitement de données rapide dédié au Big Data. Il permet d’effectuer un traitement de larges volumes de données de manière distribuée (cluster computing). GraphX est un composant Spark pour le calcul de graphes parallèles.",
+			"en":"The main objective of this project was to become familiar with Apache Spark and GraphX technologies while using the Scala language. Apache Spark is a fast data processing engine dedicated to Big Data. It allows the processing of large volumes of data in a distributed way (cluster computing). GraphX is a component in Spark for graphs and graph-parallel computation."
+        },
+        "CC_project": {
+            "fr":"Projet",
+			"en":"Project"
+        },
+        "CC_project_desc": {
+            "fr":"Le programme simule un champ de bataille entre deux équipes. Il gère un graphe (GraphX) contenant tous les protagonistes du combat ainsi que leurs relations (ami ou ennemi). À chaque tour de combat, le programme met à jour le graphe (déplacements, cibles, dégâts, etc.) jusqu’à atteindre la fin du combat. Le programme transmet en temps réel les données de chaque tour en WebSocket. Nous avons créé une interface graphique qui reçoit ces données pour afficher l’état du graphe (<b>image 1 et 2</b>).",
+			"en":"The program simulates a fight between two teams. It manages a graph (GraphX) containing all the protagonists of the fight as well as their relationships (friend or enemy). For each round of the fight, the program updates the graph (moves, targets, damage, etc.) until the end of the fight. The program broadcasts the data of each round by a WebSocket transmission. We have created a graphical interface that receives this data to display the state of the graph (<b>image 1 and 2</b>)."
+        },
+        "HM_context": {
+            "fr":"Projet de 2 étudiants réalisé dans le cadre du cours « Programmation objet avancée » - UQAC hiver 2018",
+			"en":"A 2-student project in relation with the “Advanced object programming“ - UQAC winter 2018"
+        },
+        "HM_desc": {
+            "fr":"Hotel Manager est une application Java simplifiée permettant la gestion d'un hôtel. Elle permet de gérer :",
+			"en":"Hotel Manager is a simplified Java application for managing a hotel. It allows managing:"
+        },
+        "HM_desc_i1": {
+            "fr":"les chambres",
+			"en":"rooms"
+        },
+        "HM_desc_i2": {
+            "fr":"les réservations",
+			"en":"reservations"
+        },
+        "HM_desc_i3": {
+            "fr":"les clients",
+			"en":"clients"
+        },
+        "HM_desc_i4": {
+            "fr":"les employés",
+			"en":"employees"
+        },
+        "HM_desc_i5": {
+            "fr":"le compte de l'employé connecté",
+			"en":"the account of the connected employee"
+        },
+        "HM_desc2": {
+            "fr":"Les deux principaux objectifs étaient de :",
+			"en":"The two main objectives were to:"
+        },
+        "HM_desc2_i1": {
+            "fr":"se familiariser avec la technologie Hibernate pour faciliter l'exploitation d'une base de données en Java (persistance des données transparente)",
+			"en":"become familiar with Hibernate technology to facilitate interaction with a database in Java (transparent data persistence)"
+        },
+        "HM_desc2_i2": {
+            "fr":"réaliser une belle interface graphique grâce à JavaFX et la librairie graphique JFoenix",
+			"en":"create a beautiful graphical interface using JavaFX and the JFoenix graphic library"
+        },
         "AM": {
             "fr":"« Monitoring d’activité »",
 			"en":"“Activity monitoring”"
@@ -687,42 +759,6 @@
         "AM_exe": {
             "fr":"Trois programmes, s'exécutant sur des machines présentes dans le LaboVision, permettent de générer les données de ces indicateurs. Le monitoring d’activité permet de synthétiser ces données et de les afficher via un site internet simple et intuitif <b>(voir image 3)</b>.",
 			"en":"Three programs are running on machines located in the LaboVision and generating the data of their respective indicator. The monitoring screen synthesize these data and display them via a simple and intuitive website <b>(see image 3)</b>."
-        },
-        "BQ": {
-            "fr":"« Burger Quiz » - Jeu de questions",
-			"en":"“Burger Quiz” - Questions game"
-        },
-        "BQ_context": {
-            "fr":"Projet de 2 étudiants réalisé dans le cadre de la fin de deuxième année de CIR (Cycle Informatique et Réseaux) – ISEN 2015",
-			"en":"A 2-student project for the second year of CIR Program – ISEN 2015"
-        },
-        "BQ_skill1": {
-            "fr":"Technologies web",
-			"en":"Web technologies"
-        },
-        "BQ_desc": {
-            "fr":"« Burger Quiz » est un jeu télévisé inventé par Alain Chabat et Abd-el-Kader Aoun qui fut diffusé sur Canal+ (France). Le principe consiste à répondre à diverses questions plus ou moins loufoques pour marquer le plus de points possibles.",
-			"en":"“Burger Quiz” is a television game invented by Alain Chabat and Abd-el-Kader Aoun which was broadcast on Canal + (France). Participants need to answer various questions (more or less wacky) to score maximum points."
-        },
-        "BQ_desc2": {
-            "fr":"La première partie du projet était le développement d’une application web permettant de faire une partie de Burger Quiz simplifiée. Après la sélection au hasard d’une catégorie et de l’un de ces jeux de réponses, le joueur a 3 possibilités pour répondre à chaque question :",
-			"en":"The first part of the project was to develop a web application to play a simplified version of  “Burger Quiz”. After a random selection of one category of questions, the player has 3 answer possibilities for each question:"
-        },
-        "BQ_a1": {
-            "fr":"Réponse 1",
-			"en":"Answer 1"
-        },
-        "BQ_a2": {
-            "fr":"Réponse 2",
-			"en":"Answer 2"
-        },
-        "BQ_a3": {
-            "fr":"Les deux",
-			"en":"Both"
-        },
-        "BQ_desc3": {
-            "fr":"La deuxième partie du projet était la création d’une application Java permettant de gérer la banque des questions et réponses (stockée dans une base de données).",
-			"en":"The second part of the project was to develop a Java application to manage the bank of questions and answers (stored in a database)."
         },
         "RE": {
             "fr":"Robot extincteur",
