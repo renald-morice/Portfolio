@@ -472,6 +472,17 @@ table.tab_infos{
             }
         }
         
+        div.trailer{
+            margin-top: $margin-Basic*2;
+            
+            iframe{
+                margin-top: $margin-Basic;
+                width: 100vh;
+                height: 60vh;
+                max-width: 100%;
+            }
+        }
+        
         div.documents{
             margin-top: $margin-Basic;
             

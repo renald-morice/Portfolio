@@ -284,6 +284,13 @@ table.tab_infos {
       .card_desc .card_desc_content div.description p {
         margin: 0 0 1em 0;
         text-align: center; }
+    .card_desc .card_desc_content div.trailer {
+      margin-top: 4em; }
+      .card_desc .card_desc_content div.trailer iframe {
+        margin-top: 2em;
+        width: 100vh;
+        height: 60vh;
+        max-width: 100%; }
     .card_desc .card_desc_content div.documents {
       margin-top: 2em; }
       .card_desc .card_desc_content div.documents h3 {
