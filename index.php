@@ -31,7 +31,7 @@ readfile("content/section-experiences.html");
 readfile("content/section-skills.html");
 readfile("content/section-projects.html");
 readfile("content/section-hobbies.html");
-readfile("content/section-videos.html");
+//readfile("content/section-videos.html");
 readfile("content/footer.html");
 
 echo '
