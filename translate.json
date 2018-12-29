@@ -36,9 +36,21 @@
 			"fr":"Vidéos",
 			"en":"Videos"
 		},
+        "mail_link": {
+			"fr":"<a href=\"mailto:renaldmorice@hotmail.fr\" title=\"Envoyer un email\"><i class=\"fas fa-envelope\"></i></a>",
+			"en":"<a href=\"mailto:renaldmorice@hotmail.fr\" title=\"Send an email\"><i class=\"fas fa-envelope\"></i></a>"
+		},
         "linkedin_link": {
-			"fr":"<a target=\"_blank\" href=\"https://www.linkedin.com/in/renaldmorice\" title=\"Visit LinkedIn profile\"><i class=\"fab fa-linkedin\"></i></a>",
-			"en":"<a target=\"_blank\" href=\"https://www.linkedin.com/in/renaldmorice/?locale=en_US\" title=\"Visit LinkedIn profile\"><i class=\"fab fa-linkedin\"></i></a>"
+			"fr":"<a target=\"_blank\" href=\"https://www.linkedin.com/in/renaldmorice\" title=\"Profil LinkedIn\"><i class=\"fab fa-linkedin\"></i></a>",
+			"en":"<a target=\"_blank\" href=\"https://www.linkedin.com/in/renaldmorice\" title=\"LinkedIn profile\"><i class=\"fab fa-linkedin\"></i></a>"
+		},
+        "github_link": {
+			"fr":"<a target=\"_blank\" href=\"https://github.com/renald-morice\" title=\"Profil GitHub\"><i class=\"fab fa-github\"></i></a>",
+			"en":"<a target=\"_blank\" href=\"https://github.com/renald-morice\" title=\"GitHub profile\"><i class=\"fab fa-github\"></i></a>"
+		},
+        "youtube_link": {
+			"fr":"<a target=\"_blank\" href=\"https://www.youtube.com/channel/UCn-8sTlU69pFRyvRFTYO7tg\" title=\"Chaîne Youtube\"><i class=\"fab fa-youtube-square\"></i></a>",
+			"en":"<a target=\"_blank\" href=\"https://www.youtube.com/channel/UCn-8sTlU69pFRyvRFTYO7tg\" title=\"Youtube channel\"><i class=\"fab fa-youtube-square\"></i></a>"
 		},
         "looking_for": {
 			"fr":"Recherche un stage de fin d'études",
