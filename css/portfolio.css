@@ -508,6 +508,8 @@ section#about #open_minded {
         font-size: 17.25px; } }
 section#about #preferences {
   margin-top: 2em; }
+section#about table.tab_infos {
+  font-weight: 450; }
 
 section#studies {
   padding-bottom: 0px; }
