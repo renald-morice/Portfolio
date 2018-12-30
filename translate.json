@@ -52,13 +52,13 @@
 			"fr":"<a target=\"_blank\" href=\"https://www.youtube.com/channel/UCn-8sTlU69pFRyvRFTYO7tg\" title=\"Chaîne Youtube\"><i class=\"fab fa-youtube-square\"></i></a>",
 			"en":"<a target=\"_blank\" href=\"https://www.youtube.com/channel/UCn-8sTlU69pFRyvRFTYO7tg\" title=\"Youtube channel\"><i class=\"fab fa-youtube-square\"></i></a>"
 		},
-        "looking_for": {
-			"fr":"Recherche un stage de fin d'études",
-			"en":"Looking for an end-of-studies internship"
-		},
         "status": {
-			"fr":"Étudiant en maîtrise informatique à l'UQAC",
-			"en":"Computer Science Engineering student at UQAC"
+			"fr":"Développeur stagiaire chez Coveo",
+			"en":"Software Developer Intern at Coveo"
+		},
+        "status2": {
+			"fr":"Amateur de musiques de films - Expert de l'inattendu",
+			"en":"Movie soundtracks enthusiast - Expert of the unexpected"
 		},
         "CV": {
 			"fr":"<a class=\"animated\" target=\"_blank\" href=\"CV-RenaldMorice.pdf\">CV</a>",
@@ -69,12 +69,12 @@
 			"en":"About me"
 		},
         "about_p1": {
-			"fr":"Je suis un étudiant de l’UQAC en fin de maîtrise informatique, option jeux vidéo (<span class=\"text_link scrollTo\" data-scrollTo=\"#studies\">voir les détails de ma formation</span>). J’ai pour objectif de réaliser un <b>stage de fin d'études de 6 mois</b>.",
-			"en":"This year, i am finishing a master's degree in Computer Science (video game option) at UQAC (<span class=\"text_link scrollTo\" data-scrollTo=\"#studies\">click here for more information</span>). I am currently looking for a <b>six-month Computer Science internship</b>."
+			"fr":"Cette année, je termine mon double diplôme en informatique par le biais d'un stage (<span class=\"text_link scrollTo\" data-scrollTo=\"#studies\">cliquez ici</span> pour plus de détails). Être développeur chez Coveo est pour moi une excellente occasion de découvrir les technologies du Cloud et les défis associés (disponibilité, évolutivité, sécurité, impact sur les coûts, etc.), ainsi que les méthodes de travail efficaces d'une entreprise qui se développe continuellement à une vitesse incroyable! <span class=\"text_link scrollTo\" data-scrollTo=\"#work_experiences\">Cliquez ici</span> pour plus d'informations.",
+			"en":"This year, I am finishing my dual degree in computer science by doing an internship (<span class=\"text_link scrollTo\" data-scrollTo=\"#studies\">click here</span> for more details). Being a developer at Coveo is a great opportunity for me to discover Cloud technologies and related challenges (availabality, scaling, security, cost impact, etc.), as well as effective work methods in a company that grows continually at incredible speed! <span class=\"text_link scrollTo\" data-scrollTo=\"#work_experiences\">Click here</span> for more information."
 		},
         "about_p2": {
-			"fr":"Les secteurs d'activité qui me passionnent sont nombreux. Je suis polyvalent et j'aime pouvoir expérimenter de nouvelles choses, c’est pourquoi je reste très <b>ouvert d’esprit</b> quant aux missions auxquelles je pourrais être amené à contribuer.",
-			"en":"Business sectors that fascinate me are numerous. I am versatile and I like to discover new things, that is why I remain very <b>open-minded</b> about the missions to which I could possibly contribute."
+			"fr":"Les secteurs d'activité qui me passionnent sont nombreux. Je suis polyvalent et j'aime pouvoir expérimenter de nouvelles choses, c’est pourquoi je reste très <b>ouvert d’esprit</b> quant aux missions auxquelles je pourrais être amené à contribuer. N'hésitez pas à me contacter pour parler de projet!",
+			"en":"Business sectors that fascinate me are numerous. I am versatile and I like to discover new things, that is why I remain very <b>open-minded</b> about the missions to which I could possibly contribute. Feel free to contact me to talk about project!"
 		},
         "about_sectors": {
 			"fr":"Les domaines métiers en lien avec le divertissement m’attirent beaucoup :",
@@ -105,16 +105,16 @@
 			"en":"Etc."
 		},
         "about_missions": {
-			"fr":"Voici 7 exemples de sujets qui attisent ma curiosité :",
-			"en":"Here are 7 examples of missions that arouse my curiosity:"
+			"fr":"Voici 6 exemples de sujets qui attisent ma curiosité :",
+			"en":"Here are 6 examples of subjects that arouse my curiosity:"
 		},
         "about_missions_1": {
-			"fr":"L’audio (spatialisation, effets sonores, codecs, etc…)",
-			"en":"Audio (spatialization, sound effects, codecs, etc…)"
+			"fr":"L’audio",
+			"en":"Audio"
 		},
         "about_missions_2": {
-			"fr":"La vidéo (streaming, codecs, etc…)",
-			"en":"Video (streaming, codecs, etc.)"
+			"fr":"La vidéo",
+			"en":"Video"
 		},
         "about_missions_3": {
 			"fr":"La programmation 3D",
@@ -133,8 +133,8 @@
 			"en":"Big Data"
 		},
         "about_missions_7": {
-			"fr":"Le Natural Language Processing (NLP)",
-			"en":"Natural Language Processing (NLP)"
+			"fr":"Le Natural Language Processing",
+			"en":"Natural Language Processing"
 		},
         "education_t1": {
 			"fr":"Études",
