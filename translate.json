@@ -240,8 +240,24 @@
             "fr":"Expériences",
 			"en":"Experiences"
         },
+        "exp_coveo": {
+            "fr":"Développeur logiciel",
+			"en":"Software developer"
+        },
+        "exp_coveo_contract": {
+            "fr":"Stage",
+			"en":"Internship"
+        },
+        "exp_coveo_dates": {
+            "fr":"Septembre 2018 - Mars 2019",
+			"en":"September 2018 - March 2019"
+        },
+        "exp_coveo_desc": {
+            "fr":"DESC",
+			"en":"DESC"
+        },
         "exp_sal": {
-            "fr":"Développeur d'applications informatiques",
+            "fr":"Développeur logiciel",
 			"en":"Software developer"
         },
         "exp_sal_soc": {
@@ -348,31 +364,27 @@
             "fr":"Compétences",
 			"en":"Skills"
         },
-        "skill_g1": {
+        "skill_SD": {
             "fr":"Programmation",
 			"en":"Software development"
         },
-        "skill_g2": {
+        "skill_WT": {
             "fr":"Technologies Web",
 			"en":"Web technologies"
         },
-        "skill_g3": {
+        "skill_DB": {
             "fr":"Base de données",
 			"en":"Databases"
         },
-        "skill_design_db": {
-            "fr":"Conception",
-			"en":"Design"
-        },
-        "skill_g4": {
+        "skill_OS": {
             "fr":"Systèmes d’exploitation",
 			"en":"Operating systems"
         },
-        "skill_g5": {
+        "skill_GE": {
             "fr":"Moteur de jeu",
 			"en":"Game engine"
         },
-        "skill_g6": {
+        "skill_AE": {
             "fr":"Moteur audio",
 			"en":"Audio engine"
         },
@@ -380,15 +392,15 @@
             "fr":"FMOD (notions)",
 			"en":"FMOD (bases)"
         },
-        "skill_g7": {
+        "skill_AR": {
             "fr":"Enregistrement audio",
 			"en":"Audio recording"
         },
-        "skill_g8": {
+        "skill_PV": {
             "fr":"Photo / Vidéo",
 			"en":"Photo / Video"
         },
-        "skill_g9": {
+        "skill_PM": {
             "fr":"Gestion de projet",
 			"en":"Project management"
         },
@@ -396,7 +408,7 @@
             "fr":"Méthode Scrum",
 			"en":"Scrum method"
         },
-        "skill_g10": {
+        "skill_L": {
             "fr":"Langues",
 			"en":"Languages"
         },
@@ -407,6 +419,14 @@
         "skill_en": {
             "fr":"Anglais",
 			"en":"English"
+        },
+        "skill_CT": {
+            "fr":"Technologies Cloud",
+			"en":"Cloud technologies"
+        },
+        "skill_CSO": {
+            "fr":"Informatique (autre)",
+			"en":"Computer science (other)"
         },
         "projects": {
             "fr":"Projets",
