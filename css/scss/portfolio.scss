@@ -831,7 +831,19 @@ section#certifications{
 // Section : Experiences
 //------------------------------------
 
-section#experiences{
+section#work_experiences{
+    
+    #exp_coveo{
+        .left_panel{
+            padding-bottom: 3em;
+        }
+    }
+    
+    #exp_sal{
+        .left_panel{
+            padding-bottom: 2em;
+        }
+    }
 }
 
 //------------------------------------

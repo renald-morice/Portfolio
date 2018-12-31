@@ -528,6 +528,11 @@ section#certifications {
   section#certifications h2 {
     margin-bottom: 1em; }
 
+section#work_experiences #exp_coveo .left_panel {
+  padding-bottom: 3em; }
+section#work_experiences #exp_sal .left_panel {
+  padding-bottom: 2em; }
+
 section#skills h2 {
   margin-bottom: 0.5em; }
 section#skills .skill {
