@@ -533,8 +533,8 @@
 			"en":"Website hosted by <a class=\"text_link\" href=\"https://www.ovh.com/ca/fr/\" title=\"OVH Canada\" target=\"_blank\">OVH Canada</a>"
         },
         "footer_icons": {
-            "fr":"Icônes provenant de <a class=\"text_link\" href=\"https://www.flaticon.com/\" title=\"Flaticon\" target=\"_blank\">www.flaticon.com</a>",
-			"en":"Icons from <a class=\"text_link\" href=\"https://www.flaticon.com/\" title=\"Flaticon\" target=\"_blank\">www.flaticon.com</a>"
+            "fr":"Icônes provenant de <a class=\"text_link\" href=\"https://www.flaticon.com/\" title=\"Flaticon\" target=\"_blank\">www.flaticon.com</a> & <a class=\"text_link\" href=\"https://www.fontawesome.com/\" title=\"Font Awesome\" target=\"_blank\">www.fontawesome.com</a>",
+			"en":"Icons from <a class=\"text_link\" href=\"https://www.flaticon.com/\" title=\"Flaticon\" target=\"_blank\">www.flaticon.com</a> & <a class=\"text_link\" href=\"https://www.fontawesome.com/\" title=\"Font Awesome\" target=\"_blank\">www.fontawesome.com</a>"
         },
         "project_details_skills": {
             "fr":"Compétences nécessaires",
