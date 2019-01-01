@@ -253,8 +253,8 @@
 			"en":"September 2018 - March 2019"
         },
         "exp_coveo_desc": {
-            "fr":"Coveo propose aux entreprises un moteur de recherche (et de recommandation) personnalisé à leurs besoins. L’objectif est de dynamiser l’expérience de leurs employés et de leurs clients. Créée en 2005 et originaire de la ville de Québec, Coveo est passé d’une petite entreprise à une entreprise aux dimensions internationales, maintenant installée dans cinq villes (Québec, Montréal, San Francisco, Amsterdam et Londres).",
-			"en":"Coveo offers companies a search (and recommendation)  engine  customized to their needs. The goal is to enhance the experience of their employees and customers. Originally  established in Quebec City in 2005, Coveo has grown from a small business to an international company and is now based in five cities (Quebec City, Montreal, San Francisco, Amsterdam and London)."
+            "fr":"Coveo propose aux entreprises un moteur de recherche (et de recommandation) personnalisé à leurs besoins. L’objectif est de dynamiser l’expérience de leurs clients, partenaires, revendeurs et employés. Créée en 2005 et originaire de la ville de Québec, Coveo est passé d’une petite entreprise à une entreprise aux dimensions internationales, maintenant installée dans cinq villes (Québec, Montréal, San Francisco, Amsterdam et Londres).",
+			"en":"Coveo offers companies a search (and recommendation)  engine  customized to their needs. The goal is to enhance the experience of their customers, partners, dealers, and employees. Originally  established in Quebec City in 2005, Coveo has grown from a small business to an international company and is now based in five cities (Quebec City, Montreal, San Francisco, Amsterdam and London)."
         },
         "exp_coveo_desc2": {
             "fr":"La <a class=\"text_link\" href=\"https://docs.coveo.com/en/143/cloud-v2-developers/coveo-cloud-v2-api-overview\" target=\"_blank\">plate-forme Coveo Cloud V2</a> est propulsée par de l’intelligence artificielle et basée sur le Cloud. Afin de couvrir le plus possible l’ensemble des données d’une entreprise, la plate-forme offre déjà plus d’une trentaine de connecteurs prédéfinis qui permettent d'indexer, en toute sécurité, le contenu de l’entreprise provenant de plusieurs types de source (<a class=\"text_link\" href=\"https://docs.coveo.com/en/1997/cloud-v2-administrators/available-coveo-cloud-v2-source-types\" target=\"_blank\">voir la liste ici</a>).",
@@ -734,7 +734,7 @@
         },
         "HM_context": {
             "fr":"Projet de 2 étudiants réalisé dans le cadre du cours « Programmation objet avancée » - UQAC hiver 2018",
-			"en":"A 2-student project in relation with the “Advanced object programming“ - UQAC winter 2018"
+			"en":"A 2-student project in relation with the “Advanced object programming“ course - UQAC winter 2018"
         },
         "HM_desc": {
             "fr":"Hotel Manager est une application Java simplifiée permettant la gestion d'un hôtel. Elle permet de gérer :",
@@ -790,7 +790,7 @@
         },
         "AM_desc": {
             "fr":"L’objectif du monitoring d’activité est de proposer une interface web permettant de visualiser l’ensemble des informations caractérisant l’activité de la personne présente dans une pièce nommée « LaboVision ». Cette pièce dispose de plusieurs capteurs. Afin de caractériser l'activité de la personne présente dans la pièce, trois indicateurs ont été développés :",
-			"en":"The project consists in developing a monitoring screen showing the activity of a patient living in a medical room named “LaboVision” (which includes multiple sensors) to better understand his habits and adapt them to his pathology. Three indicators have been developed to characterize the patient’s activity:"
+			"en":"The project consists in developing a monitoring screen showing the activity of a patient living in a medical room called “LaboVision” (which includes multiple sensors) to better understand his habits and adapt them to his pathology. Three indicators have been developed to characterize the patient’s activity:"
         },
         "AM_i1": {
             "fr":"Temps passé devant la télévision <b>(voir image 1)</b>.",
@@ -822,7 +822,7 @@
         },
         "RE_desc": {
             "fr":"L’objectif du projet était de créer un programme avec un affichage console et graphique d’un robot extincteur qui doit éteindre l’incendie de l’appartement dans lequel il se trouve. L’ensemble du comportement du robot était à développer et se caractérise en trois points :",
-			"en":"The aim of the project was to create a program (with a console and graphic display) of a fire extinguisher robot. It needs to extinguish the fire of the apartment in which it is located. The whole robot’s behavior had to be developed. This behavior can be summarized in three points:"
+			"en":"The aim of the project was to create a program (with a console and graphic display) of a fire extinguisher robot. It needs to extinguish the fire of the apartment in which it is located. The whole behavior of the robot had to be developed and can be summarized in three points:"
         },
         "RE_o1": {
             "fr":"Connaissant la position de l’extincteur dans l’appartement, le robot utilise un algorithme de pathfinding A* pour planifier son chemin vers l’extincteur",
