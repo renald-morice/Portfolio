@@ -253,12 +253,8 @@
 			"en":"September 2018 - March 2019"
         },
         "exp_coveo_desc": {
-            "fr":"Coveo propose aux entreprises un moteur de recherche (et de recommandation) personnalisé à leurs besoins. L’objectif est de dynamiser l’expérience de leurs clients, partenaires, revendeurs et employés. Créée en 2005 et originaire de la ville de Québec, Coveo est passé d’une petite entreprise à une entreprise aux dimensions internationales, maintenant installée dans cinq villes (Québec, Montréal, San Francisco, Amsterdam et Londres).",
-			"en":"Coveo offers companies a search (and recommendation)  engine  customized to their needs. The goal is to enhance the experience of their customers, partners, dealers, and employees. Originally  established in Quebec City in 2005, Coveo has grown from a small business to an international company and is now based in five cities (Quebec City, Montreal, San Francisco, Amsterdam and London)."
-        },
-        "exp_coveo_desc2": {
-            "fr":"La <a class=\"text_link\" href=\"https://docs.coveo.com/en/143/cloud-v2-developers/coveo-cloud-v2-api-overview\" target=\"_blank\">plate-forme Coveo Cloud V2</a> est propulsée par de l’intelligence artificielle et basée sur le Cloud. Afin de couvrir le plus possible l’ensemble des données d’une entreprise, la plate-forme offre déjà plus d’une trentaine de connecteurs prédéfinis qui permettent d'indexer, en toute sécurité, le contenu de l’entreprise provenant de plusieurs types de source (<a class=\"text_link\" href=\"https://docs.coveo.com/en/1997/cloud-v2-administrators/available-coveo-cloud-v2-source-types\" target=\"_blank\">voir la liste ici</a>).",
-			"en":"The <a class=\"text_link\" href=\"https://docs.coveo.com/en/143/cloud-v2-developers/coveo-cloud-v2-api-overview\" target=\"_blank\">Coveo Cloud V2 platform</a> is cloud-based and powered by artificial intelligence. In order to cover as much as possible all the data of one given company, the platform already offers more than thirty predefined connectors allowing to securely index the content of the company coming from several source types (<a class=\"text_link\" href=\"https://docs.coveo.com/en/1997/cloud-v2-administrators/available-coveo-cloud-v2-source-types\" target=\"_blank\">see the list here</a>)."
+            "fr":"Coveo propose aux entreprises un moteur de recherche (et de recommandation) personnalisé à leurs besoins. L’objectif est de dynamiser l’expérience de leurs clients, partenaires, revendeurs et employés. Créée en 2005 et originaire de la ville de Québec, Coveo est passé d’une petite entreprise à une entreprise aux dimensions internationales, maintenant installée dans cinq villes (Québec, Montréal, San Francisco, Amsterdam et Londres). La <a class=\"text_link\" href=\"https://docs.coveo.com/en/143/cloud-v2-developers/coveo-cloud-v2-api-overview\" target=\"_blank\">plate-forme Coveo Cloud V2</a> est propulsée par de l’intelligence artificielle et basée sur le Cloud. Afin de couvrir le plus possible l’ensemble des données d’une entreprise, la plate-forme offre déjà plus d’une trentaine de connecteurs prédéfinis qui permettent d'indexer, en toute sécurité, le contenu de l’entreprise provenant de plusieurs types de source (<a class=\"text_link\" href=\"https://docs.coveo.com/en/1997/cloud-v2-administrators/available-coveo-cloud-v2-source-types\" target=\"_blank\">voir la liste ici</a>).",
+			"en":"Coveo offers companies a search (and recommendation)  engine  customized to their needs. The goal is to enhance the experience of their customers, partners, dealers, and employees. Originally  established in Quebec City in 2005, Coveo has grown from a small business to an international company and is now based in five cities (Quebec City, Montreal, San Francisco, Amsterdam and London). The <a class=\"text_link\" href=\"https://docs.coveo.com/en/143/cloud-v2-developers/coveo-cloud-v2-api-overview\" target=\"_blank\">Coveo Cloud V2 platform</a> is cloud-based and powered by artificial intelligence. In order to cover as much as possible all the data of one given company, the platform already offers more than thirty predefined connectors allowing to securely index the content of the company coming from several source types (<a class=\"text_link\" href=\"https://docs.coveo.com/en/1997/cloud-v2-administrators/available-coveo-cloud-v2-source-types\" target=\"_blank\">see the list here</a>)."
         },
         "exp_coveo_duty": {
             "fr":"Je travaille actuellement dans l’équipe \"Source\" qui a deux grandes responsabilités : la gestion de la couche back-end des sources ainsi que la gestion du <a class=\"text_link\" href=\"https://docs.coveo.com/en/78/cloud-v2-developers/push-api-reference\" target=\"_blank\">Push API</a>. En tant que développeur, je contribue à l’élaboration de nouvelles fonctionnalités, la correction d'anomalies, la mise en place de tests automatisés, ou encore le développement d’une infrastructure \"as-code\". La revue de code fait partie du quotidien, tout comme la collaboration entre les équipes.",
@@ -267,10 +263,6 @@
         "exp_coveo_skills": {
             "fr":"Compétences nécessaires :",
 			"en":"Skills required:"
-        },
-        "exp_coveo_skills_list": {
-            "fr":"Java, Spring Framework, Maven, Python, Docker, Kubernetes, Amazon Web Services (AWS), Terraform, Méthodologie Scrum",
-			"en":"Java, Spring Framework, Maven, Python, Docker, Kubernetes, Amazon Web Services (AWS), Terraform, Scrum Method"
         }, 
         "exp_sal": {
             "fr":"Développeur logiciel",
@@ -331,6 +323,10 @@
         "exp_sal_skills_list": {
             "fr":"Oracle Database, Oracle APEX, PL/SQL, Script Shell, Technologies web standards (HTML/CSS/JS/PHP), Drupal (CMS), Dokuwiki",
 			"en":"Oracle Database, Oracle APEX, PL/SQL, Script Shell, standards web technologies (HTML/CSS/JS/PHP), Drupal (CMS), Dokuwiki"
+        },
+        "exp_sal_skill_WT": {
+            "fr":"Technologies web standards (HTML/CSS/JS/PHP)",
+			"en":"Standards web technologies (HTML/CSS/JS/PHP)"
         },
         "exp_conf": {
             "fr":"Préparateur de commande",
