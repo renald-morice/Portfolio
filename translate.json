@@ -368,10 +368,6 @@
             "fr":"Oracle Database, Oracle APEX, PL/SQL, Script Shell, Technologies web standards (HTML/CSS/JS/PHP), Drupal (CMS), Dokuwiki",
 			"en":"Oracle Database, Oracle APEX, PL/SQL, Script Shell, standards web technologies (HTML/CSS/JS/PHP), Drupal (CMS), Dokuwiki"
         },
-        "exp_sal_skill_WT": {
-            "fr":"Technologies web standards (HTML/CSS/JS/PHP)",
-			"en":"Standards web technologies (HTML/CSS/JS/PHP)"
-        },
         "exp_conf": {
             "fr":"Préparateur de commande",
 			"en":"Order picker"
