@@ -501,6 +501,14 @@ table.tab_infos{
             }
         }
         
+        div.DLG{
+            margin-top: $margin-Basic*2;
+            
+            h3{
+                margin-bottom: $margin-Basic/4;
+            }
+        }
+        
         div.pictures{
             margin-top: $margin-Basic;
             margin-bottom: $margin-Basic*2;

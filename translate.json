@@ -604,6 +604,14 @@
             "fr":"Slides de présentation",
 			"en":"Presentation's slides"
         },
+        "project_details_DLG_title": {
+            "fr":"Télécharger le jeu",
+            "en":"Download Game"
+        },
+        "project_details_DLG_link": {
+            "fr":"Par ici !",
+            "en":"This way!"
+        },
         "LIDW": {
             "fr":"« Lost In DinoWorld » - Jeu 2D Android",
 			"en":"“Lost In DinoWorld” - 2D Android game"
