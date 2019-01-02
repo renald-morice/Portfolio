@@ -522,6 +522,8 @@ section#studies {
   padding-bottom: 0px; }
   section#studies h3 {
     font-weight: 300; }
+  section#studies #education_I .left_panel {
+    padding-bottom: 3em; }
 
 section#certifications {
   min-height: inherit; }

@@ -213,12 +213,56 @@
 			"en":"September 2013 - Juny 2018"
         },
         "education_I_desc": {
-            "fr":"Pour mes trois premières années à l’ISEN Brest, j’ai choisi d’intégrer la <a class=\"text_link\" href=\"https://isen-brest.fr/formation-ingenieur/ingenieur-informatique/\" target=\"_blank\">filière CIR</a> (Cycle Informatique et Réseaux) qui permet immédiatement d’acquérir de solides compétences en informatique sans négliger l’apprentissage des sciences. Cette filière m'a également permis d'avoir une première expérience dans le domaine de l'informatique en réalisant un stage de 2 mois et une alternance d'un an chez Salamander Soft.",
-			"en":"For my first three years at ISEN Brest, I chose to integrate the <a class=\"text_link\" href=\"https://isen-brest.fr/formation-ingenieur/ingenieur-informatique/\" target=\"_blank\">CIR Program</a> (“Cycle Informatique et Réseaux” which means “Computer Science and Networks Program”). I have immediately acquired solid computer skills without neglecting basic science learning (such as math, physics, etc.). This program also gave me the opportunity to have a first professional computer experience by completing a two-month internship and an one-year part-time internship at Salamander Soft."
+            "fr":"Pour mes trois premières années à l’ISEN Brest, j’ai choisi d’intégrer la <a class=\"text_link\" href=\"https://isen-brest.fr/formation-ingenieur/ingenieur-informatique/\" target=\"_blank\">filière CIR</a> (Cycle Informatique et Réseaux) qui permet immédiatement d’acquérir de solides compétences en informatique sans négliger l’apprentissage des sciences. Cette filière m'a également permis d'avoir une première expérience dans le domaine de l'informatique en réalisant un stage de 2 mois et une alternance d'un an chez Salamander Soft. L'ISEN est partenaire avec l’UQAC. Pour la deuxième année de Master et dernière année, L'ISEN propose à ses étudiants de partir à Chicoutimi (Canada) pour réaliser un double diplôme à l'international, ce que j’ai décidé de faire !",
+			"en":"For my first three years at ISEN Brest, I chose to integrate the <a class=\"text_link\" href=\"https://isen-brest.fr/formation-ingenieur/ingenieur-informatique/\" target=\"_blank\">CIR Program</a> (“Cycle Informatique et Réseaux” which means “Computer Science and Networks Program”). I have immediately acquired solid computer skills without neglecting basic science learning (such as math, physics, etc.). This program also gave me the opportunity to have a first professional computer experience by completing a two-month internship and an one-year part-time internship at Salamander Soft. ISEN is a partner of UQAC. For the fifth and last year, ISEN proposes its students to go to Chicoutimi (Canada) to do a dual degree abroad, which I decided to do!"
         },
-        "education_I_desc2": {
-            "fr":"L'ISEN est partenaire avec l’UQAC. Pour la deuxième année de Master et dernière année, L'ISEN propose à ses étudiants de partir à Chicoutimi (Canada) pour réaliser un double diplôme à l'international, ce que j’ai décidé de faire !",
-			"en":"ISEN is a partner of UQAC. For the fifth and last year, ISEN proposes its students to go to Chicoutimi (Canada) to do a dual degree abroad, which I decided to do!"
+        "education_I_CS": {
+            "fr":"Quelques exemples de cours d'informatique :",
+			"en":"Some examples of computer courses:"
+        },
+        "education_I_CS_1": {
+            "fr":"Base de données",
+			"en":"Databases"
+        },
+        "education_I_CS_2": {
+            "fr":"Technologies web",
+			"en":"Web technologies"
+        },
+        "education_I_CS_3": {
+            "fr":"Réseaux",
+			"en":"Network"
+        },
+        "education_I_CS_4": {
+            "fr":"Sécurité informatique",
+			"en":"IT security"
+        },
+        "education_I_G": {
+            "fr":"Quelques exemples de cours généralistes :",
+			"en":"Some examples of general courses:"
+        },
+        "education_I_G_1": {
+            "fr":"Mathématiques",
+			"en":"Mathematics"
+        },
+        "education_I_G_2": {
+            "fr":"Physique",
+			"en":"Physics"
+        },
+        "education_I_G_3": {
+            "fr":"Traitement du signal",
+			"en":"Signal processing"
+        },
+        "education_I_G_4": {
+            "fr":"Gestion de projet",
+			"en":"Project management"
+        },
+        "education_I_G_5": {
+            "fr":"Économie",
+			"en":"Economy"
+        },
+        "education_I_G_6": {
+            "fr":"Anglais",
+			"en":"English"
         },
         "certificate": {
             "fr":"Certifications",
