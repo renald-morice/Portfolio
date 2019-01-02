@@ -2,7 +2,7 @@
 
 header("Cache-Control: max-age=259200"); //30days (60sec * 60min * 24hours * 3days)
 header("Strict-Transport-Security: max-age=63072000");
-header("Content-Security-Policy: default-src 'none'; font-src 'https://fonts.googleapis.com'; img-src 'self'; object-src 'none'; script-src 'self'; style-src 'self'");
+header("Content-Security-Policy: default-src 'self'; img-src 'self' https://www.google-analytics.com; object-src 'none'; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; frame-src 'self' https://www.youtube.com;");
 header("X-Frame-Options: DENY");
 header("X-XSS-Protection: 1; mode=block");
 header("X-Content-Type-Options: nosniff");
