@@ -39,7 +39,6 @@ echo '
         <!-- JS  ======================================= -->
 		<script src="js/jquery-3.1.1.min.js"></script>
         <script src="js/scrollreveal.min.js"></script>
-        <script src="js/typed.min.js"></script>
         <script defer src="js/fontawesome-all.min.js"></script>
         <script src="js/portfolio.js"></script>
     </body>
