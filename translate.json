@@ -73,7 +73,7 @@
 			"en":"This year, I am finishing my dual degree in computer science by doing an internship (<span class=\"text_link scrollTo\" data-scrollTo=\"#studies\">click here</span> for more details). Being a developer at Coveo is a great opportunity for me to discover Cloud technologies and related challenges (availabality, scaling, security, cost impact, etc.), as well as effective work methods in a company that grows continually at incredible speed! <span class=\"text_link scrollTo\" data-scrollTo=\"#work_experiences\">Click here</span> for more information."
 		},
         "about_p2": {
-			"fr":"Les secteurs d'activité qui me passionnent sont nombreux. Je suis polyvalent et j'aime pouvoir expérimenter de nouvelles choses, c’est pourquoi je reste très <b>ouvert d’esprit</b> quant aux missions auxquelles je pourrais être amené à contribuer. N'hésitez pas à me contacter pour parler de projet!",
+			"fr":"Les secteurs d'activité qui me passionnent sont nombreux. Je suis polyvalent et j'aime pouvoir expérimenter de nouvelles choses, c’est pourquoi je reste très <b>ouvert d’esprit</b> quant aux missions auxquelles je pourrais être amené à contribuer. N'hésitez pas à me contacter pour parler de projets !",
 			"en":"Business sectors that fascinate me are numerous. I am versatile and I like to discover new things, that is why I remain very <b>open-minded</b> about the missions to which I could possibly contribute. Feel free to contact me to talk about project!"
 		},
         "about_sectors": {
@@ -108,33 +108,29 @@
 			"fr":"Voici 6 exemples de sujets qui attisent ma curiosité :",
 			"en":"Here are 6 examples of subjects that arouse my curiosity:"
 		},
-        "about_missions_1": {
+        "about_missions_A": {
 			"fr":"L’audio",
 			"en":"Audio"
 		},
-        "about_missions_2": {
+        "about_missions_V": {
 			"fr":"La vidéo",
 			"en":"Video"
 		},
-        "about_missions_3": {
-			"fr":"La programmation 3D",
-			"en":"3D programming"
+        "about_missions_UX": {
+			"fr":"L'expérience utilisateur",
+			"en":"User experience"
 		},
-        "about_missions_4": {
+        "about_missions_AI": {
 			"fr":"L’Intelligence artificielle",
-			"en":"Artifical Intelligence"
+			"en":"Artificial intelligence"
 		},
-        "about_missions_5": {
+        "about_missions_SD": {
 			"fr":"Le développement logiciel",
 			"en":"Software development"
 		},
-        "about_missions_6": {
-			"fr":"Le Big Data",
-			"en":"Big Data"
-		},
-        "about_missions_7": {
-			"fr":"Le Natural Language Processing",
-			"en":"Natural Language Processing"
+        "about_missions_NLP": {
+			"fr":"Le traitement du langage",
+			"en":"Natural language processing"
 		},
         "education_t1": {
 			"fr":"Études",
@@ -273,12 +269,12 @@
 			"en":"See certificate"
         },
         "certificate_FCE_desc": {
-            "fr":"Examen international certifiant un bon niveau d'anglais (capacité à évoluer dans un environnement anglophone sans être bilingue).",
-			"en":"International exam certifying good English skills (ability to evolve in an English-speaking environment)."
+            "fr":"Examen international certifiant un bon niveau d'anglais",
+			"en":"International exam certifying good English skills"
         },
         "certificate_V_desc": {
-            "fr":"Certificat permet de valider une bonne maîtrise de langue française à l'écrit (voir le certificat pour connaître les caractéristiques du barème).",
-			"en":"French exam certifying good French skills (see the certificate for the scale’s details)."
+            "fr":"Certificat validant une bonne maîtrise de la langue française",
+			"en":"French exam certifying good French skills"
         },
         "exp": {
             "fr":"Expériences",
