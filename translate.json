@@ -432,9 +432,13 @@
             "fr":"Moteur de jeu",
 			"en":"Game engine"
         },
-        "skill_AE": {
-            "fr":"Moteur audio",
-			"en":"Audio engine"
+        "skill_VGO": {
+            "fr":"Jeux vidéo (autre)",
+			"en":"Video games (other)"
+        },
+        "skill_AI": {
+            "fr":"IA",
+			"en":"AI"
         },
         "skill_FMOD": {
             "fr":"FMOD (notions)",
