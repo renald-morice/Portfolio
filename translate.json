@@ -444,6 +444,10 @@
             "fr":"FMOD (notions)",
 			"en":"FMOD (bases)"
         },
+        "skill_network": {
+            "fr":"Réseaux",
+			"en":"Network"
+        },
         "skill_AR": {
             "fr":"Enregistrement audio",
 			"en":"Audio recording"
